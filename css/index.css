@@ -1,24 +1,49 @@
-.main:after {
-    position: relative;
-    width: 100%;
-    content: "";
-    display: flex;
-  }
-  
-  .content {
-    position: relative;
-    margin: 2%;
-    float: left;
-    width: 70%;
-  }
-  
-  .news {
-    position: relative;
-    float: left;
-    border-left: 4px solid #de1700;
-    margin-top: 2%;
-  }
-  
-  #new {
-    margin-left: 20%;
-  }
+.main::after {
+  position: relative;
+  width: 100%;
+  content: "";
+  display: flex;
+}
+
+.content {
+  position: relative;
+  margin: 2%;
+  float: left;
+  width: 70%;
+}
+
+.news {
+  position: relative;
+  float: left;
+  border-left: 4px solid #de1700;
+  margin-top: 2%;
+  width: 25%;
+}
+
+.new::after {
+  position: relative;
+  width: 100%;
+  content: "";
+  display: flex;
+  margin: 5%;
+}
+
+#miniature {
+  position: relative;
+  float: left;
+  width: 3em;
+  height: 3em;
+  margin-left: 3%;
+}
+
+#description {
+  position: relative;
+  float: left;
+  width: 60%;
+  margin-left: 4%;
+  font-family: "Roboto";
+  font-size: 12px;
+  line-height: 17px;
+  color: #000000;
+  text-align: start;
+}
