@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <!-- Fuente Roboto -->
+        <link
+          href="https://fonts.googleapis.com/css?family=Roboto"
+          rel="stylesheet"
+        />
+        <link rel="stylesheet" href="./css/layout2.css" />
+        <title>MANGUCA</title>
+      </head>
+<body>
+
+<div class="container">
+    <div class="logo">
+        <a href="#"><img src="./images/logo.png" alt="logo"></a>
+    </div>
+<div class="navbar">
+
+<div class="icon-bar" onclick="Show()">
+    <i></i>
+    <i></i>
+    <i></i>
+</div>
+
+<ul id="nav-lists">
+    <li class="close"><span onclick="Hide()">×</span></li>
+    <li><a href="./informacion/informacion.html">Información</a></li>
+    <li><a href="./horarios/horarios.html">Horarios</a></li>
+    <li><a href="./localizacion/localizacion.html">Localización</a></li>
+    <li><a href="./entradas/inscripcion.html'">Entradas</a></li>
+</ul>
+
+</div>
+</div>
+<div class="body">
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum autem repudiandae blanditiis odit voluptate sapiente ab laborum aut dolore quam ipsam reiciendis illo, iure quia, minus eum eligendi laboriosam recusandae!</p>
+</div>
+
+<script>
+var navList = document.getElementById("nav-lists");
+function Show() {
+navList.classList.add("_Menus-show");
+}
+
+function Hide(){
+navList.classList.remove("_Menus-show");
+}
+</script>
+
+</body>
+</html>

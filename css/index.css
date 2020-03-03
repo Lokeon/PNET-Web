@@ -1,0 +1,24 @@
+.main:after {
+    position: relative;
+    width: 100%;
+    content: "";
+    display: flex;
+  }
+  
+  .content {
+    position: relative;
+    margin: 2%;
+    float: left;
+    width: 70%;
+  }
+  
+  .news {
+    position: relative;
+    float: left;
+    border-left: 4px solid #de1700;
+    margin-top: 2%;
+  }
+  
+  #new {
+    margin-left: 20%;
+  }
