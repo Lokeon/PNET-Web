@@ -1,14 +1,15 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
 .navbar {
   overflow: hidden;
   background-color: #333;
   height: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -ms-flex-wrap: wrap;
   flex-wrap: wrap;
   -webkit-box-flex: 1;
-  -ms-flex: 1;
   flex: 1;
   padding: 0 10px;
   justify-content: center;
@@ -36,7 +37,7 @@
   color: white;
   padding: 14px 16px;
   background-color: inherit;
-  font-family: inherit;
+  font-family: "Roboto";
   margin: 0;
   height: 100%;
   
@@ -62,6 +63,8 @@
   text-decoration: none;
   display: block;
   text-align: left;
+  font-family: "Roboto";
+
 }
 
 .dropdown-content a:hover {
@@ -134,7 +137,6 @@ ul {
 
 ul button {
   border-radius: 6%;
-  font-family: inherit;
   color: #000000;
   background-color: #ffff;
   border: none;
