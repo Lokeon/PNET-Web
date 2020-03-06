@@ -18,7 +18,7 @@
   position: relative;
   float: left;
   border-left: 4px solid #de1700;
-  margin-top: 2%;
+  margin-top: 5%;
   width: 25%;
 }
 
@@ -35,14 +35,18 @@
   float: left;
   width: 3em;
   height: 3em;
-  margin-left: 3%;
+  margin-left: 10%;
+  margin-top: 3%;
+  box-shadow: 3px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
+  border: 3px solid #414141;
 }
 
 #description {
   position: relative;
   float: left;
   width: 60%;
-  margin-left: 4%;
+  margin-left: 5%;
   font-family: "Roboto";
   font-size: 12px;
   line-height: 17px;

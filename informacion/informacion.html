@@ -3,27 +3,60 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- Fuente Roboto -->
-    <link
-      href="https://fonts.googleapis.com/css?family=Roboto"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="../css/layout.css" />
+     <!-- Font Roboto -->
+     <link
+     href="https://fonts.googleapis.com/css?family=Roboto"
+     rel="stylesheet"
+   />
+   <!-- CSS Main Layout-->
+   <link rel="stylesheet" href="../css/layout.css" />
     <title>MANGUCA</title>
   </head>
   <body>
     <header>
-      <div class="header">
-        <a href="../index.html">
-          <img id="logo" src="../images/logo.png" />
-        </a>
-        <ul>
-          <a href="./informacion.html">Información</a>
-          <a href="../horarios/horarios.html">Horarios</a>
-          <a href="../localizacion/localizacion.html">Localización</a>
-          <a href="../entradas/inscripcion.html">Entradas</a>
-        </ul>
+      <div class="header" id="header">
+        <div class="logo">
+          <a href="../index.html"><img src="../images/plantilla/logo.png" alt="logo"/></a>
+        </div>
+        <div class="navbar">
+          <div class="dropdown">
+            <button class="dropbtn">
+              Información
+              <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+              <a href="../horarios/horarios.html">Horarios</a>
+              <a href="../localizacion/localizacion.html">Localización</a>
+              <a href="./entradas/inscripcion.html'">Entradas</a>
+            </div>
+          </div>
+          <div class="dropdown">
+            <button
+              class="dropbtn"
+              onclick="location.href='../horarios/horarios.html'"
+            >
+              Horarios
+            </button>
+          </div>
+          <div class="dropdown">
+            <button
+              class="dropbtn"
+              onclick="location.href='../localizacion/localizacion.html'"
+            >
+              Localización
+            </button>
+          </div>
+          <div class="dropdown">
+            <button
+              class="dropbtn"
+              onclick="location.href='../entradas/inscripcion.html'"
+            >
+              Entradas
+            </button>
+          </div>
+        </div>
       </div>
+    </div>
     </header>
     <main>
       <p>AAAAAAAAA</p>
