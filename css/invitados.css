@@ -1,0 +1,47 @@
+.artist{
+    margin: 5px;
+    float: left;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    padding-right: 3em;
+    padding-bottom: 2em;
+
+}
+
+.artists {
+    position: relative;
+    margin: 2%;
+    float: left;
+    width: 90%;
+    font-family: "Roboto";
+}
+
+#miniature:hover {
+    height: 21em;
+    width: 19em;
+}
+
+#miniature {
+    float: left;
+    width: 18em;
+    height: 20em;
+    margin-top: 3%;
+    box-shadow: 3px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+}
+  
+#description {
+    position: relative;
+    float: left;
+    width: 60%;
+    margin-left: 5%;
+    font-family: "Roboto";
+    font-size: 12px;
+    line-height: 17px;
+    color: #000000;
+    text-align: start;
+}
+  

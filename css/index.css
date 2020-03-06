@@ -1,18 +1,4 @@
-.main::after {
-  position: relative;
-  width: 100%;
-  content: "";
-  display: flex;
-}
 
-.content {
-  position: relative;
-  margin: 2%;
-  float: left;
-  width: 70%;
-  font-family: "Roboto";
-
-}
 
 .news {
   position: relative;
@@ -28,6 +14,15 @@
   content: "";
   display: flex;
   margin: 5%;
+}
+
+.content {
+  position: relative;
+  margin: 2%;
+  float: left;
+  width: 70%;
+  font-family: "Roboto";
+
 }
 
 #miniature {
