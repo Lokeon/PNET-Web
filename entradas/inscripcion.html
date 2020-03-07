@@ -10,6 +10,8 @@
      />
      <!-- CSS Main Layout-->
      <link rel="stylesheet" href="../css/layout.css" />
+      <!-- CSS Inscription-->
+      <link rel="stylesheet" href="../css/inscripcion.css" />
     <title>MANGUCA</title>
   </head>
   <body>
@@ -59,12 +61,37 @@
     </div>
     </header>
     <main>
-      <p>AAAAAAAAA</p>
+      <div class="main">
+       <div class="form">
+        <div class="col">
+          <label for="frmNombre">Nombre</label>
+          <input type="text" id="forNombre" name="nombre" placeholder="Nombre">
+        </div>
+        <div class="col">
+          <label for="frmApellidos">Apellidos</label>
+          <input type="text" id="forApellidos" name="apellidos" placeholder="Apellidos">
+        </div>
+        <div class="col">
+          <label for="frmNombre">Waifu</label>
+          <input type="text" id="forNombre" name="nombre" placeholder="Nombre">
+        </div>
+        <div class="col">
+          <label for="dias">Dias</label>
+          <select id="dias" name="dias">
+            <option value="australia">Un día - 99&euro;</option>
+            <option value="canada">Dos días - 999&euro;</option>
+            <option value="usa">Tres dias - 696969696969&euro;</option>
+          </select>
+        </div>
+       </div>
+      </div>
+    </div>
     </main>
     <footer>
       <div class="footer">
         <p>Manguca &#169; todos los derechos reservados</p>
       </div>
     </footer>
+    <script src="../js/scripts.js"></script> 
   </body>
 </html>
