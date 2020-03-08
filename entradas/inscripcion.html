@@ -62,7 +62,8 @@
     </header>
     <main>
       <div class="main">
-       <div class="form">
+        <div class="form" >
+       <form method="post" action="../index.html" onsubmit="return validateInput();">
         <div class="col">
           <label for="frmNombre">Nombre</label>
           <input type="text" id="forNombre" name="nombre" placeholder="Nombre">
@@ -72,10 +73,6 @@
           <input type="text" id="forApellidos" name="apellidos" placeholder="Apellidos">
         </div>
         <div class="col">
-          <label for="frmNombre">Waifu</label>
-          <input type="text" id="forNombre" name="nombre" placeholder="Nombre">
-        </div>
-        <div class="col">
           <label for="dias">Dias</label>
           <select id="dias" name="dias">
             <option value="australia">Un día - 99&euro;</option>
@@ -83,7 +80,11 @@
             <option value="usa">Tres dias - 696969696969&euro;</option>
           </select>
         </div>
-       </div>
+        <div class="col">
+          <input type="submit" value="Enviar" id="submit" />
+        </div>
+       </form>
+        </div>
       </div>
     </div>
     </main>
@@ -92,6 +93,6 @@
         <p>Manguca &#169; todos los derechos reservados</p>
       </div>
     </footer>
-    <script src="../js/scripts.js"></script> 
+    <script src="../js/validacion-formulario.js"></script> 
   </body>
 </html>

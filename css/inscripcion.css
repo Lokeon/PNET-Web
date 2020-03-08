@@ -1,14 +1,15 @@
 .form {
-  background-color: #c4c4c4;
+  background-color: #f1f4f7;
   margin: 3em;
   margin-top: 3em;
+  padding: 0.5em;
+  width: 100%;
 }
 
 .col {
   position: relative;
   left: 30%;
-  margin-bottom: 2em;
-  margin-right: -50%;
+  margin: 2em;
 }
 
 input,

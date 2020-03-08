@@ -149,10 +149,14 @@ ul button {
   height: auto;
 }
 
-#contactos {
+.contactos {
   position: absolute;
   text-align: right;
   right: 5%;
+}
+
+#copyright {
+  font-size: 0.8em;
 }
 
 .flex {
