@@ -143,13 +143,25 @@ ul button {
 }
 
 .contactos {
-  position: absolute;
-  text-align: right;
-  right: 5%;
+  position: relative;
+  float: right;
+  margin-top: 1%;
+}
+
+.rrss::after {
+  position: relative;
+  width: 100%;
+  content: "";
+  display: flex;
+}
+
+#iconos {
+  width: 1.3em;
+  height: 1.3em;
 }
 
 #copyright {
-  font-size: 0.8em;
+  font-size: 0.5em;
 }
 
 .flex {
