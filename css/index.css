@@ -6,6 +6,13 @@
   width: 25%;
 }
 
+.main::after {
+  position: relative;
+  width: 100%;
+  content: "";
+  display: flex;
+}
+
 .new::after {
   position: relative;
   width: 100%;
