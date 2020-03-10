@@ -1,16 +1,15 @@
 .artist{
-    margin: 5px;
     float: left;
     align-items: center;
-    justify-content: center;
     margin: auto;
     display: flex;
     flex-direction: column;
     padding-left: 3em;
     padding-right: 3em;
     padding-bottom: 4em;
+    padding-top: 3em;
     width: 18em;
-    height: 20em;
+    height: 24em;
 }
 
 .main {
@@ -43,14 +42,37 @@
     border-radius: 5px;
 }
   
-#description {
+
+.text{
+    padding-top: 1em;
     position: relative;
     float: left;
-    width: 60%;
+    width: 90%;
     margin-left: 5%;
-    font-family: "Roboto";
-    font-size: 12px;
-    line-height: 17px;
     color: #000000;
     text-align: start;
+    font-size: 15px;
+
 }
+
+#description {
+    line-height: 17px;
+
+}
+
+#titles{
+    border-bottom: 3px solid #de1700;
+    margin-top: 5%;
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 25px;
+    width: 60%;
+
+}
+
+#rol{
+    line-height: 2px;
+    font-weight: lighter;
+    color: #de1700;
+
+  }
