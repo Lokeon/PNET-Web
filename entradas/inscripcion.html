@@ -63,7 +63,7 @@
     <main>
       <div class="main">
         <div class="form" >
-       <form method="post" action="../index.html" onsubmit="return validateInput();">
+       <form method="post" action="../index.html" onsubmit="return validateDate();">
         <div class="col">
           <label for="frmNombre">Nombre</label>
           <input type="text" id="forNombre" name="nombre" placeholder="Nombre">
@@ -81,12 +81,12 @@
           </select>
         </div>
         <div class="col">
-          <label for="dateI">Date</label>
-          <input type="date"/>
+          <label for="fechaI">Dia Inicio</label>
+          <input type="date" id="fchIni" name="fechaInicio"/>
         </div>
         <div class="col">
-          <label for="dateX">Date</label>
-          <input type="date"/>
+          <label for="fechaF">Dia Fin</label>
+          <input type="date" id="fchFin" name="fechaFin">
         </div>
         <div class="col">
           <input type="submit" value="Enviar" id="submit" />

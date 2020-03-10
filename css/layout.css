@@ -142,17 +142,23 @@ ul button {
   height: auto;
 }
 
-.contactos {
+.contacto{
+  display: grid;
   position: relative;
-  float: right;
-  margin-top: 1%;
+  justify-items: end;
+  width: 100%;
 }
 
-.rrss::after {
+.contactos::after {
   position: relative;
   width: 100%;
   content: "";
   display: flex;
+}
+
+.rrss {
+  position: relative;
+  float: right;
 }
 
 #iconos {
