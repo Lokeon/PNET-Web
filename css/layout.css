@@ -175,6 +175,15 @@ ul button {
   align-items: center;
 }
 
+#title span{
+  border-bottom: 3px solid#de1700;
+  margin-top: 5%;
+  font-size: 130px;
+  font-weight: bold;
+  line-height: 25px;
+  margin-left: 1em;
+}
+
 @media only screen and (min-width: 768px) {
 }
 

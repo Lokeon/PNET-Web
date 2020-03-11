@@ -18,6 +18,7 @@
     content: "";
     display: flex;
     justify-content: center;
+    flex-direction: column;
   }
 
 .artists {
@@ -26,6 +27,8 @@
     float: left;
     width: auto;
     font-family: "Roboto";
+    justify-content: center;
+    display: grid;
 }
 
 #miniature:hover {
@@ -75,4 +78,12 @@
     font-weight: lighter;
     color: #de1700;
 
+  }
+
+  .titleBox{
+    width: auto;
+    font-family: "Roboto";
+    margin-top: 8em;
+    float: left;
+    margin-left: 2%;
   }
