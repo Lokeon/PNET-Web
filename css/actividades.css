@@ -1,16 +1,4 @@
-.artist{
-    float: left;
-    align-items: center;
-    margin: auto;
-    display: flex;
-    flex-direction: column;
-    padding-left: 3em;
-    padding-right: 3em;
-    padding-bottom: 4em;
-    padding-top: 3em;
-    width: 18em;
-    height: 24em;
-}
+
 
 .main {
     position: relative;
@@ -21,24 +9,10 @@
     flex-direction: column;
   }
 
-.artists {
-    position: relative;
-    margin: 2%;
-    float: left;
-    width: auto;
-    font-family: "Roboto";
-    justify-content: center;
-    display: grid;
-}
-
-#miniature:hover {
-    height: 21em;
-    width: 19em;
-}
 
 #miniature {
     float: left;
-    width: 18em;
+    width: 30em;
     height: 20em;
     margin-top: 3%;
     box-shadow: 3px 4px 4px rgba(0, 0, 0, 0.25);
@@ -50,7 +24,6 @@
     padding-top: 1em;
     position: relative;
     float: left;
-    width: 90%;
     margin-left: 5%;
     color: #000000;
     text-align: start;
@@ -91,4 +64,8 @@
     background-position: 10%;
     /*filter: blur(2px);*/
 
+  }
+
+  .activity{
+      margin: 2%;
   }

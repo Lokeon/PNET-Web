@@ -176,8 +176,9 @@ ul button {
 }
 
 #title span{
-  border-bottom: 3px solid#de1700;
-  margin-top: 5%;
+  border-bottom: 3px solid  
+  #de1700;
+  margin-top: 50%;
   font-size: 130px;
   font-weight: bold;
   line-height: 25px;
