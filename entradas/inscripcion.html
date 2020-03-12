@@ -59,40 +59,45 @@
         </div>
       </div>
     </div>
-    <div class="breadcrumb">
-      <ul>
-        <li><a href="../index.html">Home</a></li>
-        <li><a href="inscripcion.html">Entradas</a></li>
-      </ul>
-    </div>
     </header>
     <main>
       <div class="main">
+        <div class="breadcrumb">
+          <ul>
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="inscripcion.html">Entradas</a></li>
+          </ul>
+        </div>
+        <div class="titleBox">
+          <div id="title">
+            <span>Entradas</span>
+        </div>
+      </div>
         <div class="form" >
-       <form method="post" action="../index.html" onsubmit="return validateDate();">
+       <form method="post" action="../index.html" onsubmit="return validateForm();">
         <div class="col">
           <label for="frmNombre">Nombre</label>
-          <input type="text" id="forNombre" name="nombre" placeholder="Nombre">
+          <input required type="text" id="forNombre" placeholder="Nombre" name="nombre" oninput="validateName(this);">
         </div>
         <div class="col">
           <label for="frmApellidos">Apellidos</label>
-          <input type="text" id="forApellidos" name="apellidos" placeholder="Apellidos">
+          <input type="text" id="forApellidos" name="apellidos" placeholder="Apellidos" oninput="validateLastName(this);">
         </div>
         <div class="col">
-          <label for="dias">Dias</label>
+          <label for="dias">Tipo de Entrada</label>
           <select id="dias" name="dias">
-            <option value="australia">Un día - 99&euro;</option>
-            <option value="canada">Dos días - 999&euro;</option>
-            <option value="usa">Tres dias - 696969696969&euro;</option>
+            <option value="unDia">Un día - 99&euro;</option>
+            <option value="dosDias">Dos días - 999&euro;</option>
+            <option value="tresDias">Tres dias - 696969696969&euro;</option>
           </select>
         </div>
         <div class="col">
           <label for="fechaI">Dia Inicio</label>
-          <input type="date" id="fchIni" name="fechaInicio"/>
+          <input type="date" id="fchIni" name="fechaInicio" onclick="minDateIni();"/>
         </div>
         <div class="col">
           <label for="fechaF">Dia Fin</label>
-          <input type="date" id="fchFin" name="fechaFin">
+          <input type="date" id="fchFin" name="fechaFin" onclick="minDateFin();">
         </div>
         <div class="col">
           <input type="submit" value="Enviar" id="submit" />

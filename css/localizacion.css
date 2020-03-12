@@ -1,0 +1,16 @@
+.content {
+  position: relative;
+  margin: 2%;
+  float: left;
+  width: 70%;
+  font-family: "Roboto";
+}
+
+.main {
+  position: relative;
+  width: 100%;
+  content: "";
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}

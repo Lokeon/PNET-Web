@@ -1,18 +1,51 @@
-.form {
-  background-color: #f1f4f7;
-  margin: 3em;
-  margin-top: 3em;
-  padding: 0.5em;
+.main {
+  position: relative;
   width: 100%;
+  content: "";
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 .col {
   position: relative;
-  left: 30%;
   margin: 2em;
+  font-family: "Roboto";
 }
 
-input,
+input[type="text"],
+input[type="date"],
 select {
-  border-radius: 5px;
+  width: 100%;
+  padding: 5%;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+
+input[type="submit"] {
+  background-color: black;
+  color: white;
+  padding: 5%;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #0b0b0c;
+}
+
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+}
+
+.error {
+  position: absolute;
+  left: 20px;
+  top: 0px;
+  background-color: red;
+  padding: 0 20px;
 }

@@ -147,9 +147,8 @@ body {
   align-items: center;
 }
 
-#title span{
-  border-bottom: 3px solid  
-  #de1700;
+#title span {
+  border-bottom: 3px solid #de1700;
   margin-top: 50%;
   font-size: 130px;
   font-weight: bold;
@@ -157,8 +156,29 @@ body {
   margin-left: 1em;
 }
 
+#titles {
+  border-bottom: 3px solid #de1700;
+  margin-top: 5%;
+  font-size: 30px;
+  font-weight: bold;
+  line-height: 25px;
+  width: 60%;
+}
+
+.titleBox {
+  width: 100%;
+  font-family: "Roboto";
+  float: left;
+  /*margin-left: 2%;*/
+  background-image: url("../images/fondos/waves2.png");
+  height: 13em;
+  padding-top: 8em;
+  background-position: 10%;
+  /*filter: blur(2px);*/
+}
+
 .breadcrumb {
-  position: absolute;
+  position: relative;
   font-family: "Roboto";
   left: 0%;
   width: 100%;
