@@ -85,7 +85,7 @@
         </div>
         <div class="col">
           <label for="dias">Tipo de Entrada</label>
-          <select id="dias" name="dias">
+          <select required id="dias" name="dias">
             <option value="unDia">Un día - 99&euro;</option>
             <option value="dosDias">Dos días - 999&euro;</option>
             <option value="tresDias">Tres dias - 696969696969&euro;</option>
@@ -93,11 +93,11 @@
         </div>
         <div class="col">
           <label for="fechaI">Dia Inicio</label>
-          <input type="date" id="fchIni" name="fechaInicio" onclick="minDateIni();"/>
+          <input  required type="date" id="fchIni" name="fechaInicio" onclick="minDateIni();"/>
         </div>
         <div class="col">
           <label for="fechaF">Dia Fin</label>
-          <input type="date" id="fchFin" name="fechaFin" onclick="minDateFin();">
+          <input required type="date" id="fchFin" name="fechaFin" onclick="minDateFin();">
         </div>
         <div class="col">
           <input type="submit" value="Enviar" id="submit" />

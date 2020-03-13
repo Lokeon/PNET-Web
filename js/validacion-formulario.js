@@ -1,4 +1,3 @@
-
 function validateForm() {
   var fchIn = new Date(document.forms[0].fchIni.value);
   var fchFn = new Date(document.forms[0].fchFin.value);
@@ -50,6 +49,7 @@ function validateName(input) {
   var name = input.value;
   if (name != name.match(regex)) {
     input.setCustomValidity("Nombre Incorrecto");
+    input.reportValidity();
   } else {
     input.setCustomValidity("");
   }
@@ -60,6 +60,7 @@ function validateLastName(input) {
   var name = input.value;
   if (name != name.match(regex)) {
     input.setCustomValidity("Apellidos Incorrectos");
+    input.reportValidity();
   } else {
     input.setCustomValidity("");
   }
