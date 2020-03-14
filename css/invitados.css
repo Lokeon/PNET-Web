@@ -66,3 +66,13 @@
   font-weight: lighter;
   color: #de1700;
 }
+
+#information {
+  position: relative;
+  margin: 5%;
+  font-family: "Roboto";
+  text-align: justify;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.8;
+}
