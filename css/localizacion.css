@@ -4,6 +4,10 @@
   float: left;
   width: 70%;
   font-family: "Roboto";
+  display: flex;
+  justify-content: center;
+  align-self: center;
+ 
 }
 
 .main {
@@ -13,4 +17,6 @@
   display: flex;
   justify-content: center;
   flex-direction: column;
+  padding-top: 0.5%;
+
 }
