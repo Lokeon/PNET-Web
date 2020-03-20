@@ -96,6 +96,8 @@ table td > span {
   /*padding-top: 5%;*/
 }
 .tabContainer .buttonContainer{
+  display: flex;
+justify-content: center;
   height: 15%;
 }
 .tabContainer .buttonContainer button{
@@ -124,4 +126,13 @@ table td > span {
   font-family: sans-serif;
   font-size: 22px;
   display: block;
+}
+
+#button1{
+  color: white; 
+  border-bottom-left-radius: 10px;
+}
+
+#button3{
+  border-bottom-right-radius: 10px;
 }

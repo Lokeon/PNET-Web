@@ -20,6 +20,8 @@
   justify-content: center;
   flex-direction: column;
   padding-top: 0.5%;
+  font-family: "Roboto";
+
 }
 
 .artists {
@@ -27,7 +29,6 @@
   margin: 2%;
   float: left;
   width: auto;
-  font-family: "Roboto";
   justify-content: center;
   display: grid;
 }
@@ -70,7 +71,6 @@
 #information {
   position: relative;
   margin: 5%;
-  font-family: "Roboto";
   text-align: justify;
   font-size: 16px;
   font-weight: 400;
