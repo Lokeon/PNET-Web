@@ -13,4 +13,4 @@ function showPanel(panelIndex,colorCode) {
     });
     tabPanels[panelIndex].style.display="block";
 }
-showPanel(0,'#A28D48');
+showPanel(0,'#D8AC34');

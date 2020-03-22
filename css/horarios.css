@@ -86,7 +86,7 @@ table td > span {
 /* TABS */
 
 .title{
-  font-family: sans-serif;
+  font-family: Roboto;
   color: #dc2d5e;
   text-align: center;
 }
@@ -108,13 +108,13 @@ justify-content: center;
   outline:none;
   cursor: pointer;
   padding: 10px;
-  font-family: sans-serif;
+  font-family: Roboto;
   font-size: 18px;
   background-color:#333;
   color:white;
 }
 .tabContainer .buttonContainer button:hover{
-  background-color: #DE1800;
+  background-color: #4d7c8a;
 }
 .tabContainer .tabPanel{
   height: 85%;
@@ -123,7 +123,7 @@ justify-content: center;
   text-align: center;
   padding-top: 105px;
   box-sizing: border-box;
-  font-family: sans-serif;
+  font-family: Roboto;
   font-size: 22px;
   display: block;
 }
