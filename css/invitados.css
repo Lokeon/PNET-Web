@@ -85,7 +85,7 @@
 .picture img {
   border-radius: 50%;
   width: 6em;
-  padding-right: 2em;
+  margin-right: 2em;
 }
 
 article {
