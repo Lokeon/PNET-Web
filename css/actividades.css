@@ -1,92 +1,85 @@
-
 .main {
-    position: relative;
-    width: 100%;
-    content: "";
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    padding-top: 0.5%;
-    font-family: "Roboto";
-
-  }
+  position: relative;
+  width: 100%;
+  content: "";
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding-top: 0.5%;
+  font-family: "Roboto";
+  clear: both;
+}
 
 #miniature {
-    float: left;
-    width: 40em;
-    height: 25em;
-    margin-top: 3%;
-    box-shadow: 3px 4px 4px rgba(0, 0, 0, 0.25);
-    border-radius: 5px;
-    margin-left: 3%;
+  float: left;
+  width: 40em;
+  height: 25em;
+  margin-top: 3%;
+  box-shadow: 3px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
+  margin-left: 3%;
 }
 
 #miniatureInvert {
-    float: left;
-    width: 40em;
-    height: 25em;
-    margin-top: 3%;
-    box-shadow: 3px 4px 4px rgba(0, 0, 0, 0.25);
-    border-radius: 5px;
-    margin-right: 3%;
-}
-  
-
-.text{
-    padding-top: 1em;
-    position: relative;
-    float: left;
-    margin-left: 5%;
-    color: #000000;
-    text-align: start;
-    font-size: 15px;
-
+  float: left;
+  width: 40em;
+  height: 25em;
+  margin-top: 3%;
+  box-shadow: 3px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
+  margin-right: 3%;
 }
 
-#textInvert{
-    margin-right: 5%;
+.text {
+  padding-top: 1em;
+  position: relative;
+  float: left;
+  margin-left: 5%;
+  color: #000000;
+  text-align: start;
+  font-size: 15px;
+  width: 45%;
+}
+
+#textInvert {
+  margin-right: 5%;
 }
 
 #description {
-    line-height: 17px;
-
+  line-height: 17px;
 }
 
-#titles{
-    border-bottom: 3px solid #de1700;
-    margin-top: 5%;
-    font-size: 30px;
-    font-weight: bold;
-    line-height: 25px;
-    width: 60%;
-
+#titlesActivity {
+  border-bottom: 3px solid #de1700;
+  font-size: 30px;
+  font-weight: bold;
+  line-height: 25px;
+  width: 60%;
 }
 
-#rol{
-    line-height: 2px;
-    font-weight: lighter;
-    color: #de1700;
+#rol {
+  line-height: 2px;
+  font-weight: lighter;
+  color: #de1700;
+}
 
-  }
+.titleBox {
+  width: 100%;
+  font-family: "Roboto";
+  float: left;
+  /*margin-left: 2%;*/
+  background-image: url("../images/fondos/waves2.png");
+  height: 13em;
+  padding-top: 8em;
+  background-position: 10%;
+  /*filter: blur(2px);*/
+}
 
-  .titleBox{
-    width: 100%;
-    font-family: "Roboto";
-    float: left;
-    /*margin-left: 2%;*/
-    background-image: url("../images/fondos/waves2.png");
-    height: 13em;
-    padding-top: 8em;
-    background-position: 10%;
-    /*filter: blur(2px);*/
+.activity {
+  margin: 2%;
+}
 
-  }
-
-  .activity{
-      margin: 2%;
-  }
-
-  #invert{
-      display:flex;
-      flex-direction: row-reverse;
-  }
+#invert {
+  display: flex;
+  flex-direction: row-reverse;
+}
