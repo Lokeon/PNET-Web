@@ -3,11 +3,11 @@
   width: 100%;
   content: "";
   display: flex;
+  clear: both;
   justify-content: center;
   align-items: center;
   flex-direction: column;
   padding-top: 0.5%;
-  margin-bottom: 2%;
   font-family: "Roboto";
 }
 
