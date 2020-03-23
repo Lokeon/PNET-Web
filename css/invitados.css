@@ -1,27 +1,30 @@
-.artist {
-  float: left;
-  align-items: center;
-  margin: auto;
-  display: flex;
-  flex-direction: column;
-  padding-left: 3em;
-  padding-right: 3em;
-  padding-bottom: 4em;
-  padding-top: 3em;
-  width: 18em;
-  height: 24em;
-}
-
 .main {
   position: relative;
   width: 100%;
   content: "";
   display: flex;
   justify-content: center;
+  align-items: center;
   flex-direction: column;
   padding-top: 0.5%;
+  margin-bottom: 2%;
   font-family: "Roboto";
 }
+
+.artist {
+  float: left;
+  align-items: center;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  margin-left: 3em;
+  margin-right: 3em;
+  margin-bottom: 4em;
+  margin-top: 3em;
+  width: 18em;
+  height: 24em;
+}
+
 
 .artists {
   position: relative;
