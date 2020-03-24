@@ -3,22 +3,24 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-       <!-- Font Roboto -->
-       <link
-       href="https://fonts.googleapis.com/css?family=Roboto"
-       rel="stylesheet"
-     />
-     <!-- CSS Main Layout-->
-     <link rel="stylesheet" href="../css/layout.css" />
-      <!-- CSS Inscription-->
-      <link rel="stylesheet" href="../css/inscripcion.css" />
+    <!-- Font Roboto -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto"
+      rel="stylesheet"
+    />
+    <!-- CSS Main Layout-->
+    <link rel="stylesheet" href="../css/layout.css" />
+    <!-- CSS Inscription-->
+    <link rel="stylesheet" href="../css/inscripcion.css" />
     <title>MANGUCA</title>
   </head>
   <body>
     <header>
       <div class="header" id="header">
         <div class="logo">
-          <a href="../index.html"><img src="../images/plantilla/logo.png" alt="logo"/></a>
+          <a href="../index.html"
+            ><img src="../images/plantilla/logo.png" alt="logo"
+          /></a>
         </div>
         <div class="navbar">
           <div class="dropdown">
@@ -57,7 +59,6 @@
           </div>
         </div>
       </div>
-    </div>
     </header>
     <main>
       <div class="main">
@@ -70,76 +71,119 @@
         <div class="titleBox">
           <div id="title">
             <span>Entradas</span>
+          </div>
+        </div>
+        <div class="form">
+          <form
+            method="post"
+            action="../index.html"
+            onsubmit="return validateForm();"
+          >
+            <div class="col">
+              <label for="frmNombre">Nombre</label>
+              <input
+                required
+                type="text"
+                id="forNombre"
+                placeholder="Nombre"
+                name="nombre"
+                oninput="validateName(this);"
+              />
+            </div>
+            <div class="col">
+              <label for="frmApellidos">Apellidos</label>
+              <input
+                type="text"
+                id="forApellidos"
+                name="apellidos"
+                placeholder="Apellidos"
+                oninput="validateLastName(this);"
+              />
+            </div>
+            <div class="col">
+              <label for="dias">Tipo de Entrada</label>
+              <select required id="dias" name="dias">
+                <option value="unDia">Un día - 99&euro;</option>
+                <option value="dosDias">Dos días - 999&euro;</option>
+                <option value="tresDias">Tres dias - 696969696969&euro;</option>
+              </select>
+            </div>
+            <div class="col">
+              <label for="fechaI">Dia Inicio</label>
+              <input
+                required
+                type="date"
+                id="fchIni"
+                name="fechaInicio"
+                onclick="minDateIni();"
+              />
+            </div>
+            <div class="col">
+              <label for="fechaF">Dia Fin</label>
+              <input
+                required
+                type="date"
+                id="fchFin"
+                name="fechaFin"
+                onclick="minDateFin();"
+              />
+            </div>
+            <div class="col">
+              <input type="submit" value="Enviar" id="submit" />
+            </div>
+          </form>
         </div>
       </div>
-        <div class="form" >
-       <form method="post" action="../index.html" onsubmit="return validateForm();">
-        <div class="col">
-          <label for="frmNombre">Nombre</label>
-          <input required type="text" id="forNombre" placeholder="Nombre" name="nombre" oninput="validateName(this);">
-        </div>
-        <div class="col">
-          <label for="frmApellidos">Apellidos</label>
-          <input type="text" id="forApellidos" name="apellidos" placeholder="Apellidos" oninput="validateLastName(this);">
-        </div>
-        <div class="col">
-          <label for="dias">Tipo de Entrada</label>
-          <select required id="dias" name="dias">
-            <option value="unDia">Un día - 99&euro;</option>
-            <option value="dosDias">Dos días - 999&euro;</option>
-            <option value="tresDias">Tres dias - 696969696969&euro;</option>
-          </select>
-        </div>
-        <div class="col">
-          <label for="fechaI">Dia Inicio</label>
-          <input  required type="date" id="fchIni" name="fechaInicio" onclick="minDateIni();"/>
-        </div>
-        <div class="col">
-          <label for="fechaF">Dia Fin</label>
-          <input required type="date" id="fchFin" name="fechaFin" onclick="minDateFin();">
-        </div>
-        <div class="col">
-          <input type="submit" value="Enviar" id="submit" />
-        </div>
-       </form>
-        </div>
-      </div>
-    </div>
     </main>
     <footer>
       <div class="footer">
         <div class="about">
-        <div class="colabout">
-        <div>
-          <a href="mailto:ucamanguca@gmail.com?Subject=Atención%20al%20cliente"
-          >Contactar por correo</a
-        >
+          <div class="colabout">
+            <div>
+              <a
+                href="mailto:ucamanguca@gmail.com?Subject=Atención%20al%20cliente"
+                >Contactar por correo</a
+              >
+            </div>
+            <div>
+              <a href="./informacion/invitados.html">Sobre nosotros</a>
+            </div>
+            <div>
+              <a href="./informacion/invitados.html">Voluntariado</a>
+            </div>
+          </div>
+          <div class="colabout">
+            <div>
+              <a href="../informacion/invitados.html">Contratación de stands</a>
+            </div>
+            <div>
+              <a href="../informacion/bases/torneos.html">Bases de Torneos</a>
+            </div>
+            <div>
+              <a href="../informacion/bases/concursos.html"
+                >Bases de Concursos</a
+              >
+            </div>
+          </div>
+          <div class="colabout">
+            <div>
+              <a href="../informacion/bases/politica.html"
+                >Política de privacidad y protección de datos</a
+              >
+            </div>
+          </div>
         </div>
-        <div>
-           <a href="./informacion/invitados.html">Sobre nosotros</a> 
-        </div>
-        <div>
-          <a href="./informacion/invitados.html">Voluntariado</a> 
-       </div>
-       </div>
-        <div class="colabout">
-          <div>
-            <a href="./informacion/invitados.html">Contratación de stands</a> 
-         </div>
-        </div>
-      </div>
-       <div class="contacto">
-        <div class="contactos">
+        <div class="contacto">
+          <div class="contactos">
             <img id="iconos" src="../images/iconos/rss.png" alt="RSS" />
             <img id="iconos" src="../images/iconos/twitter.png" alt="Twitter" />
             <img id="iconos" src="../images/iconos/facebook.png" alt="Facebook" />
             <img id="iconos" src="../images/iconos/insta.png" alt="Instagram" />
-        </div>
-        <p id="copyright">Manguca &#169; Todos los derechos reservados</p> 
-      </div>
+          </div>
+          <p id="copyright">Manguca &#169; Todos los derechos reservados</p>
         </div>
       </div>
     </footer>
-    <script src="../js/validacion-formulario.js"></script> 
+    <script src="../js/validacion-formulario.js"></script>
   </body>
 </html>
