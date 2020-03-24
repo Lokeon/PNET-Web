@@ -1,22 +1,29 @@
-.content {
-  position: relative;
-  margin: 2%;
-  float: left;
-  width: 70%;
-  font-family: "Roboto";
-  display: flex;
-  justify-content: center;
-  align-self: center;
- 
-}
-
 .main {
   position: relative;
   width: 100%;
   content: "";
+  clear: both;
   display: flex;
-  justify-content: center;
   flex-direction: column;
   padding-top: 0.5%;
+  font-family: "Roboto";
+}
 
+.content {
+  margin: 2%;
+  align-self: center;
+  width: 85%;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.8;
+}
+
+.main article h1 {
+  border-bottom: 3px solid #de1700;
+}
+
+.main article iframe {
+  width: 600px;
+  height: 450px;
+  border: 0;
 }
