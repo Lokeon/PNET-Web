@@ -41,6 +41,15 @@
   border: 3px solid #414141;
 }
 
+#confirmation {
+  float: left;
+  width: 14em;
+  height: 16em;
+  margin-top: 3%;
+  box-shadow: 3px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
+}
+
 #description {
   position: relative;
   float: left;
@@ -51,4 +60,43 @@
   line-height: 17px;
   color: #000000;
   text-align: start;
+}
+
+#banner {
+  width: 100%;
+}
+
+.artist {
+  float: left;
+  align-items: center;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  margin-left: 3em;
+  margin-right: 3em;
+  margin-bottom: 4em;
+  margin-top: 3em;
+  width: 18em;
+  height: 24em;
+}
+
+.text {
+  padding-top: 1em;
+  position: relative;
+  float: left;
+  width: 90%;
+  margin-left: 5%;
+  color: #000000;
+  text-align: start;
+  font-size: 15px;
+}
+
+#rol {
+  line-height: 2px;
+  font-weight: lighter;
+  color: #de1700;
+}
+
+.section1 {
+  width: 100%;
 }
