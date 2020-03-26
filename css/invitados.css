@@ -163,3 +163,39 @@ div.content {
     float: none;
   }
 }
+
+/*TABLE*/
+
+.table-body {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  flex-direction: column;
+  min-height: 100vh;
+  padding: 4rem 0;
+  font-family: -system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+table {
+  width: 100%;
+  max-width: 60em;
+  background-color: #f1f1f1;
+}
+
+table th,
+table td {
+  padding: 0.5rem 1rem;
+}
+table th {
+  font-weight: normal;
+  background-color: #333333;
+  color: white;
+}
+table td {
+  border-bottom: 2px solid #de1700;
+}
