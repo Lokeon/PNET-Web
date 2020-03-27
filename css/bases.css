@@ -1,42 +1,71 @@
-.main {
-  position: relative;
-  width: 100%;
-  content: "";
-  clear: both;
-  display: flex;
-  flex-direction: column;
-  padding-top: 0.5%;
-  font-family: "Roboto";
+@media only screen and (min-width: 768px) {
+  .content {
+    margin: 2%;
+    align-self: center;
+    width: 85%;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.8;
+  }
+
+  .accordion,
+  .accordion1,
+  .accordion2 {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+  }
+
+  .panel {
+    padding: 0 18px;
+    display: none;
+    background-color: white;
+    overflow: hidden;
+  }
 }
 
-.content {
-  margin: 2%;
-  align-self: center;
-  width: 85%;
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 1.8;
+@media only screen and (min-width: 992px) {
+  .content {
+    margin: 2%;
+    align-self: center;
+    width: 85%;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.8;
+  }
+
+  .accordion,
+  .accordion1,
+  .accordion2 {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 1.5%;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+  }
+
+  .panel {
+    padding: 0 18px;
+    display: none;
+    background-color: white;
+    overflow: hidden;
+  }
 }
 
 .main article h1 {
   border-bottom: 3px solid #de1700;
-}
-
-/* acordeon*/
-
-.accordion,
-.accordion1,
-.accordion2 {
-  background-color: #eee;
-  color: #444;
-  cursor: pointer;
-  padding: 18px;
-  width: 100%;
-  border: none;
-  text-align: left;
-  outline: none;
-  font-size: 15px;
-  transition: 0.4s;
 }
 
 .active,
@@ -55,11 +84,4 @@
 .accordion2:hover {
   background-color: #d8ac34;
   color: white;
-}
-
-.panel {
-  padding: 0 18px;
-  display: none;
-  background-color: white;
-  overflow: hidden;
 }
