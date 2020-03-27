@@ -1,3 +1,65 @@
+.main {
+  position: relative;
+  width: 100%;
+  content: "";
+  display: flex;
+  clear: both;
+  /*justify-content: center;*/
+  /*align-items: center;*/
+  /*flex-direction: column;*/
+  padding-top: 0.5%;
+  font-family: "Roboto";
+  background-color: #f1f1f1;
+}
+
+.navbar a:hover,
+.dropdown:hover .dropbtn {
+  background-color: #de1800;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.footer::after .about::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+div.breadcrumb ul li {
+  list-style: none;
+  display: inline;
+}
+
+div.breadcrumb ul li a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+div.breadcrumb ul li a:hover {
+  color: #01447e;
+  text-decoration: underline;
+}
+
+#myBtn:hover {
+  background-color: #555;
+}
+
+.dropdown {
+  float: left;
+  height: 100%;
+}
+
+.rrss {
+  position: relative;
+  float: right;
+}
+
 @media only screen and (min-width: 768px) {
   .navbar {
     background-color: #333;

@@ -6,17 +6,6 @@
   background-color: white;
 }
 
-.main::after {
-  position: relative;
-  width: 100%;
-  content: "";
-  display: flex;
-}
-
-.main {
-  background-color: #f1f1f1;
-}
-
 .new::after {
   position: relative;
   width: 100%;
@@ -86,7 +75,7 @@
 .section {
   width: 100%;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
 }
 
 .banner {
@@ -102,6 +91,10 @@
 
 .content .section .title h1 {
   border-bottom: 3px solid #de1700;
+}
+
+.title {
+  width: 33%;
 }
 
 .banner#banner2 {
@@ -163,8 +156,8 @@
   }
 
   .artist {
-    margin-left: 3em;
-    margin-right: 3em;
+    /*margin-left: 3em;
+    margin-right: 3em;*/
     margin-bottom: 4em;
     margin-top: 3em;
     width: 18em;
@@ -222,8 +215,8 @@
   }
 
   .artist {
-    margin-left: 3em;
-    margin-right: 3em;
+    /*margin-left: 3em;
+    margin-right: 3em;*/
     margin-bottom: 4em;
     margin-top: 3em;
     width: 18em;
