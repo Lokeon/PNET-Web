@@ -1,17 +1,4 @@
-
 @media only screen and (min-width: 768px) {
-  .main {
-    position: relative;
-    width: 100%;
-    content: "";
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    padding-top: 0.5%;
-    font-family: "Roboto";
-    clear: both;
-  }
-  
   #miniature {
     float: left;
     width: 40em;
@@ -21,7 +8,7 @@
     border-radius: 5px;
     margin-left: 3%;
   }
-  
+
   #miniatureInvert {
     float: left;
     width: 40em;
@@ -31,7 +18,7 @@
     border-radius: 5px;
     margin-right: 3%;
   }
-  
+
   .text {
     padding-top: 1em;
     position: relative;
@@ -42,15 +29,15 @@
     font-size: 15px;
     width: 45%;
   }
-  
+
   #textInvert {
     margin-right: 5%;
   }
-  
+
   #description {
     line-height: 17px;
   }
-  
+
   #titlesActivity {
     border-bottom: 3px solid #de1700;
     font-size: 30px;
@@ -58,13 +45,13 @@
     line-height: 25px;
     width: 60%;
   }
-  
+
   #rol {
     line-height: 2px;
     font-weight: lighter;
     color: #de1700;
   }
-  
+
   .titleBox {
     width: 100%;
     font-family: "Roboto";
@@ -74,30 +61,18 @@
     padding-top: 8em;
     background-position: 10%;
   }
-  
+
   .activity {
     margin: 2%;
   }
-  
+
   #invert {
     display: flex;
     flex-direction: row-reverse;
-  }  
+  }
 }
 
 @media only screen and (min-width: 992px) {
-  .main {
-    position: relative;
-    width: 100%;
-    content: "";
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    padding-top: 0.5%;
-    font-family: "Roboto";
-    clear: both;
-  }
-  
   #miniature {
     float: left;
     width: 40em;
@@ -107,7 +82,7 @@
     border-radius: 5px;
     margin-left: 3%;
   }
-  
+
   #miniatureInvert {
     float: left;
     width: 40em;
@@ -117,7 +92,7 @@
     border-radius: 5px;
     margin-right: 3%;
   }
-  
+
   .text {
     padding-top: 1em;
     position: relative;
@@ -128,15 +103,15 @@
     font-size: 15px;
     width: 45%;
   }
-  
+
   #textInvert {
     margin-right: 5%;
   }
-  
+
   #description {
     line-height: 17px;
   }
-  
+
   #titlesActivity {
     border-bottom: 3px solid #de1700;
     font-size: 30px;
@@ -144,13 +119,13 @@
     line-height: 25px;
     width: 60%;
   }
-  
+
   #rol {
     line-height: 2px;
     font-weight: lighter;
     color: #de1700;
   }
-  
+
   .titleBox {
     width: 100%;
     font-family: "Roboto";
@@ -160,14 +135,13 @@
     padding-top: 8em;
     background-position: 10%;
   }
-  
+
   .activity {
     margin: 2%;
   }
-  
+
   #invert {
     display: flex;
     flex-direction: row-reverse;
   }
 }
-

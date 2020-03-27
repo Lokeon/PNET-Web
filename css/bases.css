@@ -1,14 +1,4 @@
 @media only screen and (min-width: 768px) {
-  .main {
-    position: relative;
-    width: 100%;
-    content: "";
-    clear: both;
-    display: flex;
-    flex-direction: column;
-    padding-top: 0.5%;
-  }
-
   .content {
     margin: 2%;
     align-self: center;
@@ -42,16 +32,6 @@
 }
 
 @media only screen and (min-width: 992px) {
-  .main {
-    position: relative;
-    width: 100%;
-    content: "";
-    clear: both;
-    display: flex;
-    flex-direction: column;
-    padding-top: 0.5%;
-  }
-
   .content {
     margin: 2%;
     align-self: center;

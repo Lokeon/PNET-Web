@@ -1,14 +1,4 @@
 @media only screen and (min-width: 768px) {
-  .main {
-    position: relative;
-    width: 100%;
-    content: "";
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    padding-top: 0.5%;
-  }
-
   .table-body {
     display: -webkit-box;
     display: flex;
@@ -93,16 +83,6 @@
 }
 
 @media only screen and (min-width: 992px) {
-  .main {
-    position: relative;
-    width: 100%;
-    content: "";
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    padding-top: 0.5%;
-  }
-
   .table-body {
     display: -webkit-box;
     display: flex;
