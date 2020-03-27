@@ -2,9 +2,6 @@
   position: relative;
   float: left;
   border-left: 4px solid #4d7c8a;
-  margin-top: 5%;
-  width: 23%;
-  background-color: #f1f1f1;
   height: 100%;
   background-color: white;
 }
@@ -25,14 +22,11 @@
   width: 100%;
   content: "";
   display: flex;
-  margin: 5%;
 }
 
 .content {
   position: relative;
-  margin: 2%;
   float: left;
-  width: 70%;
   font-family: "Roboto";
   background-color: white;
   border-radius: 5px;
@@ -41,10 +35,6 @@
 #miniature {
   position: relative;
   float: left;
-  width: 3em;
-  height: 3em;
-  margin-left: 10%;
-  margin-top: 3%;
   box-shadow: 3px 4px 4px rgba(0, 0, 0, 0.25);
   border-radius: 5px;
   border: 3px solid #414141;
@@ -52,9 +42,6 @@
 
 #confirmation {
   float: left;
-  width: 14em;
-  height: 16em;
-  margin-top: 3%;
   box-shadow: 3px 4px 4px rgba(0, 0, 0, 0.25);
   border-radius: 5px;
 }
@@ -62,12 +49,8 @@
 #description {
   position: relative;
   float: left;
-  width: 60%;
-  margin-left: 5%;
   font-family: "Roboto";
-  font-size: 12px;
   line-height: 17px;
-  color: #000000;
   text-align: start;
 }
 
@@ -78,15 +61,8 @@
 .artist {
   float: left;
   align-items: center;
-  margin: auto;
   display: flex;
   flex-direction: column;
-  margin-left: 3em;
-  margin-right: 3em;
-  margin-bottom: 4em;
-  margin-top: 3em;
-  width: 18em;
-  height: 24em;
 }
 
 .artists {
@@ -96,14 +72,9 @@
 }
 
 .text {
-  padding-top: 1em;
   position: relative;
   float: left;
-  width: 90%;
-  margin-left: 5%;
-  color: #000000;
   text-align: start;
-  font-size: 15px;
 }
 
 #rol {
@@ -120,9 +91,7 @@
 
 .banner {
   background-color: #d8ac34;
-  flex-direction: row;
   color: white;
-  padding: 2em;
 }
 
 .banner a {
@@ -135,9 +104,6 @@
   border-bottom: 3px solid #de1700;
 }
 
-.title {
-  padding-left: 1em;
-}
 .banner#banner2 {
   background-color: #4d7c8a;
   border-bottom-left-radius: 5px;
@@ -160,4 +126,122 @@
 
 .column2 h3 {
   border-bottom: 2px solid white;
+}
+
+@media only screen and (min-width: 768px) {
+  .news {
+    margin-top: 5%;
+    width: 23%;
+  }
+
+  .new::after {
+    margin: 5%;
+  }
+
+  .content {
+    margin: 2%;
+    width: 70%;
+  }
+
+  #miniature {
+    width: 3em;
+    height: 3em;
+    margin-left: 10%;
+    margin-top: 3%;
+  }
+
+  #confirmation {
+    width: 14em;
+    height: 16em;
+    margin-top: 3%;
+  }
+
+  #description {
+    width: 60%;
+    margin-left: 5%;
+    font-size: 12px;
+  }
+
+  .artist {
+    margin-left: 3em;
+    margin-right: 3em;
+    margin-bottom: 4em;
+    margin-top: 3em;
+    width: 18em;
+    height: 24em;
+  }
+
+  .text {
+    padding-top: 1em;
+    width: 90%;
+    margin-left: 5%;
+    font-size: 15px;
+  }
+
+  .banner {
+    padding: 2em;
+  }
+
+  .title {
+    padding-left: 1em;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .news {
+    margin-top: 5%;
+    width: 23%;
+  }
+
+  .new::after {
+    margin: 5%;
+  }
+
+  .content {
+    margin: 2%;
+    width: 70%;
+  }
+
+  #miniature {
+    width: 3em;
+    height: 3em;
+    margin-left: 10%;
+    margin-top: 3%;
+  }
+
+  #confirmation {
+    width: 14em;
+    height: 16em;
+    margin-top: 3%;
+  }
+
+  #description {
+    width: 60%;
+    margin-left: 5%;
+    font-size: 12px;
+  }
+
+  .artist {
+    margin-left: 3em;
+    margin-right: 3em;
+    margin-bottom: 4em;
+    margin-top: 3em;
+    width: 18em;
+    height: 24em;
+  }
+
+  .text {
+    padding-top: 1em;
+    width: 90%;
+    margin-left: 5%;
+    font-size: 15px;
+  }
+
+  .banner {
+    padding: 2em;
+  }
+
+  .title {
+    padding-left: 1em;
+  }
 }
