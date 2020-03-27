@@ -1,3 +1,17 @@
+.main {
+  position: relative;
+  width: 100%;
+  content: "";
+  display: flex;
+  clear: both;
+  /*justify-content: center;*/
+  /*align-items: center;*/
+  /*flex-direction: column;*/
+  padding-top: 0.5%;
+  font-family: "Roboto";
+  background-color: #f1f1f1;
+}
+
 .navbar a:hover,
 .dropdown:hover .dropbtn {
   background-color: #de1800;
