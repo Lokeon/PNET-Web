@@ -1,3 +1,9 @@
+body {
+  margin: 0;
+  padding-top: 3em;
+  font-family: "Roboto";
+}
+
 .navbar a:hover,
 .dropdown:hover .dropbtn {
   background-color: #de1800;
@@ -46,12 +52,17 @@ div.breadcrumb ul li a:hover {
   float: right;
 }
 
-@media only screen and (min-width: 768px) {
-  body {
-    margin: 0;
-    padding-top: 3em;
-  }
+div.breadcrumb ul {
+  position: relative;
+  left: 0%;
+}
 
+div.breadcrumb ul li + li::before {
+  content: "/";
+  padding: 3px;
+}
+
+@media only screen and (min-width: 768px) {
   .navbar {
     background-color: #333;
     height: 100%;
@@ -113,6 +124,7 @@ div.breadcrumb ul li a:hover {
     top: 0;
     width: 100%;
     z-index: 1;
+    font-family: "Roboto";
   }
 
   .header .logo {
@@ -231,16 +243,6 @@ div.breadcrumb ul li a:hover {
     height: 10%;
     background-color: #4d7c8a;
     color: #ffffff;
-  }
-
-  div.breadcrumb ul {
-    position: relative;
-    left: 0%;
-  }
-
-  div.breadcrumb ul li + li::before {
-    content: "/";
-    padding: 3px;
   }
 
   #myBtn {
@@ -261,11 +263,6 @@ div.breadcrumb ul li a:hover {
 }
 
 @media only screen and (min-width: 992px) {
-  body {
-    margin: 0;
-    padding-top: 3em;
-  }
-
   .navbar {
     background-color: #333;
     height: 100%;
@@ -445,16 +442,6 @@ div.breadcrumb ul li a:hover {
     height: 10%;
     background-color: #4d7c8a;
     color: #ffffff;
-  }
-
-  div.breadcrumb ul {
-    position: relative;
-    left: 0%;
-  }
-
-  div.breadcrumb ul li + li::before {
-    content: "/";
-    padding: 3px;
   }
 
   #myBtn {
