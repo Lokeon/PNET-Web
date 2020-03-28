@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Font Roboto -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto"
+      rel="stylesheet"
+    />
+    <!-- CSS Main Layout-->
+    <link rel="stylesheet" href="./css/layout3.css" />
+    <!-- CSS Index-->
+    <link rel="stylesheet" href="./css/index.css" />
+    <title>MANGUCA</title>
+  </head>
+  <body>
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+
+    <header>
+      <div class="header">
+        <div class="logo">
+          <a href="index.html"
+            ><img src="./images/plantilla/logo.png" alt="logo"
+          /></a>
+        </div>
+        <div class="navbar">
+          <ul id="nav-lists">
+            <li class="close"><span onclick="Hide()">×</span></li>
+            <li><a href="./informacion/informacion.html">Información</a></li>
+            <li><a href="./horarios/horarios.html">Horarios</a></li>
+            <li><a href="./localizacion/localizacion.html">Localización</a></li>
+            <li><a href="./entradas/inscripcion.html'">Entradas</a></li>
+          </ul>
+
+          <div class="dropdown">
+            <button class="dropbtn">
+              Información &#9660;
+            </button>
+            <div class="dropdown-content">
+              <a href="./informacion/invitados.html">Invitados</a>
+              <a href="./informacion/actividades.html">Actividades</a>
+              <a href="./informacion/concursos.html">Concursos</a>
+            </div>
+          </div>
+          <div class="dropdown">
+            <button
+              class="dropbtn"
+              onclick="location.href='./horarios/horarios.html'"
+            >
+              Horarios
+            </button>
+          </div>
+          <div class="dropdown">
+            <button
+              class="dropbtn"
+              onclick="location.href='./localizacion/localizacion.html'"
+            >
+              Localización
+            </button>
+          </div>
+          <div class="dropdown">
+            <button
+              class="dropbtn"
+              onclick="location.href='./entradas/inscripcion.html'"
+            >
+              Entradas
+            </button>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <div>
+        <img id="banner" src="./images/index/banner2.jpg" alt="logo" />
+      </div>
+      <div class="main">
+        <div class="content">
+          <div class="section">
+            <!--confirmaciones-->
+            <div class="title">
+              <!--texto-->
+              <h1>Últimas confirmaciones</h1>
+            </div>
+            <div class="artists">
+              <div class="artist">
+                <a href="./informacion/invitados/overwatchvoices.html"
+                  ><img id="confirmation" src="./images/artistas/artist11.jpg"
+                /></a>
+                <div class="text">
+                  <div id="rol">
+                    <p>Actor</p>
+                  </div>
+                  <div id="titles">
+                    Voces de Overwatch
+                  </div>
+                </div>
+              </div>
+
+              <div class="artist">
+                <a href="./informacion/invitados/poltattoo.html">
+                  <img
+                    id="confirmation"
+                    src="./images/artistas/artist12.jfif"
+                  />
+                </a>
+                <div class="text">
+                  <div id="rol">
+                    <p>Arte</p>
+                  </div>
+                  <div id="titles">
+                    Pol Tattoo
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="banner">
+            <a href="./entradas/inscripcion.html"
+              ><h1>¡Consigue ya tu entrada!</h1></a
+            >
+          </div>
+          <div class="section">
+            <div class="title">
+              <!--texto-->
+              <h1>Concursos</h1>
+            </div>
+            <div class="artists">
+              <div class="artist">
+                <a href="./informacion/invitados/overwatchvoices.html"
+                  ><img id="confirmation" src="./images/concursos/concurso1.jpg"
+                /></a>
+                <div class="text">
+                  <div id="rol">
+                    <p>Actor</p>
+                  </div>
+                  <div id="titles">
+                    Asian Cover Dance
+                  </div>
+                </div>
+              </div>
+
+              <div class="artist">
+                <a href="./informacion/invitados/poltattoo.html">
+                  <img
+                    id="confirmation"
+                    src="./images/concursos/concurso2.jpg"
+                  />
+                </a>
+                <div class="text">
+                  <div id="rol">
+                    <p>Arte</p>
+                  </div>
+                  <div id="titles">
+                    Pop Culture Hiroshima
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="banner" id="banner2">
+            <div>
+              <h1>
+                Estamos en:
+              </h1>
+            </div>
+            <div class="column2">
+              <h3>Complejo Deportivo</h3>
+              <span> Universidad de Cádiz </span><br />
+              <span>
+                Av Argentina, 10
+              </span>
+              <span>
+                11519 Puerto Real, Cádiz
+              </span>
+            </div>
+          </div>
+        </div>
+
+        <aside class="news">
+          <div class="new">
+            <a href="./informacion/noticias/noticia1.html"
+              ><img id="miniature" src="./images/noticias/noticia1.jpg"
+            /></a>
+            <div id="description">
+              <p>Falleció Hiroshi Masuoka, la voz del Maestro Roshi</p>
+            </div>
+          </div>
+          <div class="new">
+            <a href="./informacion/noticias/noticia2.html"
+              ><img id="miniature" src="./images/noticias/noticia2.jpg"
+            /></a>
+            <div id="description">
+              <p>BTS aplaza su gira por España</p>
+            </div>
+          </div>
+          <div class="new">
+            <a href="./informacion/noticias/noticia3.html"
+              ><img id="miniature" src="./images/noticias/noticia3.jpg"
+            /></a>
+            <div id="description">
+              <p>Nuevo juego de Magic: RPG Magic Legends</p>
+            </div>
+          </div>
+        </aside>
+      </div>
+    </main>
+    <footer>
+      <div class="footer">
+        <div class="about">
+          <div class="colabout">
+            <div>
+              <a
+                href="mailto:ucamanguca@gmail.com?Subject=Atención%20al%20cliente"
+                >Contactar por correo</a
+              >
+            </div>
+
+            <div>
+              <a href="./informacion/bases/voluntariado.html">Voluntariado</a>
+            </div>
+          </div>
+          <div class="colabout">
+            <div>
+              <a href="./informacion/bases/torneos.html">Bases de Torneos</a>
+            </div>
+            <div>
+              <a href="./informacion/bases/concursos.html"
+                >Bases de Concursos</a
+              >
+            </div>
+            <div>
+              <a href="./informacion/bases/politica.html"
+                >Política de privacidad</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="contacto">
+          <div class="contactos">
+            <img id="iconos" src="images/iconos/rss.png" alt="RSS" />
+            <img id="iconos" src="images/iconos/twitter.png" alt="Twitter" />
+            <img id="iconos" src="images/iconos/facebook.png" alt="Facebook" />
+            <img id="iconos" src="images/iconos/insta.png" alt="Instagram" />
+          </div>
+          <p id="copyright">Manguca &#169; Todos los derechos reservados</p>
+        </div>
+      </div>
+    </footer>
+    <script src="./js/scroll.js"></script>
+    <script src="./js/sidebar.js"></script>
+  </body>
+</html>
