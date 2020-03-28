@@ -112,7 +112,7 @@ div.breadcrumb ul li a:hover {
   }
 
   .header {
-    height: 60px;
+    height: 10%;
     background-color: #333333;
     display: flex;
     flex-wrap: wrap;
@@ -331,7 +331,7 @@ div.breadcrumb ul li a:hover {
   }
 
   .header {
-    height: 5%;
+    height: 10%;
     background-color: #333333;
     display: flex;
     flex-wrap: wrap;
