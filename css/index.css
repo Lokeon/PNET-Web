@@ -122,6 +122,8 @@
 
 @media only screen and (min-width: 768px) {
   .artists {
+    margin-top: 3em;
+    margin-bottom: 3em;
     flex-direction: row;
   }
   .news {
@@ -185,6 +187,7 @@
   .artists {
     flex-direction: column;
     margin-top: 3em;
+    margin-bottom: 3m;
     /**/
   }
   .news {
@@ -222,7 +225,6 @@
   .artist {
     /*margin-left: 3em;
     margin-right: 3em;*/
-    margin-bottom: 3em;
     width: 18em;
     height: 24em;
   }
