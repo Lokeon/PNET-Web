@@ -13,6 +13,6 @@ function showPanel(panelIndex, colorCode) {
   tabPanels.forEach(function(node) {
     node.style.display = "none";
   });
-  tabPanels[panelIndex].style.display = "block";
+  tabPanels[panelIndex].style.display = "flex";
 }
 showPanel(0, "#D8AC34");

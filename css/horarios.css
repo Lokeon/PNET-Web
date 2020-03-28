@@ -18,6 +18,8 @@
     min-height: 100vh;
     padding: 4rem 0;
     background-color: white;
+    width: 90%;
+    border-radius: 20px;
   }
 
   table {
@@ -80,13 +82,13 @@
 
   .tabContainer .tabPanel {
     height: 85%;
-    background-color: white;
     color: white;
     text-align: center;
     padding-top: 105px;
     box-sizing: border-box;
     font-size: 22px;
-    display: block;
+    padding-bottom: 4em;
+    justify-content: center;
   }
 }
 
@@ -110,6 +112,8 @@
     min-height: 100vh;
     padding: 4rem 0;
     background-color: white;
+    width: 90%;
+    border-radius: 20px;
   }
 
   table {
@@ -173,7 +177,7 @@
     padding-top: 105px;
     box-sizing: border-box;
     font-size: 22px;
-    display: block;
+    justify-content: center;
   }
 }
 
