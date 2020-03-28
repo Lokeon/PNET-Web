@@ -116,7 +116,7 @@
 
   table {
     width: 100%;
-    max-width: fit-content;
+    max-width: 10em;
   }
   table tr:nth-child(even) th {
     color: #ccc;
