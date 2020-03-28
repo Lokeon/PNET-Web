@@ -1,17 +1,3 @@
-.main {
-  position: relative;
-  width: 100%;
-  content: "";
-  display: flex;
-  clear: both;
-  /*justify-content: center;*/
-  /*align-items: center;*/
-  /*flex-direction: column;*/
-  padding-top: 0.5%;
-  font-family: "Roboto";
-  background-color: #f1f1f1;
-}
-
 .navbar a:hover,
 .dropdown:hover .dropbtn {
   background-color: #de1800;
@@ -50,17 +36,26 @@ div.breadcrumb ul li a:hover {
   background-color: #555;
 }
 
-.dropdown {
-  float: left;
-  height: 100%;
-}
-
 .rrss {
   position: relative;
   float: right;
 }
 
 @media only screen and (min-width: 768px) {
+  .main {
+    position: relative;
+    width: 100%;
+    content: "";
+    display: flex;
+    clear: both;
+    /*justify-content: center;*/
+    /*align-items: center;*/
+    /*flex-direction: column;*/
+    padding-top: 0.5%;
+    font-family: "Roboto";
+    background-color: #f1f1f1;
+  }
+
   .navbar {
     background-color: #333;
     height: 100%;
@@ -109,6 +104,11 @@ div.breadcrumb ul li a:hover {
     display: block;
     text-align: left;
     font-family: "Roboto";
+  }
+
+  .dropdown {
+    float: left;
+    height: 100%;
   }
 
   .header {
@@ -261,6 +261,20 @@ div.breadcrumb ul li a:hover {
 }
 
 @media only screen and (max-width: 767px) {
+  .main {
+    position: relative;
+    width: 100%;
+    content: "";
+    display: flex;
+    clear: both;
+    /*justify-content: center;*/
+    /*align-items: center;*/
+    /*flex-direction: column;*/
+    padding-top: 0.5%;
+    font-family: "Roboto";
+    background-color: #f1f1f1;
+  }
+
   .navbar {
     background-color: #333;
     height: 100%;
@@ -271,6 +285,11 @@ div.breadcrumb ul li a:hover {
     justify-content: center;
   }
 
+  .dropdown {
+    float: left;
+    height: 100%;
+  }
+  
   .navbar a {
     float: left;
     font-size: 16px;
