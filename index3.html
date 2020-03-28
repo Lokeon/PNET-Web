@@ -1,28 +1,26 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- Font Roboto -->
+    <!-- Fuente Roboto -->
     <link
       href="https://fonts.googleapis.com/css?family=Roboto"
       rel="stylesheet"
     />
-    <!-- CSS Main Layout-->
     <link rel="stylesheet" href="./css/layout3.css" />
-    <!-- CSS Index-->
     <link rel="stylesheet" href="./css/index.css" />
+
     <title>MANGUCA</title>
   </head>
+
   <body>
     <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
 
     <header>
-      <div class="header">
+      <div class="container">
         <div class="logo">
-          <a href="index.html"
-            ><img src="./images/plantilla/logo.png" alt="logo"
-          /></a>
+          <a href="#"><img src="./images/plantilla/logo.png" alt="logo"/></a>
         </div>
         <div class="navbar">
           <div class="icon-bar" onclick="Show()">
@@ -33,50 +31,26 @@
 
           <ul id="nav-lists">
             <li class="close"><span onclick="Hide()">×</span></li>
-            <li><a href="./informacion/informacion.html">Información</a></li>
+            <li>
+              <div class="dropdown">
+                <button class="dropbtn">
+                  Información &#9660;
+                </button>
+                <div class="dropdown-content">
+                  <a id="font" href="./informacion/invitados.html">Invitados</a>
+                  <a href="./informacion/actividades.html">Actividades</a>
+                  <a href="./informacion/concursos.html">Concursos</a>
+                </div>
+              </div>
+            </li>
+
             <li><a href="./horarios/horarios.html">Horarios</a></li>
             <li><a href="./localizacion/localizacion.html">Localización</a></li>
             <li><a href="./entradas/inscripcion.html'">Entradas</a></li>
           </ul>
-
-          <div class="dropdown">
-            <button class="dropbtn">
-              Información &#9660;
-            </button>
-            <div class="dropdown-content">
-              <a href="./informacion/invitados.html">Invitados</a>
-              <a href="./informacion/actividades.html">Actividades</a>
-              <a href="./informacion/concursos.html">Concursos</a>
-            </div>
-          </div>
-          <div class="dropdown">
-            <button
-              class="dropbtn"
-              onclick="location.href='./horarios/horarios.html'"
-            >
-              Horarios
-            </button>
-          </div>
-          <div class="dropdown">
-            <button
-              class="dropbtn"
-              onclick="location.href='./localizacion/localizacion.html'"
-            >
-              Localización
-            </button>
-          </div>
-          <div class="dropdown">
-            <button
-              class="dropbtn"
-              onclick="location.href='./entradas/inscripcion.html'"
-            >
-              Entradas
-            </button>
-          </div>
         </div>
       </div>
     </header>
-
     <main>
       <div>
         <img id="banner" src="./images/index/banner2.jpg" alt="logo" />
@@ -213,6 +187,7 @@
         </aside>
       </div>
     </main>
+
     <footer>
       <div class="footer">
         <div class="about">
