@@ -1,52 +1,109 @@
-.main {
-  position: relative;
-  width: 100%;
-  content: "";
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  padding-top: 0.5%;
+@media only screen and (min-width: 768px) {
+  .main {
+    position: relative;
+    width: 100%;
+    content: "";
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 0.5%;
+  }
+
+  .col {
+    position: relative;
+    margin: 2em;
+    font-family: "Roboto";
+  }
+
+  input[type="text"],
+  input[type="date"],
+  select {
+    width: 100%;
+    padding: 5%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+  }
+
+  input[type="submit"] {
+    background-color: black;
+    color: white;
+    padding: 5%;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  input[type="submit"]:hover {
+    background-color: #0b0b0c;
+  }
+
+  label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+  }
+
+  .error {
+    position: absolute;
+    left: 20px;
+    top: 0px;
+    background-color: red;
+    padding: 0 20px;
+  }
 }
 
-.col {
-  position: relative;
-  margin: 2em;
-  font-family: "Roboto";
-}
+@media only screen and (max-width: 767px) {
+  .main {
+    position: relative;
+    width: 100%;
+    content: "";
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 0.5%;
+  }
 
-input[type="text"],
-input[type="date"],
-select {
-  width: 100%;
-  padding: 5%;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  resize: vertical;
-}
+  .col {
+    position: relative;
+    margin: 2em;
+    font-family: "Roboto";
+  }
 
-input[type="submit"] {
-  background-color: black;
-  color: white;
-  padding: 5%;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-}
+  input[type="text"],
+  input[type="date"],
+  select {
+    width: 100%;
+    padding: 5%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+  }
 
-input[type="submit"]:hover {
-  background-color: #0b0b0c;
-}
+  input[type="submit"] {
+    background-color: black;
+    color: white;
+    padding: 5%;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
 
-label {
-  padding: 12px 12px 12px 0;
-  display: inline-block;
-}
+  input[type="submit"]:hover {
+    background-color: #0b0b0c;
+  }
 
-.error {
-  position: absolute;
-  left: 20px;
-  top: 0px;
-  background-color: red;
-  padding: 0 20px;
+  label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+  }
+
+  .error {
+    position: absolute;
+    left: 20px;
+    top: 0px;
+    background-color: red;
+    padding: 0 20px;
+  }
 }
