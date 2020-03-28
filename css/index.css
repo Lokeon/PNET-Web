@@ -161,7 +161,6 @@
     /*margin-left: 3em;
     margin-right: 3em;*/
     margin-bottom: 4em;
-    margin-top: 3em;
     width: 18em;
     height: 24em;
   }
@@ -185,6 +184,8 @@
 @media only screen and (max-width: 767px) {
   .artists {
     flex-direction: column;
+    margin-bottom: 3em;
+    /**/
   }
   .news {
     margin-top: 5%;
@@ -221,7 +222,6 @@
   .artist {
     /*margin-left: 3em;
     margin-right: 3em;*/
-    margin-top: 3em;
     width: 18em;
     height: 24em;
   }
