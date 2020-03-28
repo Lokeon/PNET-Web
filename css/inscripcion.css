@@ -75,7 +75,6 @@
   input[type="date"],
   select {
     width: 100%;
-    padding: 5%;
     border: 1px solid #ccc;
     border-radius: 4px;
     resize: vertical;
