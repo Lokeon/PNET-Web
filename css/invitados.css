@@ -11,123 +11,7 @@
   font-family: "Roboto";
 }
 
-.artist {
-  float: left;
-  align-items: center;
-  margin: auto;
-  display: flex;
-  flex-direction: column;
-  margin-left: 3em;
-  margin-right: 3em;
-  margin-bottom: 4em;
-  margin-top: 3em;
-  width: 18em;
-  height: 24em;
-}
-
-.artists {
-  position: relative;
-  margin: 2%;
-  float: left;
-  width: auto;
-  justify-content: center;
-  display: grid;
-}
-
-#miniature:hover {
-  height: 21em;
-  width: 19em;
-}
-
-#miniature {
-  float: left;
-  width: 18em;
-  height: 20em;
-  margin-top: 3%;
-  box-shadow: 3px 4px 4px rgba(0, 0, 0, 0.25);
-  border-radius: 5px;
-}
-
-.text {
-  padding-top: 1em;
-  position: relative;
-  float: left;
-  width: 90%;
-  margin-left: 5%;
-  color: #000000;
-  text-align: start;
-  font-size: 15px;
-}
-
-#description {
-  line-height: 17px;
-}
-
-#rol {
-  line-height: 2px;
-  font-weight: lighter;
-  color: #de1700;
-}
-
-#information {
-  position: relative;
-  /*margin: 5%;*/
-  text-align: justify;
-  font-size: 16px;
-  font-weight: 400;
-  display: flex;
-  justify-content: center;
-  margin-left: 200px;
-  /*padding: 1px 16px;*/
-  flex-direction: column;
-  background-color: white;
-}
-
-.picture {
-  /*width: 20%;*/
-  margin-top: 4em;
-}
-
-.picture img {
-  border-radius: 50%;
-  width: 6em;
-  margin-right: 2em;
-}
-
-article {
-  width: 80%;
-  margin-bottom: 5em;
-}
-
-.iframe {
-  align-self: center;
-  display: flex;
-  justify-content: center;
-  width: 100%;
-  padding-top: 2em;
-  padding-bottom: 2em;
-}
-
-#picture-article {
-  width: 700px;
-}
-
-/* sidebar */
-
-.sidebar {
-  margin: 0;
-  padding: 0;
-  width: 200px;
-  position: fixed;
-  height: 100%;
-  overflow: auto;
-  align-self: flex-start;
-  /*border-right: 2px solid #de1700;*/
-  background-color: #f1f1f1;
-}
-
 .sidebar a {
-  display: block;
   color: black;
   padding: 16px;
   text-decoration: none;
@@ -142,12 +26,131 @@ article {
   background-color: #555;
   color: white;
 }
+/*resto*/
+@media only screen and (min-width: 768px) {
+  .artist {
+    float: left;
+    align-items: center;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    margin-left: 3em;
+    margin-right: 3em;
+    margin-bottom: 4em;
+    margin-top: 3em;
+    width: 18em;
+    height: 24em;
+  }
 
-div.content {
-  width: 100%;
-}
+  .artists {
+    position: relative;
+    margin: 2%;
+    float: left;
+    width: auto;
+    justify-content: center;
+    display: grid;
+  }
 
-@media screen and (max-width: 700px) {
+  #miniature:hover {
+    height: 21em;
+    width: 19em;
+  }
+
+  #miniature {
+    float: left;
+    width: 18em;
+    height: 20em;
+    margin-top: 3%;
+    box-shadow: 3px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+  }
+
+  .text {
+    padding-top: 1em;
+    position: relative;
+    float: left;
+    width: 90%;
+    margin-left: 5%;
+    color: #000000;
+    text-align: start;
+    font-size: 15px;
+  }
+
+  #description {
+    line-height: 17px;
+  }
+
+  #rol {
+    line-height: 2px;
+    font-weight: lighter;
+    color: #de1700;
+  }
+
+  #information {
+    position: relative;
+    /*margin: 5%;*/
+    text-align: justify;
+    font-size: 16px;
+    font-weight: 400;
+    display: flex;
+    justify-content: center;
+    margin-left: 200px;
+    /*padding: 1px 16px;*/
+    flex-direction: column;
+    background-color: white;
+  }
+
+  .picture {
+    /*width: 20%;*/
+    margin-top: 4em;
+  }
+
+  .picture img {
+    border-radius: 50%;
+    width: 6em;
+    margin-right: 2em;
+  }
+
+  article {
+    width: 80%;
+    margin-bottom: 5em;
+  }
+
+  .iframe {
+    align-self: center;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding-top: 2em;
+    padding-bottom: 2em;
+  }
+
+  #picture-article {
+    width: 700px;
+  }
+
+  /* sidebar */
+
+  .sidebar {
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+    align-self: flex-start;
+    /*border-right: 2px solid #de1700;*/
+    background-color: #f1f1f1;
+  }
+
+  .sidebar a {
+    display: block;
+  }
+
+  div.content {
+    width: 100%;
+  }
+  /*esto estaba antes y no se si sobra
   .sidebar {
     width: 100%;
     height: auto;
@@ -159,50 +162,210 @@ div.content {
   div.content {
     margin-left: 0;
   }
+*/
+
+  .table-body {
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    flex-direction: column;
+    min-height: 100vh;
+    padding: 4rem 0;
+    font-family: -system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+  }
+
+  table {
+    margin-top: 3em;
+    margin-bottom: 3em;
+
+    width: 100%;
+    max-width: 60em;
+    background-color: #f1f1f1;
+  }
+
+  table th,
+  table td {
+    padding: 0.5rem 1rem;
+  }
+  table th {
+    font-weight: normal;
+    background-color: #333333;
+    color: white;
+  }
+  table td {
+    border-bottom: 2px solid #de1700;
+  }
 }
 
-@media screen and (max-width: 400px) {
+/*movil*/
+@media only screen and (max-width: 767px) {
   .sidebar a {
     text-align: center;
     float: none;
+    display: block ruby;
+  }
+  .sidebar {
+    width: 100%;
+    overflow: auto;
+    background-color: #f1f1f1;
+    display: flex;
+  }
+
+  #information {
+    position: relative;
+    text-align: justify;
+    font-size: 16px;
+    font-weight: 400;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: white;
+  }
+
+  .artist {
+    float: left;
+    align-items: center;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    margin-left: 3em;
+    margin-right: 3em;
+    margin-bottom: 4em;
+    margin-top: 3em;
+    width: 18em;
+    height: 24em;
+  }
+
+  .artists {
+    position: relative;
+    margin: 2%;
+    float: left;
+    width: auto;
+    justify-content: center;
+    display: grid;
+  }
+
+  #miniature:hover {
+    height: 21em;
+    width: 19em;
+  }
+
+  #miniature {
+    float: left;
+    width: 18em;
+    height: 20em;
+    margin-top: 3%;
+    box-shadow: 3px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+  }
+
+  .text {
+    padding-top: 1em;
+    position: relative;
+    float: left;
+    width: 90%;
+    margin-left: 5%;
+    color: #000000;
+    text-align: start;
+    font-size: 15px;
+  }
+
+  #description {
+    line-height: 17px;
+  }
+
+  #rol {
+    line-height: 2px;
+    font-weight: lighter;
+    color: #de1700;
+  }
+
+  .picture {
+    /*width: 20%;*/
+    margin-top: 4em;
+  }
+
+  .picture img {
+    border-radius: 50%;
+    width: 6em;
+    margin-right: 2em;
+  }
+
+  article {
+    width: 80%;
+    margin-bottom: 5em;
+  }
+
+  .iframe {
+    align-self: center;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding-top: 2em;
+    padding-bottom: 2em;
+  }
+
+  #picture-article {
+    width: 700px;
+  }
+
+  /* sidebar */
+
+  .sidebar a.active {
+    background-color: #d1b721;
+    color: white;
+  }
+
+  .sidebar a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+  }
+
+  div.content {
+    width: 100%;
+  }
+
+  .table-body {
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    flex-direction: column;
+    min-height: 100vh;
+    padding: 4rem 0;
+    font-family: -system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+  }
+
+  table {
+    margin-top: 3em;
+    margin-bottom: 3em;
+
+    width: 100%;
+    max-width: 60em;
+    background-color: #f1f1f1;
+  }
+
+  table th,
+  table td {
+    padding: 0.5rem 1rem;
+  }
+  table th {
+    font-weight: normal;
+    background-color: #333333;
+    color: white;
+  }
+  table td {
+    border-bottom: 2px solid #de1700;
   }
 }
 
 /*TABLE*/
-
-.table-body {
-  display: -webkit-box;
-  display: flex;
-  -webkit-box-align: center;
-  align-items: center;
-  -webkit-box-pack: center;
-  justify-content: center;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  flex-direction: column;
-  min-height: 100vh;
-  padding: 4rem 0;
-  font-family: -system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
-}
-
-table {
-  margin-top: 3em;
-  margin-bottom: 3em;
-
-  width: 100%;
-  max-width: 60em;
-  background-color: #f1f1f1;
-}
-
-table th,
-table td {
-  padding: 0.5rem 1rem;
-}
-table th {
-  font-weight: normal;
-  background-color: #333333;
-  color: white;
-}
-table td {
-  border-bottom: 2px solid #de1700;
-}
