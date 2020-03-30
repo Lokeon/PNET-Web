@@ -31,6 +31,24 @@ div.content {
   background-color: #555;
   color: white;
 }
+
+.information-box {
+  position: relative;
+  text-align: justify;
+  display: flex;
+  justify-content: center;
+  margin-left: 200px;
+  flex-direction: column;
+  background-color: white;
+}
+
+.information {
+  display: flex;
+  justify-content: center;
+  width: 80%;
+  align-self: center;
+}
+
 /*resto*/
 @media only screen and (min-width: 768px) {
   .artist {
@@ -91,25 +109,6 @@ div.content {
     color: #de1700;
   }
 
-  #information {
-    position: relative;
-    /*margin: 5%;*/
-    text-align: justify;
-    font-size: 16px;
-    font-weight: 400;
-    display: flex;
-    justify-content: center;
-    margin-left: 200px;
-    /*padding: 1px 16px;*/
-    flex-direction: column;
-    background-color: white;
-  }
-
-  .picture {
-    /*width: 20%;*/
-    margin-top: 4em;
-  }
-
   .picture img {
     border-radius: 50%;
     width: 6em;
@@ -119,6 +118,7 @@ div.content {
   article {
     width: 80%;
     margin-bottom: 5em;
+    align-self: center;
   }
 
   .iframe {
@@ -216,17 +216,6 @@ div.content {
     display: flex;
   }
 
-  #information {
-    position: relative;
-    text-align: justify;
-    font-size: 16px;
-    font-weight: 400;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    background-color: white;
-  }
-
   .artist {
     float: left;
     align-items: center;
@@ -283,11 +272,6 @@ div.content {
     line-height: 2px;
     font-weight: lighter;
     color: #de1700;
-  }
-
-  .picture {
-    /*width: 20%;*/
-    margin-top: 4em;
   }
 
   .picture img {
