@@ -62,7 +62,7 @@ div.content {
     flex-direction: column;
     margin-left: 3em;
     margin-right: 3em;
-    margin-bottom: 4em;
+    margin-bottom: 5em;
     margin-top: 3em;
     width: 18em;
     height: 24em;
@@ -70,7 +70,7 @@ div.content {
 
   .artists {
     position: relative;
-    margin: 2%;
+    margin: 4%;
     float: left;
     width: auto;
     justify-content: center;
@@ -227,7 +227,7 @@ div.content {
     flex-direction: column;
     margin-left: 3em;
     margin-right: 3em;
-    margin-bottom: 4em;
+    margin-bottom: 5em;
     margin-top: 3em;
     width: 18em;
     height: 24em;
@@ -235,7 +235,7 @@ div.content {
 
   .artists {
     position: relative;
-    margin: 2%;
+    margin: 4%;
     float: left;
     width: auto;
     justify-content: center;
