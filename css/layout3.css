@@ -73,7 +73,6 @@ div.breadcrumb ul li a:hover {
 .container .logo {
   max-width: 250px;
   padding: 0 10px;
-  overflow: hidden;
 }
 
 .container .logo a {
@@ -302,6 +301,8 @@ div.breadcrumb ul li a:hover {
     background-color: #4d7c8a;
     color: #ffffff;
   }
+
+  
 
   #myBtn {
     display: none;
