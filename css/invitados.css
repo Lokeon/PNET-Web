@@ -134,6 +134,12 @@ div.content {
     padding-bottom: 2em;
   }
 
+  iframe {
+    width: 560px;
+    height: 315px;
+    border: 0;
+  }
+
   #picture-article {
     width: 500px;
   }
@@ -290,6 +296,12 @@ div.content {
     width: 100%;
     padding-top: 2em;
     padding-bottom: 2em;
+  }
+
+  iframe {
+    width: 560px;
+    height: 315px;
+    border: 0;
   }
 
   #picture-article {
