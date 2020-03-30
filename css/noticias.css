@@ -18,6 +18,23 @@
     padding-top: 0.5%;
     font-family: "Roboto";
   }
+
+  .text {
+    position: relative;
+    margin-top: 5%;
+  }
+
+  .titleBox {
+    width: 100%;
+    float: left;
+    background-image: url("../../images/fondos/header.png");
+    height: 16em;
+    padding-top: 6.5em;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-x: 10em;
+    background-color: white;
+  }
 }
 
 @media only screen and (max-width: 767px) {
@@ -39,5 +56,19 @@
     flex-direction: column;
     padding-top: 0.5%;
     font-family: "Roboto";
+  }
+
+  .text{
+    margin-top: 5%;
+  }
+
+  .titleBox {
+    width: 100%;
+    float: left;
+    background-image: url("../../images/fondos/header.png");
+    height: 9em;
+    padding-top: 3.5em;
+    background-size: cover;
+    background-repeat: no-repeat;
   }
 }
