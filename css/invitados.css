@@ -260,7 +260,7 @@ div.content {
     padding-top: 1em;
     position: relative;
     float: left;
-    width: 90%;
+    width: 100%;
     margin-left: 5%;
     color: #000000;
     text-align: start;
@@ -351,5 +351,3 @@ div.content {
     border-bottom: 2px solid #de1700;
   }
 }
-
-/*TABLE*/
