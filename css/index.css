@@ -16,7 +16,6 @@
 .content {
   position: relative;
   float: left;
-  font-family: "Roboto";
   background-color: white;
   border-radius: 5px;
 }
@@ -38,7 +37,6 @@
 #description {
   position: relative;
   float: left;
-  font-family: "Roboto";
   line-height: 17px;
   text-align: start;
 }
@@ -160,8 +158,8 @@
   }
 
   .artist {
-    /*margin-left: 3em;
-    margin-right: 3em;*/
+    margin-left: 3em;
+    margin-right: 3em;
     width: 18em;
     height: 24em;
   }
@@ -221,8 +219,6 @@
   }
 
   .artist {
-    /*margin-left: 3em;
-    margin-right: 3em;*/
     margin-bottom: 3em;
   }
 
