@@ -136,7 +136,7 @@
     padding: 0;
     width: 200px;
     position: fixed;
-    height: 75%;
+    height: 76%;
     overflow: auto;
     align-self: flex-start;
     /*border-right: 2px solid #de1700;*/
@@ -311,7 +311,7 @@
   }
 
   #picture-article {
-    width: 300px;
+    width: 8em;
   }
 
   /* sidebar */
