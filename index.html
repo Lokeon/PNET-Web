@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -8,9 +8,10 @@
       href="https://fonts.googleapis.com/css?family=Roboto"
       rel="stylesheet"
     />
+    <!-- CSS Main Layout-->
     <link rel="stylesheet" href="./css/layout.css" />
+    <!-- CSS Index-->
     <link rel="stylesheet" href="./css/index.css" />
-
     <title>MANGUCA</title>
   </head>
 
@@ -20,7 +21,9 @@
     <header>
       <div class="container">
         <div class="logo">
-          <a href="#"><img src="./images/plantilla/logo.png" alt="logo"/></a>
+          <a href="./index.html"
+            ><img src="./images/plantilla/logo.png" alt="Logo Manguca"
+          /></a>
         </div>
         <div class="navbar">
           <div class="icon-bar" onclick="Show()">
@@ -66,7 +69,10 @@
             <div class="artists">
               <div class="artist">
                 <a href="./informacion/invitados/overwatchvoices.html"
-                  ><img id="confirmation" src="./images/artistas/artist11.jpg"
+                  ><img
+                    id="confirmation"
+                    src="./images/artistas/artist11.jpg"
+                    alt="Invitados Overwatch"
                 /></a>
                 <div class="text">
                   <div id="rol">
@@ -83,6 +89,7 @@
                   <img
                     id="confirmation"
                     src="./images/artistas/artist12.jfif"
+                    alt="Invitado Pol Tattoo"
                   />
                 </a>
                 <div class="text">
@@ -96,7 +103,6 @@
               </div>
             </div>
           </div>
-
           <div class="banner">
             <a href="./entradas/inscripcion.html"
               ><h1>¡Consigue ya tu entrada!</h1></a
@@ -109,8 +115,11 @@
             </div>
             <div class="artists">
               <div class="artist">
-                <a href="./informacion/invitados/overwatchvoices.html"
-                  ><img id="confirmation" src="./images/concursos/concurso1.jpg"
+                <a href="./informacion/concursos.html"
+                  ><img
+                    id="confirmation"
+                    src="./images/concursos/concurso1.jpg"
+                    alt="Concurso Asian Cover Dance"
                 /></a>
                 <div class="text">
                   <div id="rol">
@@ -123,10 +132,11 @@
               </div>
 
               <div class="artist">
-                <a href="./informacion/invitados/poltattoo.html">
+                <a href="./informacion/concursos.html">
                   <img
                     id="confirmation"
                     src="./images/concursos/concurso2.jpg"
+                    alt="Concurso Pop Culture Hiroshima"
                   />
                 </a>
                 <div class="text">
@@ -158,11 +168,13 @@
             </div>
           </div>
         </div>
-
         <aside class="news">
           <div class="new">
             <a href="./informacion/noticias/noticia1.html"
-              ><img id="miniature" src="./images/noticias/noticia1.jpg"
+              ><img
+                id="miniature"
+                src="./images/noticias/noticia1.jpg"
+                alt="Noticia Hiroshi Masuoka"
             /></a>
             <div id="description">
               <p>Falleció Hiroshi Masuoka, la voz del Maestro Roshi</p>
@@ -170,7 +182,10 @@
           </div>
           <div class="new">
             <a href="./informacion/noticias/noticia2.html"
-              ><img id="miniature" src="./images/noticias/noticia2.jpg"
+              ><img
+                id="miniature"
+                src="./images/noticias/noticia2.jpg"
+                alt="Noticia BTS"
             /></a>
             <div id="description">
               <p>BTS aplaza su gira por España</p>
@@ -178,7 +193,10 @@
           </div>
           <div class="new">
             <a href="./informacion/noticias/noticia3.html"
-              ><img id="miniature" src="./images/noticias/noticia3.jpg"
+              ><img
+                id="miniature"
+                src="./images/noticias/noticia3.jpg"
+                alt="Noticia RPG Magic Legends"
             /></a>
             <div id="description">
               <p>Nuevo juego de Magic: RPG Magic Legends</p>
@@ -187,7 +205,7 @@
         </aside>
       </div>
     </main>
-
+    <!-- FOOTER -->
     <footer>
       <div class="footer">
         <div class="about">
@@ -198,22 +216,21 @@
                 >Contactar por correo</a
               >
             </div>
-
             <div>
-              <a href="./informacion/bases/voluntariado.html">Voluntariado</a>
+              <a href="./informacion/footer/voluntariado.html">Voluntariado</a>
             </div>
           </div>
           <div class="colabout">
             <div>
-              <a href="./informacion/bases/torneos.html">Bases de Torneos</a>
+              <a href="./informacion/footer/torneos.html">Bases de Torneos</a>
             </div>
             <div>
-              <a href="./informacion/bases/concursos.html"
+              <a href="./informacion/footer/concursos.html"
                 >Bases de Concursos</a
               >
             </div>
             <div>
-              <a href="./informacion/bases/politica.html"
+              <a href="./informacion/footer/politica.html"
                 >Política de privacidad</a
               >
             </div>
@@ -221,15 +238,28 @@
         </div>
         <div class="contacto">
           <div class="contactos">
-            <img id="iconos" src="images/iconos/rss.png" alt="RSS" />
-            <img id="iconos" src="images/iconos/twitter.png" alt="Twitter" />
-            <img id="iconos" src="images/iconos/facebook.png" alt="Facebook" />
-            <img id="iconos" src="images/iconos/insta.png" alt="Instagram" />
+            <img id="iconos" src="./images/iconos/rss.png" alt="Icono RSS" />
+            <img
+              id="iconos"
+              src="./images/iconos/twitter.png"
+              alt="Icono Twitter"
+            />
+            <img
+              id="iconos"
+              src="./images/iconos/facebook.png"
+              alt="Icono Facebook"
+            />
+            <img
+              id="iconos"
+              src="./images/iconos/insta.png"
+              alt="Icono Instagram"
+            />
           </div>
           <p id="copyright">Manguca &#169; Todos los derechos reservados</p>
         </div>
       </div>
     </footer>
+    <!-- SCRIPTS -->
     <script src="./js/scroll.js"></script>
     <script src="./js/sidebar.js"></script>
   </body>

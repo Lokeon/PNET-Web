@@ -37,6 +37,11 @@ div.breadcrumb ul li a:hover {
   text-decoration: underline;
 }
 
+div.breadcrumb ul li + li::before {
+  content: "/";
+  padding: 3px;
+}
+
 #myBtn:hover {
   background-color: red;
 }
