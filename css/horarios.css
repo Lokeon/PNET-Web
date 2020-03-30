@@ -112,7 +112,7 @@
     min-height: 100vh;
     padding: 4rem 0;
     background-color: white;
-    width: 90%;
+    width: 95%;
     border-radius: 20px;
   }
 
@@ -124,10 +124,7 @@
     color: #ccc;
     font-weight: normal;
   }
-  table th,
-  table td {
-    padding: 0.5rem 1rem;
-  }
+
   table th {
     font-weight: normal;
     border-top: dotted #333333;
@@ -174,7 +171,6 @@
     background-color: white;
     color: white;
     text-align: center;
-    padding-top: 105px;
     box-sizing: border-box;
     font-size: 22px;
     justify-content: center;
