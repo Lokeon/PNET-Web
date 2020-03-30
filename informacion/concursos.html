@@ -8,59 +8,52 @@
       href="https://fonts.googleapis.com/css?family=Roboto"
       rel="stylesheet"
     />
-    <!-- CSS Main Layout-->
-    <link rel="stylesheet" href="../css/actividades.css" />
+    <!-- CSS Main Layout -->
     <link rel="stylesheet" href="../css/layout.css" />
+    <!-- CSS Actividades -->
+    <link rel="stylesheet" href="../css/actividades.css" />
     <title>MANGUCA</title>
   </head>
   <body>
     <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
-
+    <!-- NAVBAR -->
     <header>
-      <div class="header" id="header">
+      <div class="container">
         <div class="logo">
           <a href="../index.html"
             ><img src="../images/plantilla/logo.png" alt="Logo Manguca"
           /></a>
         </div>
         <div class="navbar">
-          <div class="dropdown">
-            <button class="dropbtn">
-              Información &#9660;
-            </button>
-            <div class="dropdown-content">
-              <a href="./invitados.html">Invitados</a>
-              <a href="./actividades.html">Actividades</a>
-              <a href="./concursos.html">Concursos</a>
-            </div>
+          <div class="icon-bar" onclick="Show()">
+            <i></i>
+            <i></i>
+            <i></i>
           </div>
-          <div class="dropdown">
-            <button
-              class="dropbtn"
-              onclick="location.href='../horarios/horarios.html'"
-            >
-              Horarios
-            </button>
-          </div>
-          <div class="dropdown">
-            <button
-              class="dropbtn"
-              onclick="location.href='../localizacion/localizacion.html'"
-            >
-              Localización
-            </button>
-          </div>
-          <div class="dropdown">
-            <button
-              class="dropbtn"
-              onclick="location.href='../entradas/inscripcion.html'"
-            >
-              Entradas
-            </button>
-          </div>
+          <ul id="nav-lists">
+            <li class="close"><span onclick="Hide()">×</span></li>
+            <li>
+              <div class="dropdown">
+                <button class="dropbtn">
+                  Información &#9660;
+                </button>
+                <div class="dropdown-content">
+                  <a href="./invitados.html">Invitados</a>
+                  <a href="./actividades.html">Actividades</a>
+                  <a href="./concursos.html">Concursos</a>
+                </div>
+              </div>
+            </li>
+            <li><a href="../horarios/horarios.html">Horarios</a></li>
+            <li>
+              <a href="../localizacion/localizacion.html">Localización</a>
+            </li>
+            <li><a href="../entradas/inscripcion.html">Entradas</a></li>
+          </ul>
         </div>
       </div>
     </header>
+    <!-- MAIN -->
     <main>
       <div class="main">
         <div class="breadcrumb">
@@ -129,7 +122,6 @@
             </div>
           </div>
         </div>
-
         <div class="activity" id="actRight">
           <img id="miniatureRight" src="../images/concursos/concurso4.jpg" />
           <div class="text" id="textRight">
@@ -180,14 +172,22 @@
         </div>
         <div class="contacto">
           <div class="contactos">
-            <img id="iconos" src="../images/iconos/rss.png" alt="RSS" />
-            <img id="iconos" src="../images/iconos/twitter.png" alt="Twitter" />
+            <img id="iconos" src="../images/iconos/rss.png" alt="Icono RSS" />
+            <img
+              id="iconos"
+              src="../images/iconos/twitter.png"
+              alt="Icono Twitter"
+            />
             <img
               id="iconos"
               src="../images/iconos/facebook.png"
-              alt="Facebook"
+              alt="Icono Facebook"
             />
-            <img id="iconos" src="../images/iconos/insta.png" alt="Instagram" />
+            <img
+              id="iconos"
+              src="../images/iconos/insta.png"
+              alt="Icono Instagram"
+            />
           </div>
           <p id="copyright">Manguca &#169; Todos los derechos reservados</p>
         </div>
@@ -195,5 +195,6 @@
     </footer>
     <!-- SCRIPTS -->
     <script src="../js/scroll.js"></script>
+    <script src="../js/sidebar.js"></script>
   </body>
 </html>

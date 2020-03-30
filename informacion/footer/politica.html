@@ -16,52 +16,44 @@
   </head>
   <body>
     <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
-
+    <!-- NAVBAR -->
     <header>
-      <div class="header" id="header">
+      <div class="container">
         <div class="logo">
           <a href="../../index.html"
-            ><img src="../../images/plantilla/logo.png" alt="logo"
+            ><img src="../../images/plantilla/logo.png" alt="Logo Manguca"
           /></a>
         </div>
         <div class="navbar">
-          <div class="dropdown">
-            <button class="dropbtn">
-              Información &#9660;
-            </button>
-            <div class="dropdown-content">
-              <a href="../invitados.html">Invitados</a>
-              <a href="../actividades.html">Actividades</a>
-              <a href="../concursos.html">Concursos</a>
-            </div>
+          <div class="icon-bar" onclick="Show()">
+            <i></i>
+            <i></i>
+            <i></i>
           </div>
-          <div class="dropdown">
-            <button
-              class="dropbtn"
-              onclick="location.href='../../horarios/horarios.html'"
-            >
-              Horarios
-            </button>
-          </div>
-          <div class="dropdown">
-            <button
-              class="dropbtn"
-              onclick="location.href='../../localizacion/localizacion.html'"
-            >
-              Localización
-            </button>
-          </div>
-          <div class="dropdown">
-            <button
-              class="dropbtn"
-              onclick="loc"location.href='../entradas/inscripcion.html'"
-            >
-              Entradas
-            </button>
-          </div>
+          <ul id="nav-lists">
+            <li class="close"><span onclick="Hide()">×</span></li>
+            <li>
+              <div class="dropdown">
+                <button class="dropbtn">
+                  Información &#9660;
+                </button>
+                <div class="dropdown-content">
+                  <a href="../informacion/invitados.html">Invitados</a>
+                  <a href="../informacion/actividades.html">Actividades</a>
+                  <a href="../informacion/concursos.html">Concursos</a>
+                </div>
+              </div>
+            </li>
+            <li><a href="../../horarios/horarios.html">Horarios</a></li>
+            <li>
+              <a href="../../localizacion/localizacion.html">Localización</a>
+            </li>
+            <li><a href="../../entradas/inscripcion.html">Entradas</a></li>
+          </ul>
         </div>
       </div>
     </header>
+    <!-- MAIN -->
     <main>
       <div class="main">
         <div class="breadcrumb">
@@ -76,7 +68,7 @@
           </div>
         </div>
         <div class="content">
-          <button class="accordion">1. INFORMACIÓN Y CONSENTIMIENTO.</button>
+          <button class="accordion">1. Información y consentimiento.</button>
           <div class="panel">
             <p>
               Mediante la aceptación de la presente Política de Privacidad, el
@@ -88,7 +80,7 @@
           </div>
 
           <button class="accordion">
-            2. OBLIGATORIEDAD DE FACILITAR LOS DATOS.
+            2. Obligatoriedad de facilitar los datos.
           </button>
           <div class="panel">
             <p>
@@ -110,27 +102,29 @@
           </div>
 
           <button class="accordion">
-            3. ¿QUÉ DATOS DEL USUARIO SE TRATARÁ?
+            3. ¿Qué datos del usuario se tratarán?
           </button>
           <div class="panel">
             <p>
-              MANGUCA S.L. tratará las siguientes categorías de datos del Usuario:
-              <ul>
-                <li> 
-                  Datos identificativos: nombre, apellidos y DNI.
-                </li>
-                <li>
-                  Datos de contacto: dirección postal, dirección de correo electrónico y teléfono.
-                </li>
-                <li>
-                  Datos de facturación.
-                </li>
-              </ul> 
+              MANGUCA S.L. tratará las siguientes categorías de datos del
+              Usuario:
             </p>
+            <ul>
+              <li>
+                Datos identificativos: nombre, apellidos y DNI.
+              </li>
+              <li>
+                Datos de contacto: dirección postal, dirección de correo
+                electrónico y teléfono.
+              </li>
+              <li>
+                Datos de facturación.
+              </li>
+            </ul>
           </div>
           <button class="accordion">
-            4. ¿CUÁL ES LA LEGITIMACIÓN DEL TRATAMIENTO DE LOS DATOS DEL
-            USUARIO?
+            4. ¿Cuál es la legitimación del tratamiento de los datos del
+            usuario?
           </button>
           <div class="panel">
             <p>
@@ -144,7 +138,7 @@
             </p>
           </div>
           <button class="accordion">
-            5. ¿A QUÉ DESTINATARIOS SE COMUNICARÁN LOS DATOS DEL USUARIO?
+            5. ¿A qué destinatarios se comunicarán los datos del usuario?
           </button>
           <div class="panel">
             <p>
@@ -153,7 +147,7 @@
             </p>
           </div>
           <button class="accordion">
-            6. RESPONSABILIDAD DEL USUARIO.
+            6. Responsibilidad del usuario.
           </button>
           <div class="panel">
             <p>
@@ -177,7 +171,7 @@
             </ul>
           </div>
           <button class="accordion">
-            7. COMUNICACIONES COMERCIALES Y PROMOCIONALES.
+            7. Comunicaciones promocionales y comerciales.
           </button>
           <div class="panel">
             <p>
@@ -196,7 +190,7 @@
             </p>
           </div>
           <button class="accordion">
-            8. MEDIDAS DE SEGURIDAD.
+            8. Medidas de seguridad.
           </button>
           <div class="panel">
             <p>
@@ -243,21 +237,25 @@
         </div>
         <div class="contacto">
           <div class="contactos">
-            <img id="iconos" src="../../images/iconos/rss.png" alt="RSS" />
+            <img
+              id="iconos"
+              src="../../images/iconos/rss.png"
+              alt="Icono RSS"
+            />
             <img
               id="iconos"
               src="../../images/iconos/twitter.png"
-              alt="Twitter"
+              alt="Icono Twitter"
             />
             <img
               id="iconos"
               src="../../images/iconos/facebook.png"
-              alt="Facebook"
+              alt="Icono Facebook"
             />
             <img
               id="iconos"
               src="../../images/iconos/insta.png"
-              alt="Instagram"
+              alt="Icono Instagram"
             />
           </div>
           <p id="copyright">Manguca &#169; Todos los derechos reservados</p>
@@ -267,5 +265,6 @@
     <!-- SCRIPTS -->
     <script src="../../js/acordeon.js"></script>
     <script src="../../js/scroll.js"></script>
+    <script src="../../js/sidebar.js"></script>
   </body>
 </html>
