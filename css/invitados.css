@@ -12,7 +12,7 @@
 }
 
 div.content {
-  display: flex;
+  /*display: flex;*/
   width: 100%;
 }
 
@@ -37,12 +37,12 @@ div.content {
   text-align: justify;
   display: flex;
   justify-content: center;
-  margin-left: 200px;
   flex-direction: column;
   background-color: white;
 }
 
 .information {
+  padding-top: 3em;
   display: flex;
   justify-content: center;
   width: 80%;
@@ -51,6 +51,9 @@ div.content {
 
 /*resto*/
 @media only screen and (min-width: 768px) {
+  .information-box {
+    margin-left: 200px;
+  }
   .artist {
     float: left;
     align-items: center;
