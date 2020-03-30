@@ -299,7 +299,7 @@ div.breadcrumb ul li a:hover {
     position: relative;
     left: 0%;
     width: 100%;
-    height: 10%;
+    /*height: 10%;*/
     background-color: #4d7c8a;
     color: #ffffff;
   }
