@@ -1,71 +1,59 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- Font Roboto -->
+    <!-- Fuente Roboto -->
     <link
       href="https://fonts.googleapis.com/css?family=Roboto"
       rel="stylesheet"
     />
-    <!-- CSS Main Layout-->
     <link rel="stylesheet" href="./css/layout.css" />
-    <!-- CSS Index-->
     <link rel="stylesheet" href="./css/index.css" />
+
     <title>MANGUCA</title>
   </head>
+
   <body>
     <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
 
     <header>
-      <div class="header">
+      <div class="container">
         <div class="logo">
-          <a href="index.html"
-            ><img src="./images/plantilla/logo.png" alt="Logo Manguca"
-          /></a>
+          <a href="#"><img src="./images/plantilla/logo.png" alt="logo"/></a>
         </div>
         <div class="navbar">
-          <div class="dropdown">
-            <button class="dropbtn">
-              Información &#9660;
-            </button>
-            <div class="dropdown-content">
-              <a href="./informacion/invitados.html">Invitados</a>
-              <a href="./informacion/actividades.html">Actividades</a>
-              <a href="./informacion/concursos.html">Concursos</a>
-            </div>
+          <div class="icon-bar" onclick="Show()">
+            <i></i>
+            <i></i>
+            <i></i>
           </div>
-          <div class="dropdown">
-            <button
-              class="dropbtn"
-              onclick="location.href='./horarios/horarios.html'"
-            >
-              Horarios
-            </button>
-          </div>
-          <div class="dropdown">
-            <button
-              class="dropbtn"
-              onclick="location.href='./localizacion/localizacion.html'"
-            >
-              Localización
-            </button>
-          </div>
-          <div class="dropdown">
-            <button
-              class="dropbtn"
-              onclick="location.href='./entradas/inscripcion.html'"
-            >
-              Entradas
-            </button>
-          </div>
+
+          <ul id="nav-lists">
+            <li class="close"><span onclick="Hide()">×</span></li>
+            <li>
+              <div class="dropdown">
+                <button class="dropbtn">
+                  Información &#9660;
+                </button>
+                <div class="dropdown-content">
+                  <a id="font" href="./informacion/invitados.html">Invitados</a>
+                  <a href="./informacion/actividades.html">Actividades</a>
+                  <a href="./informacion/concursos.html">Concursos</a>
+                </div>
+              </div>
+            </li>
+
+            <li><a href="./horarios/horarios.html">Horarios</a></li>
+            <li><a href="./localizacion/localizacion.html">Localización</a></li>
+            <li><a href="./entradas/inscripcion.html">Entradas</a></li>
+          </ul>
         </div>
       </div>
     </header>
-
     <main>
       <div>
-        <img id="banner" src="./images/index/banner2.jpg" alt="Logo banner" />
+        <img id="banner" src="./images/index/banner2.jpg" alt="logo" />
       </div>
       <div class="main">
         <div class="content">
@@ -78,10 +66,7 @@
             <div class="artists">
               <div class="artist">
                 <a href="./informacion/invitados/overwatchvoices.html"
-                  ><img
-                    id="confirmation"
-                    src="./images/artistas/artist11.jpg"
-                    alt="Invitados Overwatch"
+                  ><img id="confirmation" src="./images/artistas/artist11.jpg"
                 /></a>
                 <div class="text">
                   <div id="rol">
@@ -98,7 +83,6 @@
                   <img
                     id="confirmation"
                     src="./images/artistas/artist12.jfif"
-                    alt="Invitado Pol Tattoo"
                   />
                 </a>
                 <div class="text">
@@ -125,11 +109,8 @@
             </div>
             <div class="artists">
               <div class="artist">
-                <a href="./informacion/concursos.html"
-                  ><img
-                    id="confirmation"
-                    src="./images/concursos/concurso1.jpg"
-                    alt="Concurso Asian Cover Dance"
+                <a href="./informacion/invitados/overwatchvoices.html"
+                  ><img id="confirmation" src="./images/concursos/concurso1.jpg"
                 /></a>
                 <div class="text">
                   <div id="rol">
@@ -142,11 +123,10 @@
               </div>
 
               <div class="artist">
-                <a href="./informacion/concursos.html">
+                <a href="./informacion/invitados/poltattoo.html">
                   <img
                     id="confirmation"
                     src="./images/concursos/concurso2.jpg"
-                    alt="Concurso Pop Culture Hiroshima"
                   />
                 </a>
                 <div class="text">
@@ -182,10 +162,7 @@
         <aside class="news">
           <div class="new">
             <a href="./informacion/noticias/noticia1.html"
-              ><img
-                id="miniature"
-                src="./images/noticias/noticia1.jpg"
-                alt="Noticia Hiroshi Masuoka"
+              ><img id="miniature" src="./images/noticias/noticia1.jpg"
             /></a>
             <div id="description">
               <p>Falleció Hiroshi Masuoka, la voz del Maestro Roshi</p>
@@ -193,10 +170,7 @@
           </div>
           <div class="new">
             <a href="./informacion/noticias/noticia2.html"
-              ><img
-                id="miniature"
-                src="./images/noticias/noticia2.jpg"
-                alt="Noticia BTS"
+              ><img id="miniature" src="./images/noticias/noticia2.jpg"
             /></a>
             <div id="description">
               <p>BTS aplaza su gira por España</p>
@@ -204,10 +178,7 @@
           </div>
           <div class="new">
             <a href="./informacion/noticias/noticia3.html"
-              ><img
-                id="miniature"
-                src="./images/noticias/noticia3.jpg"
-                alt="Noticia RPG Magic Legends"
+              ><img id="miniature" src="./images/noticias/noticia3.jpg"
             /></a>
             <div id="description">
               <p>Nuevo juego de Magic: RPG Magic Legends</p>
@@ -216,7 +187,7 @@
         </aside>
       </div>
     </main>
-    <!-- FOOTER -->
+
     <footer>
       <div class="footer">
         <div class="about">
@@ -227,21 +198,22 @@
                 >Contactar por correo</a
               >
             </div>
+
             <div>
-              <a href="./informacion/footer/voluntariado.html">Voluntariado</a>
+              <a href="./informacion/bases/voluntariado.html">Voluntariado</a>
             </div>
           </div>
           <div class="colabout">
             <div>
-              <a href="./informacion/footer/torneos.html">Bases de Torneos</a>
+              <a href="./informacion/bases/torneos.html">Bases de Torneos</a>
             </div>
             <div>
-              <a href="./informacion/footer/concursos.html"
+              <a href="./informacion/bases/concursos.html"
                 >Bases de Concursos</a
               >
             </div>
             <div>
-              <a href="./informacion/footer/politica.html"
+              <a href="./informacion/bases/politica.html"
                 >Política de privacidad</a
               >
             </div>
@@ -249,28 +221,16 @@
         </div>
         <div class="contacto">
           <div class="contactos">
-            <img id="iconos" src="./images/iconos/rss.png" alt="Icono RSS" />
-            <img
-              id="iconos"
-              src="./images/iconos/twitter.png"
-              alt="Icono Twitter"
-            />
-            <img
-              id="iconos"
-              src="./images/iconos/facebook.png"
-              alt="Icono Facebook"
-            />
-            <img
-              id="iconos"
-              src="./images/iconos/insta.png"
-              alt="Icono Instagram"
-            />
+            <img id="iconos" src="images/iconos/rss.png" alt="RSS" />
+            <img id="iconos" src="images/iconos/twitter.png" alt="Twitter" />
+            <img id="iconos" src="images/iconos/facebook.png" alt="Facebook" />
+            <img id="iconos" src="images/iconos/insta.png" alt="Instagram" />
           </div>
           <p id="copyright">Manguca &#169; Todos los derechos reservados</p>
         </div>
       </div>
     </footer>
-    <!-- SCRIPTS -->
     <script src="./js/scroll.js"></script>
+    <script src="./js/sidebar.js"></script>
   </body>
 </html>

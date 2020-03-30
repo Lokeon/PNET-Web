@@ -10,218 +10,205 @@
     />
     <!-- CSS Main Layout-->
     <link rel="stylesheet" href="../../css/layout.css" />
-    <!-- CSS Invitados-->
+    <!-- CSS Inscription-->
     <link rel="stylesheet" href="../../css/invitados.css" />
     <title>MANGUCA</title>
   </head>
   <body>
     <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
-
     <header>
-      <div class="header" id="header">
+      <div class="container">
         <div class="logo">
-          <a href="../../index.html"
-            ><img src="../../images/plantilla/logo.png" alt="logo"
-          /></a>
+          <a href="../../index.html"><img src="../../images/plantilla/logo.png" alt="logo"/></a>
         </div>
         <div class="navbar">
-          <div class="dropdown">
-            <button class="dropbtn">
-              Información &#9660;
-            </button>
-            <div class="dropdown-content">
-              <a href="../invitados.html">Invitados</a>
-              <a href="../actividades.html">Actividades</a>
-              <a href="../concursos.html">Concursos</a>
-            </div>
+          <div class="icon-bar" onclick="Show()">
+            <i></i>
+            <i></i>
+            <i></i>
           </div>
-          <div class="dropdown">
-            <button
-              class="dropbtn"
-              onclick="location.href='../../horarios/horarios.html'"
-            >
-              Horarios
-            </button>
-          </div>
-          <div class="dropdown">
-            <button
-              class="dropbtn"
-              onclick="location.href='../../localizacion/localizacion.html'"
-            >
-              Localización
-            </button>
-          </div>
-          <div class="dropdown">
-            <button
-              class="dropbtn"
-              onclick="location.href='../entradas/inscripcion.html'"
-            >
-              Entradas
-            </button>
-          </div>
+          <ul id="nav-lists">
+            <li class="close"><span onclick="Hide()">×</span></li>
+            <li>
+              <div class="dropdown">
+                <button class="dropbtn">
+                  Información &#9660;
+                </button>
+                <div class="dropdown-content">
+                  <a id="font" href="../informacion/invitados.html">Invitados</a>
+                  <a href="../informacion/actividades.html">Actividades</a>
+                  <a href="../informacion/concursos.html">Concursos</a>
+                </div>
+              </div>
+            </li>
+            <li><a href="../../horarios/horarios.html">Horarios</a></li>
+            <li><a href="../../localizacion/localizacion.html">Localización</a></li>
+            <li><a href="../../entradas/inscripcion.html">Entradas</a></li>
+          </ul>
         </div>
+      </header>
       </div>
-    </header>
-    <main>
-      <div class="main">
-        <div class="content">
-          <div class="sidebar">
-            <a href="./faky.html">Faky</a>
-            <a class="active" href="./kiki.html">Kiki vivi lily</a>
-            <a href="./odashima.html">Odashima</a>
-            <a href="./shirogane.html">Shirogane</a>
-            <a href="./sukisha.html">Sukisha</a>
-            <a href="./laia.html">Laia López</a>
-            <a href="./ginny.html">Ginni Di</a>
-            <a href="./meowri.html">Jenna Lynn</a>
-            <a href="./halex.html">H. Alexander</a>
-            <a href="./ladybeard.html">Lady Beard</a>
-            <a href="./overwatchvoices.html">Voces de Overwatch</a>
-            <a href="./poltattoo.html">Pol Tattoo</a>
-          </div>
-          <div id="information">
-            <div class="breadcrumb">
-              <ul>
-                <li><a href="../../index.html">Inicio</a></li>
-                <li><a href="../invitados.html">Invitados</a></li>
-                <li><a href="./kiki.html">Kiki vivi lily</a></li>
-              </ul>
+      <main>
+        <div class="main">
+          <div class="content">
+            <div class="sidebar">
+              <a href="./faky.html">Faky</a>
+              <a class="active" href="./kiki.html">Kiki vivi lily</a>
+              <a href="./odashima.html">Odashima</a>
+              <a href="./shirogane.html">Shirogane</a>
+              <a href="./sukisha.html">Sukisha</a>
+              <a href="./laia.html">Laia López</a>
+              <a href="./ginny.html">Ginni Di</a>
+              <a href="./meowri.html">Jenna Lynn</a>
+              <a href="./halex.html">H. Alexander</a>
+              <a href="./ladybeard.html">Lady Beard</a>
+              <a href="./overwatchvoices.html">Voces de Overwatch</a>
+              <a href="./poltattoo.html">Pol Tattoo</a>
             </div>
-            <div class="titleBox">
-              <div id="title">
-                <span>Kiki vivi lily</span>
+            <div class="information-box">
+              <div class="breadcrumb">
+                <ul>
+                  <li><a href="../../index.html">Inicio</a></li>
+                  <li><a href="../invitados.html">Invitados</a></li>
+                  <li><a href="./kiki.html">Kiki vivi lily</a></li>
+                </ul>
               </div>
-            </div>
-            <div id="information">
-              <div class="picture">
-                <img src="../../images/artistas/artist2-avatar.jpg" />
+              <div class="titleBox">
+                <div id="title">
+                  <span>Kiki vivi lily</span>
+                </div>
               </div>
-              <article>
-                <p>
-                  María Dolores Flores Ruiz, conocida artísticamente como Kiki
-                  vivi Lily y apodada la Faraona (Jerez de la Frontera, Cádiz,
-                  21 de enero de 1923 - Busan, Corea del Sur, 16 de mayo de
-                  1995), es una artista coreana-española de gran talento e
-                  increíble éxito tanto en España como en todo el mundo, muy
-                  popular y polifacética; pues era cantante, bailaora de k-pop y
-                  actriz, dotada de una personalidad arrolladora.
-                </p>
-                <div class="iframe">
-                  <img
-                    src="../../images/artistas/artist2-banner.jpg"
-                    id="picture-article"
-                  />
+              <div class="information">
+                <div class="picture">
+                  <img src="../../images/artistas/artist2-avatar.jpg" />
                 </div>
-                <p>
-                  Cuenta con cientos de grabaciones y canciones que quedarán en
-                  el recuerdo popular como himnos. Como bailaora enardeció a las
-                  nuevas generaciones de distintos continentes. Como actriz
-                  interpretó más de 35 películas, muchas de ellas ambientada en
-                  el folclorismo japonés, aunque también interpretó rumbas y
-                  rancheras. Ahora, podemos verla en directo junto a Sukisha,
-                  celebrando el lanzamiento de su nuevo disco.
-                </p>
-                <div class="iframe">
-                  <iframe
-                    width="560"
-                    height="315"
-                    src="https://www.youtube.com/embed/nvwx4FSI2wo"
-                    frameborder="0"
-                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                    allowfullscreen
-                  ></iframe>
-                </div>
-                <table>
-                  <tbody>
-    
-                    <tr>
-                      <th>Año</th>
-                      <th>Disco</th>
-                      <th>Premios</th>
-                    </tr>
-    
-                    
-                    <tr>
-                      <td>2019</tc>
-                        <td>
-                          Over the Rainbow (feat Sukisha)
-                        </td>
-                        <td>
-                          Getstage Music Awards Vol.2<br>
-                          Mash Fight Awards
-                        </td>
+                <article>
+                  <p>
+                    María Dolores Flores Ruiz, conocida artísticamente como Kiki
+                    vivi Lily y apodada la Faraona (Jerez de la Frontera, Cádiz,
+                    21 de enero de 1923 - Busan, Corea del Sur, 16 de mayo de
+                    1995), es una artista coreana-española de gran talento e
+                    increíble éxito tanto en España como en todo el mundo, muy
+                    popular y polifacética; pues era cantante, bailaora de k-pop y
+                    actriz, dotada de una personalidad arrolladora.
+                  </p>
+                  <div class="iframe">
+                    <img
+                      src="../../images/artistas/artist2-banner.jpg"
+                      id="picture-article"
+                    />
+                  </div>
+                  <p>
+                    Cuenta con cientos de grabaciones y canciones que quedarán en
+                    el recuerdo popular como himnos. Como bailaora enardeció a las
+                    nuevas generaciones de distintos continentes. Como actriz
+                    interpretó más de 35 películas, muchas de ellas ambientada en
+                    el folclorismo japonés, aunque también interpretó rumbas y
+                    rancheras. Ahora, podemos verla en directo junto a Sukisha,
+                    celebrando el lanzamiento de su nuevo disco.
+                  </p>
+                  <div class="iframe">
+                    <iframe
+                      width="560"
+                      height="315"
+                      src="https://www.youtube.com/embed/nvwx4FSI2wo"
+                      frameborder="0"
+                      allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                      allowfullscreen
+                    ></iframe>
+                  </div>
+                  <table>
+                    <tbody>
+      
+                      <tr>
+                        <th>Año</th>
+                        <th>Disco</th>
+                        <th>Premios</th>
                       </tr>
-                        <tr>
-                          <td>2020</td>
+      
+                      
+                      <tr>
+                        <td>2019</tc>
                           <td>
-                            Vivid
+                            Over the Rainbow (feat Sukisha)
                           </td>
                           <td>
-                            Brand New Vibes Award<br>
-                            Yamaha Music Award
+                            Getstage Music Awards Vol.2<br>
+                            Mash Fight Awards
                           </td>
                         </tr>
-    
-                  </tbody>
-                </table>
-                
-              </article>
+                          <tr>
+                            <td>2020</td>
+                            <td>
+                              Vivid
+                            </td>
+                            <td>
+                              Brand New Vibes Award<br>
+                              Yamaha Music Award
+                            </td>
+                          </tr>
+      
+                    </tbody>
+                  </table>
+                  
+                </article>
+              </div>
             </div>
           </div>
         </div>
-      </div>
-    </main>
-    <!-- FOOTER -->
-    <footer>
-      <div class="footer">
-        <div class="about">
-          <div class="colabout">
-            <div>
-              <a
-                href="mailto:ucamanguca@gmail.com?Subject=Atención%20al%20cliente"
-                >Contactar por correo</a
-              >
+      </main>
+      <footer>
+        <div class="footer">
+          <div class="about">
+            <div class="colabout">
+              <div>
+                <a
+                  href="mailto:ucamanguca@gmail.com?Subject=Atención%20al%20cliente"
+                  >Contactar por correo</a
+                >
+              </div>
+  
+              <div>
+                <a href="../informacion/invitados.html">Voluntariado</a>
+              </div>
             </div>
-            <div>
-              <a href="../footer/voluntariado.html">Voluntariado</a>
+            <div class="colabout">
+              <div>
+                <a href="../bases/torneos.html">Bases de Torneos</a>
+              </div>
+              <div>
+                <a href="../bases/concursos.html">Bases de Concursos</a>
+              </div>
+              <div>
+                <a href="../bases/politica.html">Política de privacidad</a>
+              </div>
             </div>
           </div>
-          <div class="colabout">
-            <div>
-              <a href="../footer/torneos.html">Bases de Torneos</a>
+          <div class="contacto">
+            <div class="contactos">
+              <img id="iconos" src="../../images/iconos/rss.png" alt="RSS" />
+              <img
+                id="iconos"
+                src="../../images/iconos/twitter.png"
+                alt="Twitter"
+              />
+              <img
+                id="iconos"
+                src="../../images/iconos/facebook.png"
+                alt="Facebook"
+              />
+              <img
+                id="iconos"
+                src="../../images/iconos/insta.png"
+                alt="Instagram"
+              />
             </div>
-            <div>
-              <a href="../footer/concursos.html">Bases de Concursos</a>
-            </div>
-            <div>
-              <a href="../footer/politica.html">Política de privacidad</a>
-            </div>
+            <p id="copyright">Manguca &#169; Todos los derechos reservados</p>
           </div>
         </div>
-        <div class="contacto">
-          <div class="contactos">
-            <img id="iconos" src="../../images/iconos/rss.png" alt="RSS" />
-            <img
-              id="iconos"
-              src="../../images/iconos/twitter.png"
-              alt="Twitter"
-            />
-            <img
-              id="iconos"
-              src="../../images/iconos/facebook.png"
-              alt="Facebook"
-            />
-            <img
-              id="iconos"
-              src="../../images/iconos/insta.png"
-              alt="Instagram"
-            />
-          </div>
-          <p id="copyright">Manguca &#169; Todos los derechos reservados</p>
-        </div>
-      </div>
-    </footer>
-    <!-- SCRIPTS -->
-    <script src="../../js/scroll.js"></script>
+      </footer>
+      <script src="../../js/scroll.js"></script>
+      <script src="../../js/sidebar.js"></script>
+
   </body>
 </html>

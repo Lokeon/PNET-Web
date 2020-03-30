@@ -10,229 +10,216 @@
     />
     <!-- CSS Main Layout-->
     <link rel="stylesheet" href="../../css/layout.css" />
-    <!-- CSS Invitados-->
+    <!-- CSS Inscription-->
     <link rel="stylesheet" href="../../css/invitados.css" />
     <title>MANGUCA</title>
   </head>
   <body>
     <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
-
     <header>
-      <div class="header" id="header">
+      <div class="container">
         <div class="logo">
-          <a href="../../index.html"
-            ><img src="../../images/plantilla/logo.png" alt="logo"
-          /></a>
+          <a href="../../index.html"><img src="../../images/plantilla/logo.png" alt="logo"/></a>
         </div>
         <div class="navbar">
-          <div class="dropdown">
-            <button class="dropbtn">
-              Información &#9660;
-            </button>
-            <div class="dropdown-content">
-              <a href="../invitados.html">Invitados</a>
-              <a href="../actividades.html">Actividades</a>
-              <a href="../concursos.html">Concursos</a>
-            </div>
+          <div class="icon-bar" onclick="Show()">
+            <i></i>
+            <i></i>
+            <i></i>
           </div>
-          <div class="dropdown">
-            <button
-              class="dropbtn"
-              onclick="location.href='../../horarios/horarios.html'"
-            >
-              Horarios
-            </button>
-          </div>
-          <div class="dropdown">
-            <button
-              class="dropbtn"
-              onclick="location.href='../../localizacion/localizacion.html'"
-            >
-              Localización
-            </button>
-          </div>
-          <div class="dropdown">
-            <button
-              class="dropbtn"
-              onclick="location.href='../entradas/inscripcion.html'"
-            >
-              Entradas
-            </button>
-          </div>
+          <ul id="nav-lists">
+            <li class="close"><span onclick="Hide()">×</span></li>
+            <li>
+              <div class="dropdown">
+                <button class="dropbtn">
+                  Información &#9660;
+                </button>
+                <div class="dropdown-content">
+                  <a id="font" href="../informacion/invitados.html">Invitados</a>
+                  <a href="../informacion/actividades.html">Actividades</a>
+                  <a href="../informacion/concursos.html">Concursos</a>
+                </div>
+              </div>
+            </li>
+            <li><a href="../../horarios/horarios.html">Horarios</a></li>
+            <li><a href="../../localizacion/localizacion.html">Localización</a></li>
+            <li><a href="../../entradas/inscripcion.html">Entradas</a></li>
+          </ul>
         </div>
+      </header>
       </div>
-    </header>
-    <main>
-      <div class="main">
-        <div class="content">
-          <div class="sidebar">
-            <a href="./faky.html">Faky</a>
-            <a href="./kiki.html">Kiki vivi lily</a>
-            <a href="./odashima.html">Odashima</a>
-            <a href="./shirogane.html">Shirogane</a>
-            <a href="./sukisha.html">Sukisha</a>
-            <a href="./laia.html">Laia López</a>
-            <a href="./ginny.html">Ginni Di</a>
-            <a href="./meowri.html">Jenna Lynn</a>
-            <a href="./halex.html">H. Alexander</a>
-            <a class="active" href="./ladybeard.html">Lady Beard</a>
-            <a href="./overwatchvoices.html">Voces de Overwatch</a>
-            <a href="./poltattoo.html">Pol Tattoo</a>
-          </div>
-          <div id="information">
-            <div class="breadcrumb">
-              <ul>
-                <li><a href="../../index.html">Inicio</a></li>
-                <li><a href="../invitados.html">Invitados</a></li>
-                <li><a href="./ladybeard.html">Lady Beard</a></li>
-              </ul>
+      <main>
+        <div class="main">
+          <div class="content">
+            <div class="sidebar">
+              <a class="active" href="./faky.html">Faky</a>
+              <a href="./kiki.html">Kiki vivi lily</a>
+              <a href="./odashima.html">Odashima</a>
+              <a href="./shirogane.html">Shirogane</a>
+              <a href="./sukisha.html">Sukisha</a>
+              <a href="./laia.html">Laia López</a>
+              <a href="./ginny.html">Ginni Di</a>
+              <a href="./meowri.html">Jenna Lynn</a>
+              <a href="./halex.html">H. Alexander</a>
+              <a href="./ladybeard.html">Lady Beard</a>
+              <a href="./overwatchvoices.html">Voces de Overwatch</a>
+              <a href="./poltattoo.html">Pol Tattoo</a>
             </div>
-            <div class="titleBox">
-              <div id="title">
-                <span>Lady Beard</span>
+            <div class="information-box">
+              <div class="breadcrumb">
+                <ul>
+                  <li><a href="../../index.html">Inicio</a></li>
+                  <li><a href="../invitados.html">Invitados</a></li>
+                  <li><a href="./ladybeard.html">Lady Beard</a></li>
+                </ul>
+              </div>
+              <div class="titleBox">
+                <div id="title">
+                  <span>Lady Beard</span>
+                </div>
+              </div>
+              <div class="information">
+                <div class="picture">
+                  <img src="../../images/artistas/artist10-avatar.jpg" />
+                </div>
+                <article>
+                  <p>
+                    Este artista australiano demostró desde pequeño su particular
+                    extravagancia y sus dotes como actor. Fue en la lucha libre
+                    donde encontró sus dos grandes pasiones, la actuación y las
+                    artes marciales, fusionándolas para crear su propia identidad.
+                    Movido por este deporte, se mudó a Hong Kong, donde obtuvo
+                    gran popularidad y renombre tras sus primeras peleas, en las
+                    que vestía un llamativo atuendo de lolita.
+                  </p>
+                  <div class="iframe">
+                    <img
+                      src="../../images/artistas/artist10-banner.jpeg"
+                      id="picture-article"
+                    />
+                  </div>
+                  <p>
+                    Con una gran cantidad de admiradores y bajo el nombre de “Wu
+                    Su Lui” (LadyBeard en cantonés), siguió su sueño de iniciar
+                    una carrera como cantante de Heavy Metal. Fue en 2011 cuando
+                    comenzó a atraer la atención del público japonés como
+                    integrante del grupo Ladybaby y su fama se ha extendido por
+                    todo el mundo. Actualmente, forma parte del grupo Deadlift
+                    Lolita junto a Reika Saiki.
+                  </p>
+                  <div class="iframe">
+                    <iframe
+                      width="560"
+                      height="315"
+                      src="https://www.youtube.com/embed/M8-vje-bq9c"
+                      frameborder="0"
+                      allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                      allowfullscreen
+                    ></iframe>
+                  </div>
+                  <table>
+                    <tbody>
+                      <tr>
+                        <th>Grupo</th>
+                        <th>Sencillos</th>
+                      </tr>
+  
+                      <tr>
+                        <td>LadyBaby</td>
+                        <td>
+                          Nippon Manju <br />
+                          Age-age money<br />
+                          Range chance<br />
+                          C'est si bon Kibun<br />
+                          Bear-chan Robot<br />
+                          Legion<br />
+                          Biri Biri Money
+                        </td>
+                      </tr>
+  
+                      <tr>
+                        <td>
+                          Deadlift Lolita
+                        </td>
+                        <td>
+                          SIX PACK TWINS<br />
+                          Kimi Terasu Sairiumu <br />
+                          Pump Up JAPAN<br />
+                          Muscle cocktail
+                        </td>
+                      </tr>
+  
+                      <tr>
+                        <td>
+                          FEAT
+                        </td>
+                        <td>
+                          Valentin Kiss <br />
+                          Ghost Wanchanarujyan<br />
+                          Super D&D<br />
+                          Biri Biri Money
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </article>
               </div>
             </div>
-            <div id="information">
-              <div class="picture">
-                <img src="../../images/artistas/artist10-avatar.jpg" />
+          </div>
+        </div>
+      </main>
+      <footer>
+        <div class="footer">
+          <div class="about">
+            <div class="colabout">
+              <div>
+                <a
+                  href="mailto:ucamanguca@gmail.com?Subject=Atención%20al%20cliente"
+                  >Contactar por correo</a
+                >
               </div>
-              <article>
-                <p>
-                  Este artista australiano demostró desde pequeño su particular
-                  extravagancia y sus dotes como actor. Fue en la lucha libre
-                  donde encontró sus dos grandes pasiones, la actuación y las
-                  artes marciales, fusionándolas para crear su propia identidad.
-                  Movido por este deporte, se mudó a Hong Kong, donde obtuvo
-                  gran popularidad y renombre tras sus primeras peleas, en las
-                  que vestía un llamativo atuendo de lolita.
-                </p>
-                <div class="iframe">
-                  <img
-                    src="../../images/artistas/artist10-banner.jpeg"
-                    id="picture-article"
-                  />
-                </div>
-                <p>
-                  Con una gran cantidad de admiradores y bajo el nombre de “Wu
-                  Su Lui” (LadyBeard en cantonés), siguió su sueño de iniciar
-                  una carrera como cantante de Heavy Metal. Fue en 2011 cuando
-                  comenzó a atraer la atención del público japonés como
-                  integrante del grupo Ladybaby y su fama se ha extendido por
-                  todo el mundo. Actualmente, forma parte del grupo Deadlift
-                  Lolita junto a Reika Saiki.
-                </p>
-                <div class="iframe">
-                  <iframe
-                    width="560"
-                    height="315"
-                    src="https://www.youtube.com/embed/M8-vje-bq9c"
-                    frameborder="0"
-                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                    allowfullscreen
-                  ></iframe>
-                </div>
-                <table>
-                  <tbody>
-                    <tr>
-                      <th>Grupo</th>
-                      <th>Sencillos</th>
-                    </tr>
-
-                    <tr>
-                      <td>LadyBaby</td>
-                      <td>
-                        Nippon Manju <br />
-                        Age-age money<br />
-                        Range chance<br />
-                        C'est si bon Kibun<br />
-                        Bear-chan Robot<br />
-                        Legion<br />
-                        Biri Biri Money
-                      </td>
-                    </tr>
-
-                    <tr>
-                      <td>
-                        Deadlift Lolita
-                      </td>
-                      <td>
-                        SIX PACK TWINS<br />
-                        Kimi Terasu Sairiumu <br />
-                        Pump Up JAPAN<br />
-                        Muscle cocktail
-                      </td>
-                    </tr>
-
-                    <tr>
-                      <td>
-                        FEAT
-                      </td>
-                      <td>
-                        Valentin Kiss <br />
-                        Ghost Wanchanarujyan<br />
-                        Super D&D<br />
-                        Biri Biri Money
-                      </td>
-                    </tr>
-                  </tbody>
-                </table>
-              </article>
+  
+              <div>
+                <a href="../informacion/invitados.html">Voluntariado</a>
+              </div>
             </div>
+            <div class="colabout">
+              <div>
+                <a href="../bases/torneos.html">Bases de Torneos</a>
+              </div>
+              <div>
+                <a href="../bases/concursos.html">Bases de Concursos</a>
+              </div>
+              <div>
+                <a href="../bases/politica.html">Política de privacidad</a>
+              </div>
+            </div>
+          </div>
+          <div class="contacto">
+            <div class="contactos">
+              <img id="iconos" src="../../images/iconos/rss.png" alt="RSS" />
+              <img
+                id="iconos"
+                src="../../images/iconos/twitter.png"
+                alt="Twitter"
+              />
+              <img
+                id="iconos"
+                src="../../images/iconos/facebook.png"
+                alt="Facebook"
+              />
+              <img
+                id="iconos"
+                src="../../images/iconos/insta.png"
+                alt="Instagram"
+              />
+            </div>
+            <p id="copyright">Manguca &#169; Todos los derechos reservados</p>
           </div>
         </div>
-      </div>
-    </main>
-    <!-- FOOTER -->
-    <footer>
-      <div class="footer">
-        <div class="about">
-          <div class="colabout">
-            <div>
-              <a
-                href="mailto:ucamanguca@gmail.com?Subject=Atención%20al%20cliente"
-                >Contactar por correo</a
-              >
-            </div>
-            <div>
-              <a href="../footer/voluntariado.html">Voluntariado</a>
-            </div>
-          </div>
-          <div class="colabout">
-            <div>
-              <a href="../footer/torneos.html">Bases de Torneos</a>
-            </div>
-            <div>
-              <a href="../footer/concursos.html">Bases de Concursos</a>
-            </div>
-            <div>
-              <a href="../footer/politica.html">Política de privacidad</a>
-            </div>
-          </div>
-        </div>
-        <div class="contacto">
-          <div class="contactos">
-            <img id="iconos" src="../../images/iconos/rss.png" alt="RSS" />
-            <img
-              id="iconos"
-              src="../../images/iconos/twitter.png"
-              alt="Twitter"
-            />
-            <img
-              id="iconos"
-              src="../../images/iconos/facebook.png"
-              alt="Facebook"
-            />
-            <img
-              id="iconos"
-              src="../../images/iconos/insta.png"
-              alt="Instagram"
-            />
-          </div>
-          <p id="copyright">Manguca &#169; Todos los derechos reservados</p>
-        </div>
-      </div>
-    </footer>
-    <!-- SCRIPTS -->
-    <script src="../../js/scroll.js"></script>
+      </footer>
+      <script src="../../js/scroll.js"></script>
+      <script src="../../js/sidebar.js"></script>
+
   </body>
 </html>
