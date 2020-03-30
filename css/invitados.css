@@ -110,7 +110,7 @@ div.content {
 
   #rol {
     line-height: 2px;
-    font-weight: bolder;
+    font-weight: lighter;
     color: #de1700;
   }
 
@@ -169,24 +169,16 @@ div.content {
 */
 
   .table-body {
-    display: -webkit-box;
-    display: flex;
-    -webkit-box-align: center;
     align-items: center;
-    -webkit-box-pack: center;
     justify-content: center;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
     flex-direction: column;
     min-height: 100vh;
     padding: 4rem 0;
-    font-family: -system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
   }
 
   table {
     margin-top: 3em;
     margin-bottom: 3em;
-
     width: 100%;
     max-width: 60em;
     background-color: #f1f1f1;
@@ -318,18 +310,17 @@ div.content {
   }
 
   .table-body {
-    display: -webkit-box;
+    display: --box;
     display: flex;
-    -webkit-box-align: center;
+    --box-align: center;
     align-items: center;
-    -webkit-box-pack: center;
+    --box-pack: center;
     justify-content: center;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
+    --box-orient: vertical;
+    --box-direction: normal;
     flex-direction: column;
     min-height: 100vh;
     padding: 4rem 0;
-    font-family: -system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
   }
 
   table {

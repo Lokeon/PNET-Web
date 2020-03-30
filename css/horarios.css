@@ -10,7 +10,7 @@
   }
 
   .table-body {
-    display: -webkit-box;
+    display: --box;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -104,8 +104,6 @@
   }
 
   .table-body {
-    display: -webkit-box;
-    display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
