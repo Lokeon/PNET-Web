@@ -45,13 +45,15 @@ div.content {
   padding-top: 3em;
   display: flex;
   justify-content: center;
-  width: 80%;
   align-self: center;
   flex-direction: column;
 }
 
 /*resto*/
 @media only screen and (min-width: 768px) {
+  .information {
+    width: 80%;
+  }
   .information-box {
     margin-left: 200px;
   }
@@ -207,6 +209,9 @@ div.content {
 
 /*movil*/
 @media only screen and (max-width: 767px) {
+  .information {
+    width: 90%;
+  }
   .sidebar a {
     text-align: center;
     float: none;
@@ -284,7 +289,6 @@ div.content {
   }
 
   article {
-    width: 80%;
     margin-bottom: 5em;
   }
 
