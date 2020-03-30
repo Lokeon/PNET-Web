@@ -161,6 +161,10 @@ div.breadcrumb ul li a:hover {
   height: 2px;
 }
 
+.titleBox {
+  background-color: white;
+}
+
 /*MÓVIL*/
 
 @media only screen and (max-width: 767px) {
@@ -286,11 +290,9 @@ div.breadcrumb ul li a:hover {
     float: left;
     background-image: url("../images/fondos/header.png");
     height: 9em;
-    padding-top: 8em;
-    background-size: contain;
-    background-position: right;
+    padding-top: 3.5em;
+    background-size: cover;
     background-repeat: no-repeat;
-    background-color: white;
   }
 
   .breadcrumb {
@@ -301,8 +303,6 @@ div.breadcrumb ul li a:hover {
     background-color: #4d7c8a;
     color: #ffffff;
   }
-
-  
 
   #myBtn {
     display: none;
