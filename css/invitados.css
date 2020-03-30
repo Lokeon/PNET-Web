@@ -11,6 +11,11 @@
   font-family: "Roboto";
 }
 
+div.content {
+  display: flex;
+  width: 100%;
+}
+
 .sidebar a {
   color: black;
   padding: 16px;
@@ -147,9 +152,6 @@
     display: block;
   }
 
-  div.content {
-    width: 100%;
-  }
   /*esto estaba antes y no se si sobra
   .sidebar {
     width: 100%;
@@ -159,9 +161,7 @@
   .sidebar a {
     float: left;
   }
-  div.content {
-    margin-left: 0;
-  }
+ 
 */
 
   .table-body {
@@ -311,8 +311,8 @@
   }
 
   #picture-article {
-    width: 15em;
-    height: 13em;
+    width: 17em;
+    height: 15em;
   }
 
   /* sidebar */
@@ -325,10 +325,6 @@
   .sidebar a:hover:not(.active) {
     background-color: #555;
     color: white;
-  }
-
-  div.content {
-    width: 100%;
   }
 
   .table-body {
