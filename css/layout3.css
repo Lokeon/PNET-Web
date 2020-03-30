@@ -595,11 +595,12 @@ div.breadcrumb ul li a:hover {
     width: 100%;
     float: left;
     background-image: url("../images/fondos/header.png");
-    height: 9em;
-    padding-top: 8em;
+    height: 16em;
+    padding-top: 6.5em;
     background-size: contain;
-    background-position: right;
     background-repeat: no-repeat;
+    background-position-x: 10em;
+    background-color: white;
   }
 
   .breadcrumb {

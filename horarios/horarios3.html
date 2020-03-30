@@ -9,522 +9,511 @@
       rel="stylesheet"
     />
     <!-- CSS Main Layout-->
-    <link rel="stylesheet" href="../css/layout.css" />
-    <!-- CSS Horarios-->
+    <link rel="stylesheet" href="../css/layout3.css" />
+    <!-- CSS Inscription-->
     <link rel="stylesheet" href="../css/horarios.css" />
     <title>MANGUCA</title>
   </head>
   <body>
     <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
-
     <header>
-      <div class="header" id="header">
+      <div class="container">
         <div class="logo">
-          <a href="../index.html"
-            ><img src="../images/plantilla/logo.png" alt="logo"
-          /></a>
+          <a href="#"><img src="../images/plantilla/logo.png" alt="logo"/></a>
         </div>
         <div class="navbar">
-          <div class="dropdown">
-            <button class="dropbtn">
-              Información &#9660;
-            </button>
-            <div class="dropdown-content">
-              <a href="../informacion/invitados.html">Invitados</a>
-              <a href="../informacion/actividades.html">Actividades</a>
-              <a href="../informacion/concursos.html">Concursos</a>
-            </div>
+          <div class="icon-bar" onclick="Show()">
+            <i></i>
+            <i></i>
+            <i></i>
           </div>
-          <div class="dropdown">
-            <button class="dropbtn" onclick="location.href='./horarios.html'">
-              Horarios
-            </button>
-          </div>
-          <div class="dropdown">
-            <button
-              class="dropbtn"
-              onclick="location.href='../localizacion/localizacion.html'"
-            >
-              Localización
-            </button>
-          </div>
-          <div class="dropdown">
-            <button
-              class="dropbtn"
-              onclick="location.href='../entradas/inscripcion.html'"
-            >
-              Entradas
-            </button>
-          </div>
-        </div>
-      </div>
-    </header>
-    <main>
-      <div class="main">
-        <div class="breadcrumb">
-          <ul>
-            <li><a href="../index.html">Inicio</a></li>
-            <li><a href="horarios.html">Horarios</a></li>
+          <ul id="nav-lists">
+            <li class="close"><span onclick="Hide()">×</span></li>
+            <li>
+              <div class="dropdown">
+                <button class="dropbtn">
+                  Información &#9660;
+                </button>
+                <div class="dropdown-content">
+                  <a id="font" href="../informacion/invitados.html">Invitados</a>
+                  <a href="../informacion/actividades.html">Actividades</a>
+                  <a href="../informacion/concursos.html">Concursos</a>
+                </div>
+              </div>
+            </li>
+            <li><a href="../horarios/horarios.html">Horarios</a></li>
+            <li><a href="../localizacion/localizacion.html">Localización</a></li>
+            <li><a href="../entradas/inscripcion.html">Entradas</a></li>
           </ul>
         </div>
-        <div class="titleBox">
-          <div id="title">
-            <span>Horarios</span>
-          </div>
-        </div>
-        <div class="tabContainer">
-          <div class="buttonContainer">
-            <button onclick="showPanel(0,'#D8AC34')" id="button1">
-              Viernes
-            </button>
-            <button onclick="showPanel(1,'#D8AC34')">Sábado</button>
-            <button onclick="showPanel(2,'#D8AC34')" id="button3">
-              Domingo
-            </button>
-          </div>
-
-          <!-- DIA 1-->
-          <div class="tabPanel">
-            <div class="table-body">
-              <table>
-                <tbody>
-                  <tr>
-                    <th>10:00</th>
-                    <td rowspan="5" class="type-2">
-                      Charla WowChakra
-                    </td>
-                    <td rowspan="5" class="type-3">
-                      Inscripciones Competición
-                    </td>
-                  </tr>
-                  <tr>
-                    <th>10:30</th>
-                  </tr>
-                  <tr>
-                    <th>11:00</th>
-                    <td rowspan="5" class="type-4">
-                      Taller de dibujo con Laia López
-                    </td>
-                    <td rowspan="5" class="type-4">
-                      Seminario con youtuber Kompae
-                    </td>
-                  </tr>
-                  <tr>
-                    <th>11:30</th>
-                  </tr>
-                  <tr>
-                    <th>12:00</th>
-                  </tr>
-                  <tr>
-                    <th>12:30</th>
-                    <td rowspan="5" class="type-4">
-                      Bodas otakus
-                    </td>
-                    <td rowspan="5" class="type-5">
-                      Bailes Kpopers
-                    </td>
-                  </tr>
-                  <tr>
-                    <th>13:00</th>
-                  </tr>
-                  <tr>
-                    <th>13:30</th>
-                    <td rowspan="3" class="type-3">
-                      Competición DDR
-                    </td>
-                    <td rowspan="3" class="type-2">
-                      Charla Voces de Overwatch
-                    </td>
-                  </tr>
-                  <tr>
-                    <th>14:00</th>
-                  </tr>
-                  <tr>
-                    <th>14:30</th>
-                  </tr>
-                  <tr>
-                    <th>15:00</th>
-                    <td rowspan="3" colspan="4" class="type-6">Descanso</td>
-                  </tr>
-                  <tr>
-                    <th>15:30</th>
-                  </tr>
-                  <tr>
-                    <th>16:00</th>
-                  </tr>
-                  <tr>
-                    <th>16:30</th>
-                    <td rowspan="6" class="type-4">
-                      Bodas otakus
-                    </td>
-                    <td rowspan="4" class="type-1">
-                      Torneo Tekken
-                    </td>
-                    <td rowspan="6" class="type-1">
-                      Torneo LOL
-                    </td>
-                    <td rowspan="2" class="type-1">
-                      Torneo Super Smash Bros
-                    </td>
-                  </tr>
-                  <tr>
-                    <th>17:00</th>
-                  </tr>
-                  <tr>
-                    <th>17:30</th>
-                    <td rowspan="2" class="type-1">
-                      Torneo Magic
-                    </td>
-                  </tr>
-                  <tr>
-                    <th>18:30</th>
-                  </tr>
-                  <tr>
-                    <th>19:00</th>
-                    <td rowspan="2" class="type-1">
-                      Torneo YuGiOh
-                    </td>
-                    <td rowspan="2" class="type-1">
-                      Torneo FIFA
-                    </td>
-                  </tr>
-                  <tr>
-                    <th>19:30</th>
-                  </tr>
-                  <tr>
-                    <th>20:00</th>
-                    <td rowspan="2" colspan="4" class="type-5">
-                      Concierto FAKY
-                    </td>
-                  </tr>
-                  <tr>
-                    <th>20:30</th>
-                  </tr>
-                  <tr>
-                    <th>21:00</th>
-                    <td rowspan="2" colspan="4" class="type-5">
-                      Concierto SUKISHA
-                    </td>
-                  </tr>
-                  <tr>
-                    <th>21:30</th>
-                  </tr>
-                </tbody>
-              </table>
-            </div>
-          </div>
-          <!-- FIN DIA 1-->
-
-          <!-- DIA 2-->
-          <div class="tabPanel">
-            <div class="table-body">
-              <table>
-                <tbody>
-                  <tr>
-                    <th>10:00</th>
-                    <td rowspan="3" class="type-2">
-                      Firmas Laia López
-                    </td>
-                    <td rowspan="3" class="type-2">
-                      Firmas H Alexander
-                    </td>
-                    <td rowspan="5" class="type-3">
-                      Inscripciones Competición
-                    </td>
-                  </tr>
-                  <tr>
-                    <th>10:30</th>
-                  </tr>
-                  <tr>
-                    <th>11:00</th>
-                  </tr>
-                  <tr>
-                    <th>11:30</th>
-                    <td rowspan="4" class="type-4">
-                      Taller de fotografía para Cosplay
-                    </td>
-                    <td rowspan="3" class="type-4">
-                      Seminario: Ser autónomo con Ginny Di
-                    </td>
-                  </tr>
-                  <tr>
-                    <th>12:00</th>
-                  </tr>
-                  <tr>
-                    <th>12:30</th>
-                    <td rowspan="5" class="type-4">
-                      Bodas otakus
-                    </td>
-                    <td rowspan="5" class="type-5">
-                      Bailes Kpopers
-                    </td>
-                  </tr>
-                  <tr>
-                    <th>13:00</th>
-                    <td rowspan="2" class="type-2">
-                      Charla Voces de Overwatch
-                    </td>
-                  </tr>
-                  <tr>
-                    <th>13:30</th>
-                    <td rowspan="3" class="type-3">
-                      Competición DDR
-                    </td>
-                  </tr>
-                  <tr>
-                    <th>14:00</th>
-                    <td rowspan="2" class="type-2">
-                      Nate Gentile: Básicos de overclocking
-                    </td>
-                  </tr>
-                  <tr>
-                    <th>14:30</th>
-                  </tr>
-                  <tr>
-                    <th>15:00</th>
-                    <td rowspan="3" colspan="4" class="type-6">Descanso</td>
-                  </tr>
-                  <tr>
-                    <th>15:30</th>
-                  </tr>
-                  <tr>
-                    <th>16:00</th>
-                  </tr>
-                  <tr>
-                    <th>16:30</th>
-                    <td rowspan="6" class="type-4">
-                      Bodas otakus
-                    </td>
-                    <td rowspan="4" class="type-1">
-                      Torneo Tekken
-                    </td>
-                    <td rowspan="6" class="type-1">
-                      Torneo LOL
-                    </td>
-                    <td rowspan="2" class="type-1">
-                      Torneo Super Smash Bros
-                    </td>
-                  </tr>
-                  <tr>
-                    <th>17:00</th>
-                  </tr>
-                  <tr>
-                    <th>17:30</th>
-                    <td rowspan="2" class="type-1">
-                      Torneo Magic
-                    </td>
-                  </tr>
-                  <tr>
-                    <th>18:30</th>
-                  </tr>
-                  <tr>
-                    <th>19:00</th>
-                    <td rowspan="2" class="type-1">
-                      Torneo YuGiOh
-                    </td>
-                    <td rowspan="2" class="type-1">
-                      Torneo FIFA
-                    </td>
-                  </tr>
-                  <tr>
-                    <th>19:30</th>
-                  </tr>
-                  <tr>
-                    <th>20:00</th>
-                    <td rowspan="2" colspan="4" class="type-5">
-                      Concierto Kiki vivi lily
-                    </td>
-                  </tr>
-                  <tr>
-                    <th>20:30</th>
-                  </tr>
-                  <tr>
-                    <th>21:00</th>
-                    <td rowspan="2" colspan="4" class="type-5">
-                      Concierto Lady Beard
-                    </td>
-                  </tr>
-                  <tr>
-                    <th>21:30</th>
-                  </tr>
-                </tbody>
-              </table>
-            </div>
-          </div>
-          <!-- FIN DIA 1-->
-
-          <!-- DIA 3-->
-          <div class="tabPanel">
-            <div class="table-body">
-              <table>
-                <tbody>
-                  <tr>
-                    <th>10:00</th>
-                    <td rowspan="10" class="type-5">
-                      Exposición coches frikis
-                    </td>
-                    <td rowspan="5" class="type-3">
-                      Inscripciones Competición
-                    </td>
-                    <td rowspan="10" class="type-5">
-                      Degustación comidas japonesas
-                    </td>
-                  </tr>
-                  <tr>
-                    <th>10:30</th>
-                  </tr>
-                  <tr>
-                    <th>11:00</th>
-                  </tr>
-                  <tr>
-                    <th>11:30</th>
-                  </tr>
-                  <tr>
-                    <th>12:00</th>
-                  </tr>
-                  <tr>
-                    <th>12:30</th>
-                    <td rowspan="5" class="type-4">
-                      Bodas otakus
-                    </td>
-                    <td rowspan="5" class="type-3">
-                      Pasarela Cosplay
-                    </td>
-                  </tr>
-                  <tr>
-                    <th>13:00</th>
-                  </tr>
-                  <tr>
-                    <th>13:30</th>
-                  </tr>
-                  <tr>
-                    <th>14:00</th>
-                  </tr>
-                  <tr>
-                    <th>14:30</th>
-                  </tr>
-                  <tr>
-                    <th>15:00</th>
-                    <td rowspan="3" colspan="4" class="type-6">Descanso</td>
-                  </tr>
-                  <tr>
-                    <th>15:30</th>
-                  </tr>
-                  <tr>
-                    <th>16:00</th>
-                  </tr>
-                  <tr>
-                    <th>16:30</th>
-                    <td rowspan="6" class="type-4">
-                      Bodas otakus
-                    </td>
-                    <td rowspan="4" class="type-1">
-                      Torneo Tekken
-                    </td>
-                    <td rowspan="6" class="type-1">
-                      Torneo LOL
-                    </td>
-                    <td rowspan="2" class="type-1">
-                      Torneo Super Smash Bros
-                    </td>
-                  </tr>
-                  <tr>
-                    <th>17:00</th>
-                  </tr>
-                  <tr>
-                    <th>17:30</th>
-                    <td rowspan="2" class="type-1">
-                      Torneo Magic
-                    </td>
-                  </tr>
-                  <tr>
-                    <th>18:30</th>
-                  </tr>
-                  <tr>
-                    <th>19:00</th>
-                    <td rowspan="2" class="type-1">
-                      Torneo YuGiOh
-                    </td>
-                    <td rowspan="2" class="type-1">
-                      Torneo FIFA
-                    </td>
-                  </tr>
-                  <tr>
-                    <th>19:30</th>
-                  </tr>
-                  <tr>
-                    <th>20:00</th>
-                    <td rowspan="3" colspan="2" class="type-3">
-                      Competición DDR
-                    </td>
-                    <td rowspan="5" colspan="2" class="type-5">
-                      Bailes Kpopers
-                    </td>
-                  </tr>
-                  <tr>
-                    <th>20:30</th>
-                  </tr>
-                  <tr>
-                    <th>21:00</th>
-                  </tr>
-                  <tr>
-                    <th>21:30</th>
-                  </tr>
-                </tbody>
-              </table>
-            </div>
-          </div>
-          <!-- FIN DIA 3-->
-        </div>
+      </header>
       </div>
-    </main>
-    <footer>
-      <div class="footer">
-        <div class="about">
-          <div class="colabout">
-            <div>
-              <a
-                href="mailto:ucamanguca@gmail.com?Subject=Atención%20al%20cliente"
-                >Contactar por correo</a
-              >
-            </div>
-
-            <div>
-              <a href="./informacion/invitados.html">Voluntariado</a>
+      <main>
+        <div class="main">
+          <div class="breadcrumb">
+            <ul>
+              <li><a href="../index.html">Inicio</a></li>
+              <li><a href="horarios.html">Horarios</a></li>
+            </ul>
+          </div>
+          <div class="titleBox">
+            <div id="title">
+              <span>Horarios</span>
             </div>
           </div>
-          <div class="colabout">
-            <div>
-              <a href="../informacion/bases/torneos.html">Bases de Torneos</a>
+          <div class="tabContainer">
+            <div class="buttonContainer">
+              <button onclick="showPanel(0,'#D8AC34')" id="button1">
+                Viernes
+              </button>
+              <button onclick="showPanel(1,'#D8AC34')">Sábado</button>
+              <button onclick="showPanel(2,'#D8AC34')" id="button3">
+                Domingo
+              </button>
             </div>
-            <div>
-              <a href="../informacion/bases/concursos.html"
-                >Bases de Concursos</a
-              >
+  
+            <!-- DIA 1-->
+            <div class="tabPanel">
+              <div class="table-body">
+                <table>
+                  <tbody>
+                    <tr>
+                      <th>10:00</th>
+                      <td rowspan="5" class="type-2">
+                        Charla WowChakra
+                      </td>
+                      <td rowspan="5" class="type-3">
+                        Inscripciones Competición
+                      </td>
+                    </tr>
+                    <tr>
+                      <th>10:30</th>
+                    </tr>
+                    <tr>
+                      <th>11:00</th>
+                      <td rowspan="5" class="type-4">
+                        Taller de dibujo con Laia López
+                      </td>
+                      <td rowspan="5" class="type-4">
+                        Seminario con youtuber Kompae
+                      </td>
+                    </tr>
+                    <tr>
+                      <th>11:30</th>
+                    </tr>
+                    <tr>
+                      <th>12:00</th>
+                    </tr>
+                    <tr>
+                      <th>12:30</th>
+                      <td rowspan="5" class="type-4">
+                        Bodas otakus
+                      </td>
+                      <td rowspan="5" class="type-5">
+                        Bailes Kpopers
+                      </td>
+                    </tr>
+                    <tr>
+                      <th>13:00</th>
+                    </tr>
+                    <tr>
+                      <th>13:30</th>
+                      <td rowspan="3" class="type-3">
+                        Competición DDR
+                      </td>
+                      <td rowspan="3" class="type-2">
+                        Charla Voces de Overwatch
+                      </td>
+                    </tr>
+                    <tr>
+                      <th>14:00</th>
+                    </tr>
+                    <tr>
+                      <th>14:30</th>
+                    </tr>
+                    <tr>
+                      <th>15:00</th>
+                      <td rowspan="3" colspan="4" class="type-6">Descanso</td>
+                    </tr>
+                    <tr>
+                      <th>15:30</th>
+                    </tr>
+                    <tr>
+                      <th>16:00</th>
+                    </tr>
+                    <tr>
+                      <th>16:30</th>
+                      <td rowspan="6" class="type-4">
+                        Bodas otakus
+                      </td>
+                      <td rowspan="4" class="type-1">
+                        Torneo Tekken
+                      </td>
+                      <td rowspan="6" class="type-1">
+                        Torneo LOL
+                      </td>
+                      <td rowspan="2" class="type-1">
+                        Torneo Super Smash Bros
+                      </td>
+                    </tr>
+                    <tr>
+                      <th>17:00</th>
+                    </tr>
+                    <tr>
+                      <th>17:30</th>
+                      <td rowspan="2" class="type-1">
+                        Torneo Magic
+                      </td>
+                    </tr>
+                    <tr>
+                      <th>18:30</th>
+                    </tr>
+                    <tr>
+                      <th>19:00</th>
+                      <td rowspan="2" class="type-1">
+                        Torneo YuGiOh
+                      </td>
+                      <td rowspan="2" class="type-1">
+                        Torneo FIFA
+                      </td>
+                    </tr>
+                    <tr>
+                      <th>19:30</th>
+                    </tr>
+                    <tr>
+                      <th>20:00</th>
+                      <td rowspan="2" colspan="4" class="type-5">
+                        Concierto FAKY
+                      </td>
+                    </tr>
+                    <tr>
+                      <th>20:30</th>
+                    </tr>
+                    <tr>
+                      <th>21:00</th>
+                      <td rowspan="2" colspan="4" class="type-5">
+                        Concierto SUKISHA
+                      </td>
+                    </tr>
+                    <tr>
+                      <th>21:30</th>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
             </div>
-            <div>
-              <a href="../informacion/bases/politica.html"
-                >Política de privacidad
-              </a>
+            <!-- FIN DIA 1-->
+  
+            <!-- DIA 2-->
+            <div class="tabPanel">
+              <div class="table-body">
+                <table>
+                  <tbody>
+                    <tr>
+                      <th>10:00</th>
+                      <td rowspan="3" class="type-2">
+                        Firmas Laia López
+                      </td>
+                      <td rowspan="3" class="type-2">
+                        Firmas H Alexander
+                      </td>
+                      <td rowspan="5" class="type-3">
+                        Inscripciones Competición
+                      </td>
+                    </tr>
+                    <tr>
+                      <th>10:30</th>
+                    </tr>
+                    <tr>
+                      <th>11:00</th>
+                    </tr>
+                    <tr>
+                      <th>11:30</th>
+                      <td rowspan="4" class="type-4">
+                        Taller de fotografía para Cosplay
+                      </td>
+                      <td rowspan="3" class="type-4">
+                        Seminario: Ser autónomo con Ginny Di
+                      </td>
+                    </tr>
+                    <tr>
+                      <th>12:00</th>
+                    </tr>
+                    <tr>
+                      <th>12:30</th>
+                      <td rowspan="5" class="type-4">
+                        Bodas otakus
+                      </td>
+                      <td rowspan="5" class="type-5">
+                        Bailes Kpopers
+                      </td>
+                    </tr>
+                    <tr>
+                      <th>13:00</th>
+                      <td rowspan="2" class="type-2">
+                        Charla Voces de Overwatch
+                      </td>
+                    </tr>
+                    <tr>
+                      <th>13:30</th>
+                      <td rowspan="3" class="type-3">
+                        Competición DDR
+                      </td>
+                    </tr>
+                    <tr>
+                      <th>14:00</th>
+                      <td rowspan="2" class="type-2">
+                        Nate Gentile: Básicos de overclocking
+                      </td>
+                    </tr>
+                    <tr>
+                      <th>14:30</th>
+                    </tr>
+                    <tr>
+                      <th>15:00</th>
+                      <td rowspan="3" colspan="4" class="type-6">Descanso</td>
+                    </tr>
+                    <tr>
+                      <th>15:30</th>
+                    </tr>
+                    <tr>
+                      <th>16:00</th>
+                    </tr>
+                    <tr>
+                      <th>16:30</th>
+                      <td rowspan="6" class="type-4">
+                        Bodas otakus
+                      </td>
+                      <td rowspan="4" class="type-1">
+                        Torneo Tekken
+                      </td>
+                      <td rowspan="6" class="type-1">
+                        Torneo LOL
+                      </td>
+                      <td rowspan="2" class="type-1">
+                        Torneo Super Smash Bros
+                      </td>
+                    </tr>
+                    <tr>
+                      <th>17:00</th>
+                    </tr>
+                    <tr>
+                      <th>17:30</th>
+                      <td rowspan="2" class="type-1">
+                        Torneo Magic
+                      </td>
+                    </tr>
+                    <tr>
+                      <th>18:30</th>
+                    </tr>
+                    <tr>
+                      <th>19:00</th>
+                      <td rowspan="2" class="type-1">
+                        Torneo YuGiOh
+                      </td>
+                      <td rowspan="2" class="type-1">
+                        Torneo FIFA
+                      </td>
+                    </tr>
+                    <tr>
+                      <th>19:30</th>
+                    </tr>
+                    <tr>
+                      <th>20:00</th>
+                      <td rowspan="2" colspan="4" class="type-5">
+                        Concierto Kiki vivi lily
+                      </td>
+                    </tr>
+                    <tr>
+                      <th>20:30</th>
+                    </tr>
+                    <tr>
+                      <th>21:00</th>
+                      <td rowspan="2" colspan="4" class="type-5">
+                        Concierto Lady Beard
+                      </td>
+                    </tr>
+                    <tr>
+                      <th>21:30</th>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
             </div>
+            <!-- FIN DIA 1-->
+  
+            <!-- DIA 3-->
+            <div class="tabPanel">
+              <div class="table-body">
+                <table>
+                  <tbody>
+                    <tr>
+                      <th>10:00</th>
+                      <td rowspan="10" class="type-5">
+                        Exposición coches frikis
+                      </td>
+                      <td rowspan="5" class="type-3">
+                        Inscripciones Competición
+                      </td>
+                      <td rowspan="10" class="type-5">
+                        Degustación comidas japonesas
+                      </td>
+                    </tr>
+                    <tr>
+                      <th>10:30</th>
+                    </tr>
+                    <tr>
+                      <th>11:00</th>
+                    </tr>
+                    <tr>
+                      <th>11:30</th>
+                    </tr>
+                    <tr>
+                      <th>12:00</th>
+                    </tr>
+                    <tr>
+                      <th>12:30</th>
+                      <td rowspan="5" class="type-4">
+                        Bodas otakus
+                      </td>
+                      <td rowspan="5" class="type-3">
+                        Pasarela Cosplay
+                      </td>
+                    </tr>
+                    <tr>
+                      <th>13:00</th>
+                    </tr>
+                    <tr>
+                      <th>13:30</th>
+                    </tr>
+                    <tr>
+                      <th>14:00</th>
+                    </tr>
+                    <tr>
+                      <th>14:30</th>
+                    </tr>
+                    <tr>
+                      <th>15:00</th>
+                      <td rowspan="3" colspan="4" class="type-6">Descanso</td>
+                    </tr>
+                    <tr>
+                      <th>15:30</th>
+                    </tr>
+                    <tr>
+                      <th>16:00</th>
+                    </tr>
+                    <tr>
+                      <th>16:30</th>
+                      <td rowspan="6" class="type-4">
+                        Bodas otakus
+                      </td>
+                      <td rowspan="4" class="type-1">
+                        Torneo Tekken
+                      </td>
+                      <td rowspan="6" class="type-1">
+                        Torneo LOL
+                      </td>
+                      <td rowspan="2" class="type-1">
+                        Torneo Super Smash Bros
+                      </td>
+                    </tr>
+                    <tr>
+                      <th>17:00</th>
+                    </tr>
+                    <tr>
+                      <th>17:30</th>
+                      <td rowspan="2" class="type-1">
+                        Torneo Magic
+                      </td>
+                    </tr>
+                    <tr>
+                      <th>18:30</th>
+                    </tr>
+                    <tr>
+                      <th>19:00</th>
+                      <td rowspan="2" class="type-1">
+                        Torneo YuGiOh
+                      </td>
+                      <td rowspan="2" class="type-1">
+                        Torneo FIFA
+                      </td>
+                    </tr>
+                    <tr>
+                      <th>19:30</th>
+                    </tr>
+                    <tr>
+                      <th>20:00</th>
+                      <td rowspan="3" colspan="2" class="type-3">
+                        Competición DDR
+                      </td>
+                      <td rowspan="5" colspan="2" class="type-5">
+                        Bailes Kpopers
+                      </td>
+                    </tr>
+                    <tr>
+                      <th>20:30</th>
+                    </tr>
+                    <tr>
+                      <th>21:00</th>
+                    </tr>
+                    <tr>
+                      <th>21:30</th>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+            <!-- FIN DIA 3-->
           </div>
         </div>
-        <div class="contacto">
-          <div class="contactos">
-            <img id="iconos" src="../images/iconos/rss.png" alt="RSS" />
-            <img id="iconos" src="../images/iconos/twitter.png" alt="Twitter" />
-            <img
-              id="iconos"
-              src="../images/iconos/facebook.png"
-              alt="Facebook"
-            />
-            <img id="iconos" src="../images/iconos/insta.png" alt="Instagram" />
+      </main>
+      <footer>
+        <div class="footer">
+          <div class="about">
+            <div class="colabout">
+              <div>
+                <a
+                  href="mailto:ucamanguca@gmail.com?Subject=Atención%20al%20cliente"
+                  >Contactar por correo</a
+                >
+              </div>
+  
+              <div>
+                <a href="./informacion/invitados.html">Voluntariado</a>
+              </div>
+            </div>
+            <div class="colabout">
+              <div>
+                <a href="../informacion/bases/torneos.html">Bases de Torneos</a>
+              </div>
+              <div>
+                <a href="../informacion/bases/concursos.html"
+                  >Bases de Concursos</a
+                >
+              </div>
+              <div>
+                <a href="../informacion/bases/politica.html"
+                  >Política de privacidad
+                </a>
+              </div>
+            </div>
           </div>
-          <p id="copyright">Manguca &#169; Todos los derechos reservados</p>
+          <div class="contacto">
+            <div class="contactos">
+              <img id="iconos" src="../images/iconos/rss.png" alt="RSS" />
+              <img id="iconos" src="../images/iconos/twitter.png" alt="Twitter" />
+              <img
+                id="iconos"
+                src="../images/iconos/facebook.png"
+                alt="Facebook"
+              />
+              <img id="iconos" src="../images/iconos/insta.png" alt="Instagram" />
+            </div>
+            <p id="copyright">Manguca &#169; Todos los derechos reservados</p>
+          </div>
         </div>
-      </div>
-    </footer>
-    <script src="../js/tabs.js"></script>
-    <script src="../js/scroll.js"></script>
+      </footer>
+      <script src="../js/tabs.js"></script>
+      <script src="../js/scroll.js"></script>
   </body>
 </html>
