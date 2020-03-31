@@ -151,7 +151,7 @@
     margin-top: 3%;
   }
 
-  #description {
+  .description {
     width: 60%;
     margin-left: 5%;
     font-size: 12px;
@@ -212,7 +212,7 @@
     height: 16em;
   }
 
-  #description {
+  .description {
     width: 60%;
     margin-left: 5%;
     font-size: 12px;
