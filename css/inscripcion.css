@@ -107,3 +107,10 @@
     padding: 0 20px;
   }
 }
+
+.form {
+  position: relative;
+  background-color: white;
+  margin: 3em;
+  border-radius: 5px;
+}
