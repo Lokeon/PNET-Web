@@ -141,6 +141,15 @@ div.breadcrumb ul li + li::before {
   background-color: white;
 }
 
+.iframe {
+  align-self: center;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  padding-top: 2em;
+  padding-bottom: 2em;
+}
+
 /*MÓVIL*/
 
 @media only screen and (max-width: 767px) {
@@ -347,10 +356,17 @@ div.breadcrumb ul li + li::before {
     width: 100%;
   }
   /*FIN SIDEBAR Y NAVBAR*/
+  #picture-article {
+    width: 20em;
+    height: 15em;
+  }
 }
 
 /*RESTO*/
 @media only screen and (min-width: 768px) {
+  #picture-article {
+    width: 500px;
+  }
   .dropdown:hover .dropdown-content {
     display: block;
   }

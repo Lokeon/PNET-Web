@@ -123,23 +123,10 @@ div.content {
     align-self: center;
   }
 
-  .iframe {
-    align-self: center;
-    display: flex;
-    justify-content: center;
-    width: 100%;
-    padding-top: 2em;
-    padding-bottom: 2em;
-  }
-
   iframe {
     width: 560px;
     height: 315px;
     border: 0;
-  }
-
-  #picture-article {
-    width: 500px;
   }
 
   /* sidebar */
@@ -287,24 +274,10 @@ div.content {
     margin-bottom: 5em;
   }
 
-  .iframe {
-    align-self: center;
-    display: flex;
-    justify-content: center;
-    width: 100%;
-    padding-top: 2em;
-    padding-bottom: 2em;
-  }
-
   iframe {
     width: 560px;
     height: 315px;
     border: 0;
-  }
-
-  #picture-article {
-    width: 20em;
-    height: 15em;
   }
 
   /* sidebar */
