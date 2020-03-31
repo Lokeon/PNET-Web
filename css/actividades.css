@@ -133,6 +133,9 @@
   #miniature1 {
     object-position: -0.1em;
   }
+  #miniature2 {
+    object-position: 0.1em;
+  }
 }
 
 .activity {
