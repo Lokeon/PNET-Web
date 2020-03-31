@@ -33,8 +33,7 @@ div.breadcrumb ul li a {
 }
 
 div.breadcrumb ul li a:hover {
-  color: #497583;
-  text-decoration: underline;
+  color: black;
 }
 
 div.breadcrumb ul li + li::before {
