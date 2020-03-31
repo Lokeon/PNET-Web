@@ -131,16 +131,16 @@
   }
 
   #miniature1 {
-    object-position: 10%;
+    object-position: 60%;
   }
   #miniature2 {
-    object-position: -10%;
+    object-position: left;
   }
   #miniature3 {
-    object-position: 50%;
+    object-position: 70%;
   }
   #miniature4 {
-    object-position: -3%;
+    object-position: -60%;
   }
 }
 
