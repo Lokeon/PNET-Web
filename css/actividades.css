@@ -145,16 +145,6 @@
     color: #de1700;
   }
 
-  .titleBox {
-    width: 100%;
-    font-family: "Roboto";
-    float: left;
-    background-image: url("../images/fondos/waves2.png");
-    height: 13em;
-    padding-top: 8em;
-    background-position: 10%;
-  }
-
   .activity {
     margin: 2%;
   }
