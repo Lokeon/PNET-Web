@@ -79,8 +79,7 @@ div.content {
   }
 
   #miniature:hover {
-    height: 21em;
-    width: 19em;
+    transform: scale(1.07);
   }
 
   #miniature {
