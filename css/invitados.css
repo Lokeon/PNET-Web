@@ -78,11 +78,11 @@ div.content {
     display: grid;
   }
 
-  #miniature:hover {
+  .miniature:hover {
     transform: scale(1.07);
   }
 
-  #miniature {
+  .miniature {
     float: left;
     width: 18em;
     height: 20em;
@@ -102,11 +102,11 @@ div.content {
     font-size: 15px;
   }
 
-  #description {
+  .description {
     line-height: 17px;
   }
 
-  #rol {
+  .rol {
     line-height: 2px;
     font-weight: lighter;
     color: #b11200;
@@ -229,12 +229,12 @@ div.content {
     display: grid;
   }
 
-  #miniature:hover {
+  .miniature:hover {
     height: 21em;
     width: 19em;
   }
 
-  #miniature {
+  .miniature {
     float: left;
     width: 18em;
     height: 20em;
@@ -254,11 +254,11 @@ div.content {
     font-size: 15px;
   }
 
-  #description {
+  .description {
     line-height: 17px;
   }
 
-  #rol {
+  .rol {
     line-height: 2px;
     font-weight: lighter;
     color: #b11200;
@@ -292,14 +292,9 @@ div.content {
   }
 
   .table-body {
-    display: --box;
     display: flex;
-    --box-align: center;
     align-items: center;
-    --box-pack: center;
     justify-content: center;
-    --box-orient: vertical;
-    --box-direction: normal;
     flex-direction: column;
     min-height: 100vh;
     padding: 4rem 0;
@@ -308,7 +303,6 @@ div.content {
   table {
     margin-top: 3em;
     margin-bottom: 3em;
-
     width: 100%;
     max-width: 60em;
     background-color: #f1f1f1;
