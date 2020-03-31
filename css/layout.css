@@ -234,7 +234,7 @@ div.breadcrumb ul li + li::before {
     display: flex;
   }
 
-  #iconos {
+  .iconos {
     width: 1.3em;
     height: 1.3em;
   }
@@ -257,7 +257,7 @@ div.breadcrumb ul li + li::before {
     margin-left: 1em;
   }
 
-  #titles {
+  .titles {
     border-bottom: 3px solid #b11200;
     margin-top: 5%;
     font-size: 30px;
@@ -529,7 +529,7 @@ div.breadcrumb ul li + li::before {
     display: flex;
   }
 
-  #iconos {
+  .iconos {
     width: 1.3em;
     height: 1.3em;
   }
@@ -547,7 +547,7 @@ div.breadcrumb ul li + li::before {
     margin-left: 1em;
   }
 
-  #titles {
+  .titles {
     border-bottom: 3px solid #b11200;
     margin-top: 5%;
     font-size: 30px;
