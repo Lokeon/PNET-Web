@@ -136,6 +136,12 @@
   #miniature2 {
     object-position: -10%;
   }
+  #miniature3 {
+    object-position: 50%;
+  }
+  #miniature4 {
+    object-position: -3%;
+  }
 }
 
 .activity {
