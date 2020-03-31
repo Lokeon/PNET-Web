@@ -13,8 +13,7 @@
 
   #miniature {
     float: left;
-    width: 40em;
-    height: 25em;
+    width: 20em;
     margin: 3%;
     box-shadow: 3px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 5px;
@@ -86,6 +85,7 @@
     align-self: center;
     box-shadow: 3px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 5px;
+    background-position-x: 10%;
   }
 
   .text {
@@ -136,4 +136,5 @@
   margin: 2%;
   background-color: white;
   border-radius: 20px;
+  justify-content: space-between;
 }
