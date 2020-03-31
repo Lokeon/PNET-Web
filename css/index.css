@@ -1,7 +1,7 @@
 .news {
   position: relative;
   float: left;
-  border-left: 4px solid #4d7c8a;
+  border-left: 4px solid #497583;
   height: 100%;
   background-color: white;
 }
@@ -76,7 +76,7 @@
 }
 
 .banner {
-  background-color: #d8ac34;
+  background-color: #497583;
   color: white;
 }
 
@@ -95,7 +95,7 @@
 }
 
 .banner#banner2 {
-  background-color: #4d7c8a;
+  background-color: #497583;
   border-bottom-left-radius: 5px;
   border-bottom-right-radius: 5px;
   justify-content: space-between;

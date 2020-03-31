@@ -119,7 +119,7 @@
     border-top: dotted #333333;
     color: black;
   }
-  
+
   table td {
     font-size: 0.8rem;
     font-weight: bold;
@@ -177,7 +177,7 @@
 }
 
 .tabContainer .buttonContainer button:hover {
-  background-color: #4d7c8a;
+  background-color: #497583;
 }
 
 .type-1 {
