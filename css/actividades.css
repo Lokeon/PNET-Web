@@ -11,7 +11,7 @@
     clear: both;
   }
 
-  #miniature {
+  .miniature {
     float: left;
     width: 20em;
     margin: 3%;
@@ -76,7 +76,7 @@
     clear: both;
   }
 
-  #miniature {
+  .miniature {
     float: left;
     max-width: 50%;
     height: 20em;
@@ -129,6 +129,10 @@
   #actRight {
     display: flex;
     flex-direction: row-reverse;
+  }
+
+  #miniature1 {
+    object-position: 0em;
   }
 }
 
