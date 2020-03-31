@@ -111,7 +111,7 @@ div.content {
   #rol {
     line-height: 2px;
     font-weight: lighter;
-    color: #de1700;
+    color: #b11200;
   }
 
   .picture img {
@@ -154,7 +154,7 @@ div.content {
     height: 76%;
     overflow: auto;
     align-self: flex-start;
-    /*border-right: 2px solid #de1700;*/
+    /*border-right: 2px solid #b11200;*/
     background-color: #f1f1f1;
   }
 
@@ -200,7 +200,7 @@ div.content {
     color: white;
   }
   table td {
-    border-bottom: 2px solid #de1700;
+    border-bottom: 2px solid #b11200;
   }
 }
 
@@ -276,7 +276,7 @@ div.content {
   #rol {
     line-height: 2px;
     font-weight: lighter;
-    color: #de1700;
+    color: #b11200;
   }
 
   .picture img {
@@ -354,7 +354,7 @@ div.content {
     color: white;
   }
   table td {
-    border-bottom: 2px solid #de1700;
+    border-bottom: 2px solid #b11200;
   }
 }
 

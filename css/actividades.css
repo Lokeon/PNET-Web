@@ -51,7 +51,7 @@
   }
 
   #titlesActivity {
-    border-bottom: 3px solid #de1700;
+    border-bottom: 3px solid #b11200;
     font-size: 30px;
     font-weight: bold;
     line-height: 25px;
@@ -61,7 +61,7 @@
   #rol {
     line-height: 2px;
     font-weight: lighter;
-    color: #de1700;
+    color: #b11200;
   }
 
   .activity {
@@ -132,7 +132,7 @@
   }
 
   #titlesActivity {
-    border-bottom: 3px solid #de1700;
+    border-bottom: 3px solid #b11200;
     font-size: 30px;
     font-weight: bold;
     line-height: 25px;
@@ -142,7 +142,7 @@
   #rol {
     line-height: 2px;
     font-weight: lighter;
-    color: #de1700;
+    color: #b11200;
   }
 
   .activity {
