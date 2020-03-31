@@ -21,16 +21,6 @@
     margin-left: 3%;
   }
 
-  #miniatureRight {
-    float: left;
-    width: 40em;
-    height: 25em;
-    margin-top: 3%;
-    box-shadow: 3px 4px 4px rgba(0, 0, 0, 0.25);
-    border-radius: 5px;
-    margin-right: 3%;
-  }
-
   .text {
     padding-top: 1em;
     position: relative;
@@ -91,22 +81,12 @@
   #miniature {
     float: left;
     width: 50%;
-    height: 12.5 em;
-    object-fit: contain;
+    height: 12.5em;
+    object-fit: cover;
     margin-top: 3%;
     box-shadow: 3px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 5px;
     margin-left: 3%;
-  }
-
-  #miniatureRight {
-    float: left;
-    width: 45%;
-    height: 100%;
-    margin-top: 3%;
-    box-shadow: 3px 4px 4px rgba(0, 0, 0, 0.25);
-    border-radius: 5px;
-    margin-right: 3%;
   }
 
   .text {
