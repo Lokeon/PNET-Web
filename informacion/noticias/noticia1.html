@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="es">
+<html>
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -10,8 +10,8 @@
     />
     <!-- CSS Main Layout-->
     <link rel="stylesheet" href="../../css/layout.css" />
-    <!-- CSS Invitados-->
-    <link rel="stylesheet" href="../../css/noticias.css" />
+    <!-- CSS Bases-->
+    <link rel="stylesheet" href="../../css/bases.css" />
     <title>MANGUCA</title>
   </head>
   <body>
@@ -38,9 +38,9 @@
                   Información &#9660;
                 </button>
                 <div class="dropdown-content">
-                  <a href="../invitados.html">Invitados</a>
-                  <a href="../actividades.html">Actividades</a>
-                  <a href="../concursos.html">Concursos</a>
+                  <a href="../informacion/invitados.html">Invitados</a>
+                  <a href="../informacion/actividades.html">Actividades</a>
+                  <a href="../informacion/concursos.html">Concursos</a>
                 </div>
               </div>
             </li>
@@ -56,48 +56,58 @@
     <!-- MAIN -->
     <main>
       <div class="main">
-        <div class="content">
-          <div class="information-box">
-            <div class="titleBox"></div>
-            <div class="information">
-              <article>
-                <p>
-                  Se reportó el fallecimiento del actor de voz Hiroshi Masuoka
-                  debido a un cáncer rectal el pasado 21 de marzo, a la edad de
-                  83 años.
-                </p>
-                <p>
-                  Los familiares del actor realizaron un funeral privado y, de
-                  acuerdo con la última voluntad de Masuoka, no realizarán una
-                  ceremonia pública.
-                </p>
-                <p>
-                  Masuoka nació en la prefectura de Saitama en 1936 y es
-                  reconocido ej Japón por su papel como Masuo Fuguta en la serie
-                  Sazae-san y Jam Ojisan en la serie Soreike! Anpanman. Sin
-                  embargo, el actor ya se había retirado de estos roles en
-                  agosto de 2019 debido a su edad.
-                </p>
-                <p>
-                  El actor de voz comenzó su interpretación como Masuo en la
-                  serie Sazae-san en junio de 1978, y como Jam Ojisan de la
-                  serie Soreike! Anpanman desde el inicio de su emisión en 1988.
-                  Hideyuki Tanaka y Kouichi Yamadera lo sustiyeron en ambos
-                  roles después de su retiro, respectivamente.
-                </p>
-                <p>
-                  Otros roles en los que Masuoka participó incluyeron 005 en la
-                  serie Cyborg 009, el Maestro Roshi (Kame Senrin en Japón) en
-                  los últimos episodios de Dragon Ball Z y las series
-                  posteriores, después de la muerte de Kouhei Miyauchi, el padre
-                  de Minami en Touch, y como narrador en varias producciones.
-                </p>
-                <p>
-                  Que descanse en paz.
-                </p>
-              </article>
-            </div>
+        <div class="breadcrumb">
+          <ul>
+            <li><a href="../index.html">Inicio</a></li>
+            <li><a href="./noticia1.html">Fallece Hiroshi Masuoka</a></li>
+          </ul>
+        </div>
+
+        <div class="titleBox">
+          <div id="title">
+            <span>Noticias</span>
           </div>
+        </div>
+
+        <div class="content">
+          <article>
+            <h1>Falleció Hiroshi Masuoka, la voz del Maestro Roshi</h1>
+
+            <p>
+              Se reportó el fallecimiento del actor de voz Hiroshi Masuoka
+              debido a un cáncer rectal el pasado 21 de marzo, a la edad de 83
+              años.
+            </p>
+            <p>
+              Los familiares del actor realizaron un funeral privado y, de
+              acuerdo con la última voluntad de Masuoka, no realizarán una
+              ceremonia pública.
+            </p>
+            <p>
+              Masuoka nació en la prefectura de Saitama en 1936 y es reconocido
+              ej Japón por su papel como Masuo Fuguta en la serie Sazae-san y
+              Jam Ojisan en la serie Soreike! Anpanman. Sin embargo, el actor ya
+              se había retirado de estos roles en agosto de 2019 debido a su
+              edad.
+            </p>
+            <p>
+              El actor de voz comenzó su interpretación como Masuo en la serie
+              Sazae-san en junio de 1978, y como Jam Ojisan de la serie Soreike!
+              Anpanman desde el inicio de su emisión en 1988. Hideyuki Tanaka y
+              Kouichi Yamadera lo sustiyeron en ambos roles después de su
+              retiro, respectivamente.
+            </p>
+            <p>
+              Otros roles en los que Masuoka participó incluyeron 005 en la
+              serie Cyborg 009, el Maestro Roshi (Kame Senrin en Japón) en los
+              últimos episodios de Dragon Ball Z y las series posteriores,
+              después de la muerte de Kouhei Miyauchi, el padre de Minami en
+              Touch, y como narrador en varias producciones.
+            </p>
+            <p>
+              Que descanse en paz.
+            </p>
+          </article>
         </div>
       </div>
     </main>
@@ -113,18 +123,18 @@
               >
             </div>
             <div>
-              <a href="../footer/voluntariado.html">Voluntariado</a>
+              <a href="./voluntariado.html">Voluntariado</a>
             </div>
           </div>
           <div class="colabout">
             <div>
-              <a href="../footer/torneos.html">Bases de Torneos</a>
+              <a href="./torneos.html">Bases de Torneos</a>
             </div>
             <div>
-              <a href="../footer/concursos.html">Bases de Concursos</a>
+              <a href="./concursos.html">Bases de Concursos</a>
             </div>
             <div>
-              <a href="../footer/politica.html">Política de privacidad</a>
+              <a href="./politica.html">Política de privacidad</a>
             </div>
           </div>
         </div>
@@ -156,6 +166,7 @@
       </div>
     </footer>
     <!-- SCRIPTS -->
+    <script src="../../js/acordeon.js"></script>
     <script src="../../js/scroll.js"></script>
     <script src="../../js/sidebar.js"></script>
   </body>

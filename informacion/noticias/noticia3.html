@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="es">
+<html>
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -10,8 +10,8 @@
     />
     <!-- CSS Main Layout-->
     <link rel="stylesheet" href="../../css/layout.css" />
-    <!-- CSS Noticias-->
-    <link rel="stylesheet" href="../../css/noticias.css" />
+    <!-- CSS Bases-->
+    <link rel="stylesheet" href="../../css/bases.css" />
     <title>MANGUCA</title>
   </head>
   <body>
@@ -38,9 +38,9 @@
                   Información &#9660;
                 </button>
                 <div class="dropdown-content">
-                  <a href="../invitados.html">Invitados</a>
-                  <a href="../actividades.html">Actividades</a>
-                  <a href="../concursos.html">Concursos</a>
+                  <a href="../informacion/invitados.html">Invitados</a>
+                  <a href="../informacion/actividades.html">Actividades</a>
+                  <a href="../informacion/concursos.html">Concursos</a>
                 </div>
               </div>
             </li>
@@ -56,8 +56,22 @@
     <!-- MAIN -->
     <main>
       <div class="main">
+        <div class="breadcrumb">
+          <ul>
+            <li><a href="../index.html">Inicio</a></li>
+            <li><a href="./noticia3.html">Nuevo videojuego de Magic</a></li>
+          </ul>
+        </div>
+
+        <div class="titleBox">
+          <div id="title">
+            <span>Noticias</span>
+          </div>
+        </div>
+
         <div class="content">
           <article>
+            <h1>Nuevo juego de Magic: RPG Magic Legends</h1>
             <p>
               Magic Legends, el nuevo videojuego de rol y acción de corte free
               to play basado en la popular franquicia Magic: The Gathering,
@@ -106,18 +120,18 @@
               >
             </div>
             <div>
-              <a href="../footer/voluntariado.html">Voluntariado</a>
+              <a href="./voluntariado.html">Voluntariado</a>
             </div>
           </div>
           <div class="colabout">
             <div>
-              <a href="../footer/torneos.html">Bases de Torneos</a>
+              <a href="./torneos.html">Bases de Torneos</a>
             </div>
             <div>
-              <a href="../footer/concursos.html">Bases de Concursos</a>
+              <a href="./concursos.html">Bases de Concursos</a>
             </div>
             <div>
-              <a href="../footer/politica.html">Política de privacidad</a>
+              <a href="./politica.html">Política de privacidad</a>
             </div>
           </div>
         </div>
@@ -149,6 +163,7 @@
       </div>
     </footer>
     <!-- SCRIPTS -->
+    <script src="../../js/acordeon.js"></script>
     <script src="../../js/scroll.js"></script>
     <script src="../../js/sidebar.js"></script>
   </body>
