@@ -27,11 +27,6 @@
     max-width: 60em;
   }
 
-  table tr:nth-child(even) th {
-    color: #ccc;
-    font-weight: normal;
-  }
-
   table th,
   table td {
     padding: 0.5rem 1rem;
@@ -118,16 +113,13 @@
     width: 100%;
     max-width: 60em;
   }
-  table tr:nth-child(even) th {
-    color: #ccc;
-    font-weight: normal;
-  }
 
   table th {
     font-weight: normal;
     border-top: dotted #333333;
     color: black;
   }
+  
   table td {
     font-size: 0.8rem;
     font-weight: bold;
