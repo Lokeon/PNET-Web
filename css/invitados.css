@@ -23,7 +23,6 @@ div.content {
 
 .sidebar a.active {
   background-color: #d1b721;
-  color: white;
 }
 
 .sidebar a:hover:not(.active) {
@@ -313,7 +312,6 @@ div.content {
 
   .sidebar a.active {
     background-color: #d1b721;
-    color: white;
   }
 
   .sidebar a:hover:not(.active) {
