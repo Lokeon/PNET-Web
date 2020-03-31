@@ -16,7 +16,8 @@ body {
   background-color: rgba(23, 23, 23, 0.9);
 }
 
-.footer::after .about::after {
+.footer::after,
+.about::after {
   content: "";
   display: table;
   clear: both;
