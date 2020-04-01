@@ -219,15 +219,6 @@ div.breadcrumb ul li + li::before {
     width: 11em;
   }
 
-  .contacto {
-    display: grid;
-    justify-items: end;
-    width: 20%;
-    position: absolute;
-    bottom: 2%;
-    right: 1%;
-  }
-
   .contactos::after {
     position: relative;
     width: 100%;
@@ -514,15 +505,6 @@ div.breadcrumb ul li + li::before {
     width: 11em;
   }
 
-  .contacto {
-    display: grid;
-    justify-items: end;
-    width: 20%;
-    position: absolute;
-    bottom: 2%;
-    right: 1%;
-  }
-
   .contactos::after {
     position: relative;
     width: 100%;
@@ -592,4 +574,12 @@ div.breadcrumb ul li + li::before {
     padding: 15px;
     border-radius: 4px;
   }
+}
+
+.contacto {
+  display: grid;
+  justify-items: end;
+  position: absolute;
+  bottom: 2%;
+  right: 1%;
 }
