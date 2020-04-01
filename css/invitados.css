@@ -18,6 +18,12 @@
   .sidebar a {
     display: block;
   }
+
+  iframe {
+    width: 560px;
+    height: 315px;
+    border: 0;
+  }
 }
 
 /*movil*/
@@ -33,6 +39,12 @@
   .sidebar {
     width: 100%;
     display: flex;
+  }
+
+  iframe {
+    width: 255px;
+    height: 157.5px;
+    border: 0;
   }
 }
 
@@ -143,12 +155,6 @@ div.content {
   width: 6em;
   margin-right: 2em;
   box-shadow: 0px 0px 10px 0px #b11200;
-}
-
-iframe {
-  width: 560px;
-  height: 315px;
-  border: 0;
 }
 
 table {
