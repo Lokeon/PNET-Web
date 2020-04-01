@@ -73,6 +73,7 @@
   justify-content: center;
   flex-direction: column;
   padding-top: 0.5%;
+  padding-bottom: 3em;
   font-family: "Roboto";
   clear: both;
 }

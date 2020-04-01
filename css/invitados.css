@@ -54,11 +54,11 @@
   width: 100%;
   content: "";
   display: flex;
-  clear: both;
-  /*justify-content: center;*/
+  justify-content: center;
   align-items: center;
   flex-direction: column;
   padding-top: 0.5%;
+  padding-bottom: 3em;
 }
 
 div.content {
@@ -106,7 +106,7 @@ div.content {
   flex-direction: column;
   margin-left: 3em;
   margin-right: 3em;
-  margin-bottom: 5em;
+  margin-bottom: 6em;
   margin-top: 3em;
   width: 18em;
   height: 24em;
@@ -119,6 +119,8 @@ div.content {
   width: auto;
   justify-content: center;
   display: grid;
+  background-color: white;
+  border-radius: 20px;
 }
 
 .miniature {
@@ -202,4 +204,8 @@ article {
 .sidebar {
   overflow: auto;
   background-color: #f1f1f1;
+}
+
+#last {
+  margin-bottom: 3em;
 }
