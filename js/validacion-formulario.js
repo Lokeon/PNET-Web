@@ -3,9 +3,19 @@ function validateForm() {
   var fchFn = new Date(document.forms[0].fchFin.value);
 
   if (fchIn >= fchFn) {
-    alert("Rango de Fechas Incorrecto ");
+    Swal.fire({
+      icon: "error",
+      text: "Rango de Fechas Incorrecto!"
+    });
     return false;
   }
+  Swal.fire({
+    icon: "success",
+    text: "Registro Completado!"
+  });
+  setTimeout(function() {
+    window.location.href = "./inscripcion.html";
+  }, 2000);
 
   return true;
 }
