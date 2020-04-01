@@ -1,16 +1,4 @@
 @media only screen and (min-width: 768px) {
-  .main {
-    position: relative;
-    width: 100%;
-    content: "";
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    padding-top: 0.5%;
-    font-family: "Roboto";
-    clear: both;
-  }
-
   .miniature {
     float: left;
     width: 20em;
@@ -18,64 +6,9 @@
     box-shadow: 3px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 5px;
   }
-
-  .text {
-    padding-top: 1em;
-    position: relative;
-    float: left;
-    margin-left: 5%;
-    color: #000000;
-    text-align: start;
-    font-size: 15px;
-    width: 45%;
-  }
-
-  #textRight {
-    margin-right: 5%;
-  }
-
-  #description {
-    line-height: 17px;
-  }
-
-  #titlesActivity {
-    border-bottom: 3px solid #b11200;
-    font-size: 30px;
-    font-weight: bold;
-    line-height: 25px;
-    width: 60%;
-  }
-
-  #rol {
-    line-height: 2px;
-    font-weight: lighter;
-    color: #b11200;
-  }
-
-  #actLeft {
-    display: flex;
-    flex-direction: row;
-  }
-
-  #actRight {
-    display: flex;
-    flex-direction: row-reverse;
-  }
 }
 
 @media only screen and (max-width: 767px) {
-  .main {
-    position: relative;
-    width: 100%;
-    content: "";
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    padding-top: 0.5%;
-    font-family: "Roboto";
-    clear: both;
-  }
-
   .miniature {
     float: left;
     max-width: 50%;
@@ -87,56 +20,13 @@
     border-radius: 5px;
   }
 
-  .text {
-    padding-top: 1em;
-    position: relative;
-    float: left;
-    margin-left: 5%;
-    color: #000000;
-    text-align: start;
-    font-size: 15px;
-    width: 45%;
-  }
-
-  #textRight {
-    margin-right: 5%;
-  }
-
-  #description {
-    line-height: 17px;
-  }
-
-  #titlesActivity {
-    border-bottom: 3px solid #b11200;
-    font-size: 30px;
-    font-weight: bold;
-    line-height: 25px;
-    width: 60%;
-  }
-
-  #rol {
-    line-height: 2px;
-    font-weight: lighter;
-    color: #b11200;
-  }
-
-  #actLeft {
-    display: flex;
-    flex-direction: row;
-  }
-
-  #actRight {
-    display: flex;
-    flex-direction: row-reverse;
-  }
-
-  #miniature1 {
+  .miniature1 {
     object-position: 55%;
   }
   #miniature2 {
     object-position: left;
   }
-  #miniature3 {
+  .miniature3 {
     object-position: 80%;
   }
   #miniature4 {
@@ -149,4 +39,54 @@
   background-color: white;
   border-radius: 20px;
   justify-content: space-between;
+  display: flex;
+}
+
+.actLeft {
+  flex-direction: row;
+}
+
+.actRight {
+  flex-direction: row-reverse;
+}
+
+.text {
+  padding-top: 1em;
+  position: relative;
+  float: left;
+  margin: 3%;
+  color: #000000;
+  text-align: start;
+  font-size: 15px;
+  width: 45%;
+}
+
+.description {
+  line-height: 17px;
+}
+
+.main {
+  position: relative;
+  width: 100%;
+  content: "";
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding-top: 0.5%;
+  font-family: "Roboto";
+  clear: both;
+}
+
+.titlesActivity {
+  border-bottom: 3px solid #b11200;
+  font-size: 30px;
+  font-weight: bold;
+  line-height: 25px;
+  width: 60%;
+}
+
+.rol {
+  line-height: 2px;
+  font-weight: lighter;
+  color: #b11200;
 }
