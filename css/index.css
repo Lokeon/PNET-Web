@@ -98,7 +98,6 @@
   border-bottom-left-radius: 5px;
   border-bottom-right-radius: 5px;
   justify-content: space-between;
-  flex-direction: row;
   display: flex;
   align-items: center;
 }
@@ -118,6 +117,9 @@
 }
 
 @media only screen and (min-width: 768px) {
+  .banner#banner2 {
+    flex-direction: row;
+  }
   .artists {
     margin-top: 3em;
     margin-bottom: 3em;
@@ -170,10 +172,10 @@
     font-size: 15px;
   }
 
-  .banner-text {
+  /*.banner-text {
     font-size: 30px;
     font-weight: bold;
-  }
+  }*/
   .banner {
     padding: 2em;
   }
@@ -184,10 +186,13 @@
 }
 
 @media only screen and (max-width: 767px) {
-  .banner-text {
+  .banner#banner2 {
+    flex-direction: column;
+  }
+  /*.banner-text {
     font-size: 20px;
     font-weight: bold;
-  }
+  }*/
   .artists {
     flex-direction: column;
     margin-top: 3em;
