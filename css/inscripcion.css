@@ -26,6 +26,10 @@
     resize: vertical;
   }
 
+  select option {
+    background-color: #004680;
+  }
+
   input[type="submit"] {
     background-color: black;
     color: white;
@@ -79,6 +83,10 @@
     border: 1px solid #ccc;
     border-radius: 4px;
     resize: vertical;
+  }
+
+  select option {
+    background-color: #004680;
   }
 
   input[type="submit"] {
