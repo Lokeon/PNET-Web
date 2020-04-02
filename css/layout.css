@@ -583,7 +583,7 @@ div.breadcrumb ul li + li::before {
   content: "";
   display: flex;
   clear: both;
-  padding-top: 0.5%;
+  padding-top: 2em;
   background-color: #f1f1f1;
   padding-bottom: 3em;
 }

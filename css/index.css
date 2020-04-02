@@ -4,13 +4,34 @@
   border-left: 4px solid #b11200;
   height: 100%;
   background-color: white;
+  display: flex;
+  flex-direction: column;
+  margin-top: 2%;
+  width: 20%;
 }
 
 .new::after {
   position: relative;
   width: 100%;
   content: "";
+}
+
+.new {
   display: flex;
+  flex-direction: column;
+  margin: 5%;
+  align-self: center;
+  width: 80%;
+}
+
+.new a {
+  display: flex;
+  justify-content: center;
+}
+
+.new a img {
+  height: 10em;
+  width: 14em;
 }
 
 .content {
@@ -18,6 +39,8 @@
   float: left;
   background-color: white;
   border-radius: 5px;
+  margin: 2%;
+  width: 75%;
 }
 
 .miniature {
@@ -39,10 +62,14 @@
   float: left;
   line-height: 17px;
   text-align: start;
+  width: 12em;
+  margin-left: 5%;
+  align-self: center;
 }
 
 #banner {
   width: 100%;
+  padding-top: 0.5em;
 }
 
 .artist {
@@ -126,24 +153,10 @@
     margin-bottom: 3em;
     flex-direction: row;
   }
-  .news {
-    margin-top: 5%;
-    width: 23%;
-  }
-
-  .new::after {
-    margin: 5%;
-  }
-
-  .content {
-    margin: 2%;
-    width: 70%;
-  }
 
   .miniature {
     width: 3em;
     height: 3em;
-    margin-left: 10%;
     margin-top: 3%;
   }
 
@@ -154,9 +167,7 @@
   }
 
   .description {
-    width: 60%;
-    margin-left: 5%;
-    font-size: 12px;
+    font-size: 20px;
   }
 
   .artist {
@@ -199,19 +210,6 @@
     margin-top: 3em;
     /**/
   }
-  .news {
-    margin-top: 5%;
-    width: 23%;
-  }
-
-  .new::after {
-    margin: 5%;
-  }
-
-  .content {
-    margin: 2%;
-    width: 70%;
-  }
 
   .miniature {
     width: 3em;
@@ -226,8 +224,6 @@
   }
 
   .description {
-    width: 60%;
-    margin-left: 5%;
     font-size: 12px;
   }
 
