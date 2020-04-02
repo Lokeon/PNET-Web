@@ -42,7 +42,7 @@
   background-color: white;
   border-radius: 5px;
   margin: 2%;
-  width: 75%;
+  width: 85%;
 }
 
 .miniature {
@@ -208,7 +208,7 @@
 
 @media only screen and (max-width: 767px) {
   .news {
-    width: 75%;
+    width: 85%;
     align-self: center;
   }
 

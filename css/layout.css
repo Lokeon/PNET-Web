@@ -345,7 +345,7 @@ div.breadcrumb ul li + li::before {
   }
 
   .main {
-    flex-direction: column;
+    flex-direction: column-reverse;
   }
 }
 
