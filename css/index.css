@@ -23,9 +23,6 @@
   width: 80%;
 }
 
-.new#last {
-  padding-right: 10%;
-}
 .new a {
   display: flex;
   justify-content: center;
@@ -45,7 +42,6 @@
   background-color: white;
   border-radius: 5px;
   margin: 2%;
-  width: 95%;
 }
 
 .miniature {
@@ -207,9 +203,17 @@
   .newsbox {
     flex-direction: column;
   }
+
+  .content {
+    width: 75%;
+  }
 }
 
 @media only screen and (max-width: 767px) {
+  .new#last {
+    padding-right: 10%;
+  }
+
   .news {
     width: 95%;
     align-self: center;
@@ -222,6 +226,7 @@
 
   .content {
     align-self: center;
+    width: 95%;
   }
   .banner#banner2 {
     flex-direction: column;
