@@ -28,6 +28,11 @@
 
 /*movil*/
 @media only screen and (max-width: 767px) {
+  .row {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+  }
   .information {
     width: 90%;
   }
