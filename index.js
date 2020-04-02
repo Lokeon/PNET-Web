@@ -8,6 +8,7 @@ const bodyParser = require("body-parser");
 const baseAPI = "/api/v1";
 const cors = require("cors");
 
+app.use(cors());
 app.use(bodyParser.json());
 app.use(logger("dev"));
 app.use(bodyParser.urlencoded({ extended: true }));

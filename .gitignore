@@ -12,6 +12,7 @@
 /build
 
 # misc
+/routes/movies-service.js
 .DS_Store
 .env.local
 .env.development.local
@@ -22,4 +23,3 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 package-lock.json
-/routes/movies-service.js
