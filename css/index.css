@@ -7,7 +7,6 @@
   display: flex;
   flex-direction: column;
   margin-top: 2%;
-  width: 20%;
 }
 
 .new::after {
@@ -34,6 +33,9 @@
   width: 14em;
 }
 
+.newsbox {
+  display: flex;
+}
 .content {
   position: relative;
   float: left;
@@ -145,6 +147,9 @@
 }
 
 @media only screen and (min-width: 768px) {
+  .news {
+    width: 20%;
+  }
   .banner#banner2 {
     flex-direction: row;
   }
@@ -195,9 +200,26 @@
   .title {
     padding-left: 1em;
   }
+
+  .newsbox {
+    flex-direction: column;
+  }
 }
 
 @media only screen and (max-width: 767px) {
+  .news {
+    width: 75%;
+    align-self: center;
+  }
+
+  .newsbox {
+    flex-direction: row;
+    overflow: auto;
+  }
+
+  .content {
+    align-self: center;
+  }
   .banner#banner2 {
     flex-direction: column;
   }

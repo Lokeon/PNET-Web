@@ -343,6 +343,10 @@ div.breadcrumb ul li + li::before {
     width: 20em;
     height: 15em;
   }
+
+  .main {
+    flex-direction: column;
+  }
 }
 
 /*RESTO*/
