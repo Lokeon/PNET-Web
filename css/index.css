@@ -23,6 +23,9 @@
   width: 80%;
 }
 
+.new#last {
+  padding-right: 10%;
+}
 .new a {
   display: flex;
   justify-content: center;
@@ -115,12 +118,12 @@
   color: white;
 }
 
-.content .section .title h1 {
+.title h1 {
   border-bottom: 3px solid #b11200;
 }
 
 .title {
-  width: 33%;
+  width: max-content;
 }
 
 .banner#banner2 {
