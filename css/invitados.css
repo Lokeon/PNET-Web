@@ -121,7 +121,7 @@ div.content {
   position: relative;
   margin: 4%;
   float: left;
-  width: auto;
+  width: 95%;
   justify-content: center;
   display: grid;
   background-color: white;
