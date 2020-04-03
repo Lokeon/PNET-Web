@@ -387,7 +387,7 @@ div.breadcrumb ul li + li::before {
   .main {
     flex-direction: column-reverse;
   }
-  .titlebox {
+  .titleBox {
     height: 9em;
     padding-top: 3.5em;
   }
