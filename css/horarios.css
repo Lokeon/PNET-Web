@@ -7,11 +7,19 @@
   .table-body {
     padding: 3rem;
   }
+
+  .tabContainer .tabPanel {
+    font-size: 22px;
+  }
 }
 
 @media only screen and (max-width: 767px) {
   .table-body {
     padding: 3rem 0;
+  }
+
+  .tabContainer .tabPanel {
+    font-size: 18px;
   }
 }
 
@@ -22,7 +30,6 @@
   color: white;
   text-align: center;
   box-sizing: border-box;
-  font-size: 22px;
   justify-content: center;
 }
 
