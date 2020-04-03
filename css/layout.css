@@ -262,8 +262,7 @@ footer {
   position: relative;
   left: 0%;
   width: 100%;
-  background-color: #497583;
-  color: #ffffff;
+  background-color: #d8ac34;
 }
 
 #myBtn {
@@ -343,7 +342,7 @@ div.breadcrumb ul li {
 
 div.breadcrumb ul li a {
   text-decoration: none;
-  color: #ffffff;
+  color: black;
 }
 
 div.breadcrumb ul li a:hover {

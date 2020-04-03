@@ -209,14 +209,13 @@
 }
 
 .banner {
-  background-color: #497583;
-  color: white;
+  background-color: #d8ac34;
 }
 
 .banner a {
   text-align: center;
   text-decoration: none;
-  color: white;
+  color: black;
 }
 
 .title h1 {
@@ -228,7 +227,6 @@
 }
 
 .banner#banner2 {
-  background-color: #497583;
   border-bottom-left-radius: 5px;
   border-bottom-right-radius: 5px;
   justify-content: space-between;
@@ -247,5 +245,5 @@
 }
 
 .column2 h3 {
-  border-bottom: 2px solid white;
+  border-bottom: 2px solid;
 }

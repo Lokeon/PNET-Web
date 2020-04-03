@@ -189,7 +189,8 @@ table td {
 }
 
 .sidebar a.active {
-  background-color: #d1b721;
+  background-color: #497583;
+  color: white;
 }
 
 .sidebar a:hover:not(.active) {
