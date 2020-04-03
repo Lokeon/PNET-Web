@@ -1,4 +1,4 @@
-/*resto*/
+/*WEB*/
 @media only screen and (min-width: 768px) {
   .information {
     width: 80%;
@@ -26,7 +26,7 @@
   }
 }
 
-/*movil*/
+/*MOVIL*/
 @media only screen and (max-width: 767px) {
   .row {
     display: flex;
@@ -54,6 +54,7 @@
   }
 }
 
+/*GENERAL*/
 .main {
   position: relative;
   width: 100%;
@@ -67,7 +68,6 @@
 }
 
 div.content {
-  /*display: flex;*/
   width: 100%;
 }
 

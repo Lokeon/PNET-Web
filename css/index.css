@@ -1,3 +1,108 @@
+/*WEB*/
+@media only screen and (min-width: 768px) {
+  .news {
+    width: 20%;
+  }
+  .banner#banner2 {
+    flex-direction: row;
+  }
+  .artists {
+    margin-top: 3em;
+    margin-bottom: 3em;
+    flex-direction: row;
+  }
+
+  .confirmation {
+    margin-top: 3%;
+  }
+
+  .description {
+    font-size: 20px;
+  }
+
+  .artist {
+    margin-left: 3em;
+    margin-right: 3em;
+    width: 18em;
+    height: 24em;
+  }
+
+  .newsbox {
+    flex-direction: column;
+  }
+
+  .content {
+    width: 75%;
+  }
+}
+
+/*MOVIL*/
+@media only screen and (max-width: 767px) {
+  .new#last {
+    padding-right: 10%;
+  }
+
+  .news {
+    width: 95%;
+    align-self: center;
+  }
+
+  .newsbox {
+    flex-direction: row;
+    overflow: auto;
+  }
+
+  .content {
+    align-self: center;
+    width: 95%;
+  }
+  .banner#banner2 {
+    flex-direction: column;
+  }
+
+  .artists {
+    flex-direction: column;
+    margin-top: 3em;
+  }
+
+  .miniature {
+    margin-left: 10%;
+  }
+
+  .description {
+    font-size: 12px;
+  }
+
+  .artist {
+    margin-bottom: 3em;
+  }
+}
+
+/*GENERAL*/
+.miniature {
+  width: 3em;
+  height: 3em;
+  margin-top: 3%;
+}
+
+.confirmation {
+  width: 14em;
+  height: 16em;
+}
+.text {
+  padding-top: 1em;
+  width: 90%;
+  margin-left: 5%;
+  font-size: 15px;
+}
+
+.banner {
+  padding: 2em;
+}
+
+.title {
+  padding-left: 1em;
+}
 .news {
   position: relative;
   float: left;
@@ -143,136 +248,4 @@
 
 .column2 h3 {
   border-bottom: 2px solid white;
-}
-
-@media only screen and (min-width: 768px) {
-  .news {
-    width: 20%;
-  }
-  .banner#banner2 {
-    flex-direction: row;
-  }
-  .artists {
-    margin-top: 3em;
-    margin-bottom: 3em;
-    flex-direction: row;
-  }
-
-  .miniature {
-    width: 3em;
-    height: 3em;
-    margin-top: 3%;
-  }
-
-  .confirmation {
-    width: 14em;
-    height: 16em;
-    margin-top: 3%;
-  }
-
-  .description {
-    font-size: 20px;
-  }
-
-  .artist {
-    margin-left: 3em;
-    margin-right: 3em;
-    width: 18em;
-    height: 24em;
-  }
-
-  .text {
-    padding-top: 1em;
-    width: 90%;
-    margin-left: 5%;
-    font-size: 15px;
-  }
-
-  /*.banner-text {
-    font-size: 30px;
-    font-weight: bold;
-  }*/
-  .banner {
-    padding: 2em;
-  }
-
-  .title {
-    padding-left: 1em;
-  }
-
-  .newsbox {
-    flex-direction: column;
-  }
-
-  .content {
-    width: 75%;
-  }
-}
-
-@media only screen and (max-width: 767px) {
-  .new#last {
-    padding-right: 10%;
-  }
-
-  .news {
-    width: 95%;
-    align-self: center;
-  }
-
-  .newsbox {
-    flex-direction: row;
-    overflow: auto;
-  }
-
-  .content {
-    align-self: center;
-    width: 95%;
-  }
-  .banner#banner2 {
-    flex-direction: column;
-  }
-  /*.banner-text {
-    font-size: 20px;
-    font-weight: bold;
-  }*/
-  .artists {
-    flex-direction: column;
-    margin-top: 3em;
-    /**/
-  }
-
-  .miniature {
-    width: 3em;
-    height: 3em;
-    margin-left: 10%;
-    margin-top: 3%;
-  }
-
-  .confirmation {
-    width: 14em;
-    height: 16em;
-  }
-
-  .description {
-    font-size: 12px;
-  }
-
-  .artist {
-    margin-bottom: 3em;
-  }
-
-  .text {
-    padding-top: 1em;
-    width: 90%;
-    margin-left: 5%;
-    font-size: 15px;
-  }
-
-  .banner {
-    padding: 2em;
-  }
-
-  .title {
-    padding-left: 1em;
-  }
 }

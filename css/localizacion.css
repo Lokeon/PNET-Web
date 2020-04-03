@@ -1,45 +1,20 @@
+/*WEB*/
 @media only screen and (min-width: 768px) {
-  .content {
-    margin: 2%;
-    align-self: center;
-    width: 85%;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 1.8;
-  }
-
-  .main article h1 {
-    border-bottom: 3px solid #b11200;
-  }
-
   .main article iframe {
     width: 600px;
     height: 450px;
-    border: 0;
   }
 }
 
+/*MOVIL*/
 @media only screen and (max-width: 767px) {
-  .content {
-    margin: 2%;
-    align-self: center;
-    width: 85%;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 1.8;
-  }
-
-  .main article h1 {
-    border-bottom: 3px solid #b11200;
-  }
-
   .main article iframe {
     width: 300px;
     height: 225px;
-    border: 0;
   }
 }
 
+/*GENERAL*/
 .main {
   position: relative;
   width: 100%;
@@ -54,4 +29,21 @@
 
 article {
   margin: 2%;
+}
+
+.content {
+  margin: 2%;
+  align-self: center;
+  width: 85%;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.8;
+}
+
+.main article h1 {
+  border-bottom: 3px solid #b11200;
+}
+
+.main article iframe {
+  border: 0;
 }
