@@ -1,8 +1,11 @@
+// Get the tabsbuttons
 var tabButtons = document.querySelectorAll(
   ".tabContainer .buttonContainer button"
 );
+// Get the tabPanel
 var tabPanels = document.querySelectorAll(".tabContainer  .tabPanel");
 
+// Show pannel
 function showPanel(panelIndex, colorCode) {
   tabButtons.forEach(function(node) {
     node.style.backgroundColor = "";

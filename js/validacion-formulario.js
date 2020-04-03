@@ -1,3 +1,4 @@
+// Form validation 
 function validateForm() {
   var fchIn = new Date(document.forms[0].fchIni.value);
   var fchFn = new Date(document.forms[0].fchFin.value);
@@ -54,6 +55,7 @@ function minDateFin() {
   document.getElementById("fchFin").setAttribute("min", minDateFin);
 }
 
+// Validates name with regex 
 function validateName(input) {
   var regex = "^[a-zA-Zs]*$";
   var name = input.value;
@@ -65,6 +67,7 @@ function validateName(input) {
   }
 }
 
+// Validates surname with regex 
 function validateLastName(input) {
   var regex = "^[a-zA-Zs]*$";
   var name = input.value;
