@@ -1,18 +1,3 @@
-/*WEB*/
-@media only screen and (min-width: 768px) {
-  .content {
-    padding-top: 5em;
-    padding-bottom: 2em;
-  }
-}
-
-/*MOVIL*/
-@media only screen and (max-width: 767px) {
-  .content {
-    margin: 2%;
-  }
-}
-
 /*GENERAL*/
 .main article h1 {
   border-bottom: 3px solid #b11200;
@@ -82,4 +67,19 @@ article {
   font-size: 16px;
   font-weight: 400;
   line-height: 1.8;
+}
+
+/*WEB*/
+@media only screen and (min-width: 768px) {
+  .content {
+    padding-top: 5em;
+    padding-bottom: 2em;
+  }
+}
+
+/*MOVIL*/
+@media only screen and (max-width: 767px) {
+  .content {
+    margin: 2%;
+  }
 }

@@ -1,33 +1,3 @@
-/*WEB*/
-@media only screen and (min-width: 768px) {
-  .miniature {
-    width: 20em;
-  }
-}
-
-/*MOVIL*/
-@media only screen and (max-width: 767px) {
-  .miniature {
-    max-width: 50%;
-    height: 20em;
-    object-fit: cover;
-    align-self: center;
-  }
-
-  .miniature1 {
-    object-position: 55%;
-  }
-  #miniature2 {
-    object-position: left;
-  }
-  .miniature3 {
-    object-position: 80%;
-  }
-  #miniature4 {
-    object-position: 40%;
-  }
-}
-
 /*GENERAL*/
 .activity {
   margin: 2%;
@@ -92,4 +62,34 @@
   margin: 3%;
   box-shadow: 3px 4px 4px rgba(0, 0, 0, 0.25);
   border-radius: 5px;
+}
+
+/*WEB*/
+@media only screen and (min-width: 768px) {
+  .miniature {
+    width: 20em;
+  }
+}
+
+/*MOVIL*/
+@media only screen and (max-width: 767px) {
+  .miniature {
+    max-width: 50%;
+    height: 20em;
+    object-fit: cover;
+    align-self: center;
+  }
+
+  .miniature1 {
+    object-position: 55%;
+  }
+  #miniature2 {
+    object-position: left;
+  }
+  .miniature3 {
+    object-position: 80%;
+  }
+  #miniature4 {
+    object-position: 40%;
+  }
 }
