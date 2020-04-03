@@ -3,23 +3,20 @@
   table td {
     padding: 0.5rem 1rem;
   }
+
+  .table-body {
+    padding: 3rem;
+  }
 }
 
 @media only screen and (max-width: 767px) {
-  /*.table-body {
-    padding: 4rem 0;
-    width: 95%;
-  }
-*/
-  /*
   .table-body {
     padding: 3rem 0;
   }
-  */
-}
 
-.table-body {
-  padding: 3rem;
+  .tabContainer .tabPanel {
+    width: 95%;
+  }
 }
 
 .tabContainer .tabPanel {
