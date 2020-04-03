@@ -7,17 +7,18 @@
   .table-body {
     padding: 3rem;
   }
-
+  /*
   .tabContainer .tabPanel {
     padding-top: 3em;
     padding-bottom: 3em;
   }
+  */
 }
 
 @media only screen and (max-width: 767px) {
   .table-body {
     padding: 4rem 0;
-    /*width: 95%;*/
+    width: 95%;
   }
 
   /*
@@ -28,6 +29,8 @@
 }
 
 .tabContainer .tabPanel {
+  padding-top: 3em;
+  padding-bottom: 3em;
   height: 85%;
   color: white;
   text-align: center;
