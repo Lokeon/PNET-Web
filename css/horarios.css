@@ -115,6 +115,8 @@ table th {
   justify-content: center;
   flex-direction: column;
   padding-top: 0.5%;
+  background-color: #f1f1f1;
+  padding-bottom: 3em;
 }
 
 /*WEB*/

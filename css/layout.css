@@ -140,10 +140,6 @@ div.breadcrumb ul li a {
   color: black;
 }
 
-div.breadcrumb ul li a:hover {
-  color: black;
-}
-
 div.breadcrumb ul li + li::before {
   content: "/";
   padding: 3px;
@@ -271,17 +267,6 @@ div.breadcrumb ul li + li::before {
   padding-right: 2%;
 }
 
-.main {
-  position: relative;
-  width: 100%;
-  content: "";
-  display: flex;
-  clear: both;
-  padding-top: 2em;
-  background-color: #f1f1f1;
-  padding-bottom: 3em;
-}
-
 /*MÓVIL*/
 @media only screen and (max-width: 767px) {
   .dropdown .dropbtn {
@@ -388,7 +373,6 @@ div.breadcrumb ul li + li::before {
     width: 500px;
   }
 
- 
   .dropdown {
     float: left;
     height: 100%;
