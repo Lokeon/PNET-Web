@@ -50,7 +50,6 @@ footer {
   background-size: cover;
   background-repeat: no-repeat;
   background-color: white;
-  background-position-x: 10em;
 }
 
 .breadcrumb {
@@ -477,5 +476,9 @@ div.breadcrumb ul li + li::before {
     text-decoration: none;
     display: block;
     text-align: left;
+  }
+
+  .titleBox {
+    background-position-x: 10em;
   }
 }
