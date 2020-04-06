@@ -74,6 +74,10 @@
 
 /*MOVIL*/
 @media only screen and (max-width: 767px) {
+  .titlesRight {
+    width: min-content;
+  }
+
   .miniature {
     max-width: 50%;
     height: 20em;
