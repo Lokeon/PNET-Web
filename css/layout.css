@@ -1,4 +1,9 @@
 /*GENERAL*/
+
+.fade {
+  opacity: 0;
+}
+
 .dropdown:hover .dropdown-content {
   display: block;
 }
