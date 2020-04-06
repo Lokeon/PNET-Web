@@ -8,7 +8,7 @@ var i;
 
 // Triggers active when clicked for accordion 1
 for (i = 0; i < acc.length; i++) {
-  acc[i].addEventListener("click", function() {
+  acc[i].addEventListener("click", function () {
     this.classList.toggle("active");
     var panel = this.nextElementSibling;
     if (panel.style.display === "block") {
@@ -21,7 +21,7 @@ for (i = 0; i < acc.length; i++) {
 
 // Triggers active when clicked for accordion 2
 for (i = 0; i < acc1.length; i++) {
-  acc1[i].addEventListener("click", function() {
+  acc1[i].addEventListener("click", function () {
     this.classList.toggle("active1");
     var panel = this.nextElementSibling;
     if (panel.style.display === "block") {
@@ -34,7 +34,7 @@ for (i = 0; i < acc1.length; i++) {
 
 // Triggers active when clicked for accordion 3
 for (i = 0; i < acc2.length; i++) {
-  acc2[i].addEventListener("click", function() {
+  acc2[i].addEventListener("click", function () {
     this.classList.toggle("active2");
     var panel = this.nextElementSibling;
     if (panel.style.display === "block") {
@@ -44,3 +44,14 @@ for (i = 0; i < acc2.length; i++) {
     }
   });
 }
+
+$("#accordion1").on("show.bs.collapse", function (a) {
+  var curr = $(a.target).attr("id");
+  var url = window.location.href;
+  var start = window.location.hash;
+  if (start.length > 0) {
+    window.location.href = url.replace(start, "#" + curr);
+  } else {
+    window.location.href = url + "#" + curr;
+  }
+});
